@@ -5,5 +5,5 @@
 \title{LLM Query Module for SQL Generation}
 \description{
 Uses Azure OpenAI via ellmer package to generate SQL queries
-from natural language questions about ARD data.
+from natural language questions about ARD summary data using sqldf.
 }

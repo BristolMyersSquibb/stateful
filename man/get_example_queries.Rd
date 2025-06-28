@@ -2,13 +2,13 @@
 % Please edit documentation in R/llm_query.R
 \name{get_example_queries}
 \alias{get_example_queries}
-\title{Create example queries for common questions}
+\title{Create example queries for common ARD questions}
 \usage{
 get_example_queries()
 }
 \value{
-Character string with example SQL queries
+Character string with example SQL queries for sqldf
 }
 \description{
-Create example queries for common questions
+Create example queries for common ARD questions
 }

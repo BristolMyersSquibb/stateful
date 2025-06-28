@@ -9,7 +9,7 @@ add_bign_pseudo_pattern(name, template)
 \arguments{
 \item{name}{Pattern name}
 
-\item{template}{Template like "({N} = {value})"}
+\item{template}{Template like "(\\{N\\} = \\{value\\})"}
 }
 \description{
 Add BIGN pseudo-pattern

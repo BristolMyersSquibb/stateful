@@ -2,18 +2,19 @@
 % Please edit documentation in R/llm_query.R
 \name{execute_ard_sql}
 \alias{execute_ard_sql}
-\title{Execute SQL query on ARD data}
+\title{Execute SQL query on ARD data using sqldf}
 \usage{
-execute_ard_sql(sql, ard_data_list)
+execute_ard_sql(ard_data, sql)
 }
 \arguments{
-\item{sql}{SQL query string}
+\item{ard_data}{ARD data frame from JSON file}
 
-\item{ard_data_list}{Named list of ARD data frames}
+\item{sql}{SQL query string (use table name 'ard_data')}
 }
 \value{
 Query results as a data frame
 }
 \description{
-Converts ARD data to a temporary SQLite database and executes the query.
+Executes SQL query against ARD data frame using sqldf package.
+Only supports queries on summary/aggregate data, not patient-level data.
 }

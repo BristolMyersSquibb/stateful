@@ -1373,16 +1373,25 @@ convert_to_ard_with_state_hierarchy <- function(data_rows, header_analysis, conf
         mutate(variable_label1 = header_analysis$top_left_label)
     }
 
-    # Clean up columns
+    # Clean up columns and ensure stat_name and stat_label exist
     ard_data <- ard_data |>
       select(-column_name, -column_index, -starts_with("level_"))
+    
+    if (!"stat_name" %in% names(ard_data)) {
+      ard_data$stat_name <- NA_character_
+    }
+    if (!"stat_label" %in% names(ard_data)) {
+      ard_data$stat_label <- NA_character_
+    }
 
   } else {
     # Simple structure without hierarchy
     ard_data <- ard_base |>
       mutate(
         group1 = "COLUMN",
-        group1_level = column_name
+        group1_level = column_name,
+        stat_name = NA_character_,
+        stat_label = NA_character_
       ) |>
       select(-column_name, -column_index)
   }
@@ -1512,7 +1521,7 @@ expand_state_statistics <- function(ard_data, config, bign_patterns = NULL) {
     stat_value <- row$stat
 
     # Skip if already processed (e.g., Big N rows)
-    if (!is.na(row$stat_name) && !is.null(row$stat_name) && row$stat_name != "") {
+    if ("stat_name" %in% names(row) && !is.na(row$stat_name) && !is.null(row$stat_name) && row$stat_name != "") {
       return(row)
     }
 

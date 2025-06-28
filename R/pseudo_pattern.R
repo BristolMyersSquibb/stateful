@@ -404,7 +404,7 @@ parse_bign_value_pseudo <- function(bign_text) {
 
 #' Add BIGN pseudo-pattern
 #' @param name Pattern name
-#' @param template Template like "({N} = {value})"
+#' @param template Template like "(N = value)" with placeholders in braces
 #' @export
 add_bign_pseudo_pattern <- function(name, template) {
   # Convert template to regex pattern

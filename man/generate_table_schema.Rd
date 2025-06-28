@@ -4,15 +4,15 @@
 \alias{generate_table_schema}
 \title{Generate table schema description from ARD data}
 \usage{
-generate_table_schema(ard_data_list)
+generate_table_schema(ard_data)
 }
 \arguments{
-\item{ard_data_list}{Named list of ARD data frames}
+\item{ard_data}{ARD data frame}
 }
 \value{
 Character string describing the schema
 }
 \description{
 Creates a schema description that can be used by the LLM to understand
-the structure of the available data.
+the structure of the available ARD summary data.
 }
