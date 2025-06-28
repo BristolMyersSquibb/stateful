@@ -1,0 +1,908 @@
+{
+  "metadata": {
+    "source_file": "rt-ae-overallaecat.rtf",
+    "conversion_date": "2025-06-27 12:32:15",
+    "conversion_method": "rtf_state_parser",
+    "title": "Table 14.3.2.3.17.1",
+    "population": "All Treated Subjects",
+    "footnotes": ["Table 14.3.2.3.17.1", "Overall AE Summary by Worst CTC Grade (Any Grade, Grade 3-4, Grade 5)", "All Treated Subjects", "MedDRA Version: 27.0; CTC Version 5.0{ }(1) Includes events reported between first dose and 30 days after last done of study therapy.{ }(2) Includes events reported between first dose and 100 days after last done of study therapy.{ }Excludes data collected on or after first crossover dose date.", "Program Source: <path to program> | 17JUN2025 13:41"]
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "BIGN",
+      "stat": "351",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "BIGN",
+      "stat": "352",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "BIGN",
+      "stat": "115",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "137",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "39.0",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "102",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "29.1",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "10",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "2.8",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "163",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "46.3",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "123",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "34.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "16",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "4.5",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "56",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "48.7",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "47",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "40.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "1",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY SAES (1)",
+      "stat": "0.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "29",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "8.3",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "24",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "6.8",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "65",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "18.5",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "55",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "15.6",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "22",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "19.1",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "18",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "15.7",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED SAES (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "45",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "12.8",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "31",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "8.8",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "66",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "18.8",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "47",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "13.4",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "48",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "41.7",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "22",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "19.1",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES LEADING TO DC (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "21",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "6.0",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "14",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "4.0",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "48",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "13.6",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "33",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "9.4",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "39",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "33.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "16",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "13.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES LEADING TO DC (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "336",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "95.7",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "151",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "43.0",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "10",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "2.8",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "249",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "99.1",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "168",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "47.7",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "16",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "4.5",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "114",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "99.1",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "81",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "70.4",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "1",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "ALL-CAUSALITY AES (1)",
+      "stat": "0.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "249",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "70.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "50",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "14.2",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "285",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "81.0",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "78",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "22.2",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "110",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "95.7",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "59",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "51.3",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "DRUG-RELATED AES (1)",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\Pruritus",
+      "stat": "63",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\Pruritus",
+      "stat": "17.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\Pruritus",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\Pruritus",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\Pruritus",
+      "stat": "91",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\Pruritus",
+      "stat": "25.9",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\Pruritus",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\Pruritus",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\Pruritus",
+      "stat": "4",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\Pruritus",
+      "stat": "3.5",
+      "stat_name": "pct",
+      "stat_label": "pct"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\Pruritus",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\Pruritus",
+      "stat": "0",
+      "stat_name": "n",
+      "stat_label": "n"
+    }
+  ],
+  "summary": {
+    "total_rows": 111,
+    "unique_groups": 3,
+    "unique_variables": 8,
+    "stat_types": ["n", "pct"],
+    "hierarchical_variables": 0,
+    "group_levels": 0
+  }
+}
