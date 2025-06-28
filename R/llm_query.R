@@ -14,7 +14,7 @@ NULL
 #' @param question The natural language question
 #' @param table_schema Description of available tables and columns
 #' @param examples Optional examples to help guide the LLM
-#' 
+#'
 #' @return List with generated SQL and explanation
 #' @export
 generate_sql_from_question <- function(question, table_schema, examples = NULL) {
@@ -27,10 +27,10 @@ generate_sql_from_question <- function(question, table_schema, examples = NULL) 
       explanation = NULL
     ))
   }
-  
+
   # Build the system prompt
   system_prompt <- build_sql_system_prompt(table_schema, examples)
-  
+
   # Build the user prompt
   user_prompt <- paste0(
     "Generate a SQL query to answer this question about clinical trial data:\n\n",
@@ -44,9 +44,9 @@ generate_sql_from_question <- function(question, table_schema, examples = NULL) 
     "Explanation: [your explanation here]\n\n",
     "Assumptions: [any assumptions made]"
   )
-  
+
   tryCatch({
-    # Create Azure OpenAI chat instance  
+    # Create Azure OpenAI chat instance
     chat_instance <- ellmer::chat_azure_openai(
       endpoint = Sys.getenv("AZURE_OPENAI_ENDPOINT"),
       deployment_id = Sys.getenv("AZURE_OPENAI_DEPLOYMENT_ID", "gpt-4"),
@@ -54,13 +54,13 @@ generate_sql_from_question <- function(question, table_schema, examples = NULL) 
       api_key = Sys.getenv("AZURE_OPENAI_API_KEY"),
       system_prompt = system_prompt
     )
-    
+
     # Get raw response from LLM
     raw_response <- chat_instance$chat(user_prompt)
-    
+
     # Parse the response
     parsed <- parse_sql_response(raw_response)
-    
+
     return(list(
       success = TRUE,
       sql = parsed$sql,
@@ -68,7 +68,7 @@ generate_sql_from_question <- function(question, table_schema, examples = NULL) 
       assumptions = parsed$assumptions,
       raw_response = raw_response
     ))
-    
+
   }, error = function(e) {
     return(list(
       success = FALSE,
@@ -86,7 +86,7 @@ build_sql_system_prompt <- function(table_schema, examples = NULL) {
   prompt <- paste0(
     "You are an expert SQL developer specializing in clinical trial data analysis. ",
     "You generate precise, efficient SQL queries for ARD (Analysis Results Data) format data.\n\n",
-    
+
     "The data follows the CDISC ARD standard with these key columns:\n",
     "- group1, group1_level: Primary grouping (usually treatment groups)\n",
     "- group2, group2_level: Secondary grouping (if present)\n",
@@ -95,10 +95,10 @@ build_sql_system_prompt <- function(table_schema, examples = NULL) {
     "- stat_name: Type of statistic (n, pct, mean, sd, etc.)\n",
     "- stat_label: Human-readable label for the statistic\n",
     "- stat: The numeric value\n\n",
-    
+
     "Available tables and their schemas:\n",
     table_schema, "\n\n",
-    
+
     "Guidelines:\n",
     "1. Always use proper SQL syntax compatible with standard SQL or SQLite\n",
     "2. Include appropriate JOINs when querying multiple tables\n",
@@ -108,11 +108,11 @@ build_sql_system_prompt <- function(table_schema, examples = NULL) {
     "6. Include comments in complex queries\n",
     "7. Handle NULL values appropriately\n"
   )
-  
+
   if (!is.null(examples)) {
     prompt <- paste0(prompt, "\n\nExample queries:\n", examples)
   }
-  
+
   return(prompt)
 }
 
@@ -122,7 +122,7 @@ build_sql_system_prompt <- function(table_schema, examples = NULL) {
 parse_sql_response <- function(raw_response) {
   # The response is raw text from ellmer's chat method
   content <- raw_response
-  
+
   # Extract SQL query
   sql_pattern <- "```sql\\s*\\n([\\s\\S]*?)\\n\\s*```"
   sql_matches <- regmatches(content, regexec(sql_pattern, content))
@@ -147,7 +147,7 @@ parse_sql_response <- function(raw_response) {
       NA
     }
   }
-  
+
   # Extract explanation
   expl_start <- regexpr("Explanation:", content)
   if (expl_start > 0) {
@@ -162,7 +162,7 @@ parse_sql_response <- function(raw_response) {
   } else {
     explanation <- NA
   }
-  
+
   # Extract assumptions
   assume_start <- regexpr("Assumptions:", content)
   if (assume_start > 0) {
@@ -170,7 +170,7 @@ parse_sql_response <- function(raw_response) {
   } else {
     assumptions <- NA
   }
-  
+
   return(list(
     sql = sql,
     explanation = explanation,
@@ -189,7 +189,7 @@ parse_sql_response <- function(raw_response) {
 generate_table_schema <- function(ard_data_list) {
   schema_parts <- lapply(names(ard_data_list), function(table_name) {
     df <- ard_data_list[[table_name]]$ard_data
-    
+
     # Get column info
     col_info <- paste(
       sapply(names(df), function(col) {
@@ -203,21 +203,21 @@ generate_table_schema <- function(ard_data_list) {
       }),
       collapse = "\n"
     )
-    
+
     # Get summary stats
     summary_info <- paste0(
       "  Total rows: ", nrow(df), "\n",
       "  Unique groups: ", length(unique(df$group1_level)), "\n",
       "  Unique variables: ", length(unique(df$variable))
     )
-    
+
     paste0(
       "Table: ", table_name, "\n",
       "Columns:\n", col_info, "\n",
       "Summary:\n", summary_info
     )
   })
-  
+
   paste(schema_parts, collapse = "\n\n")
 }
 
@@ -229,18 +229,18 @@ get_example_queries <- function() {
   examples <- c(
     "Q: How many patients are in each treatment group?
 SQL: SELECT group1_level, CAST(stat AS INTEGER) as patient_count
-     FROM ard_data 
+     FROM ard_data
      WHERE variable = 'BIGN' AND stat_name = 'N'
      ORDER BY group1_level;",
-    
+
     "Q: What is the mean age by treatment group?
 SQL: SELECT group1_level, CAST(stat AS NUMERIC) as mean_age
      FROM ard_data
      WHERE variable LIKE '%Age%' AND stat_name = 'mean'
      ORDER BY group1_level;",
-    
+
     "Q: Compare adverse event rates between groups
-SQL: SELECT 
+SQL: SELECT
        group1_level,
        variable_level as adverse_event,
        MAX(CASE WHEN stat_name = 'n' THEN CAST(stat AS INTEGER) END) as count,
@@ -250,7 +250,7 @@ SQL: SELECT
      GROUP BY group1_level, variable_level
      ORDER BY percentage DESC;"
   )
-  
+
   paste(examples, collapse = "\n\n")
 }
 
@@ -266,17 +266,17 @@ execute_ard_sql <- function(sql, ard_data_list) {
   if (!requireNamespace("RSQLite", quietly = TRUE)) {
     stop("RSQLite package is required to execute SQL queries")
   }
-  
+
   # Create temporary SQLite connection
   con <- RSQLite::dbConnect(RSQLite::SQLite(), ":memory:")
   on.exit(RSQLite::dbDisconnect(con), add = TRUE)
-  
+
   # Load each table into the database
   for (table_name in names(ard_data_list)) {
     ard_data <- ard_data_list[[table_name]]$ard_data
     RSQLite::dbWriteTable(con, table_name, ard_data, overwrite = TRUE)
   }
-  
+
   # Execute query
   tryCatch({
     result <- RSQLite::dbGetQuery(con, sql)

@@ -19,7 +19,7 @@ NULL
     "\\(N\\d+\\)",                   # (N123)
     "N\\d+"                          # N123
   )
-  
+
   # Flexible metadata extraction patterns
   .stateful_patterns$TITLE_PATTERNS <- c(
     "Table\\s+\\d+",                 # Table 14.3.2.1.1.1
@@ -27,18 +27,18 @@ NULL
     "^\\d+\\.\\d+",                 # 14.3.2.1.1.1
     "Appendix\\s+\\w+"              # Appendix 16.2.7.4.1
   )
-  
+
   .stateful_patterns$POPULATION_PATTERNS <- c(
     "All Treated Subjects?",
     "Safety Population",
-    "ITT Population", 
+    "ITT Population",
     "Intent[- ]to[- ]Treat",
     "Per[- ]Protocol",
     "Modified ITT",
     "Full Analysis Set",
     "Randomized Set"
   )
-  
+
   .stateful_patterns$FOOTNOTE_INDICATORS <- c(
     "MedDRA Version.*CTC Version",
     "Includes events reported between",
@@ -49,10 +49,10 @@ NULL
     "^\\s*[a-z]\\)",                # a), b), etc.
     "\\d{2}[A-Z]{3}\\d{4}\\s+\\d{2}:\\d{2}" # Date/time stamps
   )
-  
+
   .stateful_patterns$TABLE_HEADER_INDICATORS <- c(
     "SELECT AES BY CATEGORY.*\\| \\\\\\\\\\\\$",
-    "IMAES.*WITHIN.*BY CATEGORY.*\\| \\\\\\\\\\\\$", 
+    "IMAES.*WITHIN.*BY CATEGORY.*\\| \\\\\\\\\\\\$",
     "OESIS.*WITHIN.*BY CATEGORY.*\\| \\\\\\\\\\\\$",
     "ENDOCRINE.*WITHIN.*BY.*CATEGORY.*\\| \\\\\\\\\\\\$",
     "Safety Parameters.*Grade.*Grade",
@@ -62,26 +62,26 @@ NULL
     "; \\| \\\\\\\\\\\\$",
     "Category; \\| \\\\\\\\\\\\$"
   )
-  
+
   # Pattern indicators for post-processing
   .stateful_patterns$PERCENTAGE_INDICATORS <- c(
     "\\(%\\)",                          # (%) in variable names
     "\\bpercent\\b",                   # "percent" text
     "\\b%\\b"                          # % symbol
   )
-  
+
   .stateful_patterns$VARIABLE_NAMES <- list(
     bign = "BIGN",
     missing = "MISSING"
   )
-  
+
   .stateful_patterns$STAT_NAMES <- list(
     count = "n",
-    percentage = "p", 
+    percentage = "p",
     total = "N",
     missing = "missing"
   )
-  
+
   .stateful_patterns$STAT_PATTERNS <- list(
     # Common clinical trial formats - with trailing semicolon support
     "n_pct_semicolon" = list(
@@ -148,17 +148,21 @@ NULL
   )
 }
 
-#' Get BIGN patterns
-#' 
-#' Returns the current global BIGN patterns.
-#' 
+#' Get BIGN patterns (legacy - now using pseudo-patterns)
+#'
+#' Returns regex patterns converted from pseudo-patterns for backward compatibility.
+#'
 #' @return Vector of regex patterns
 #' @export
 get_bign_patterns <- function() {
-  if (is.null(.stateful_patterns$BIGN_PATTERNS)) {
-    .init_global_patterns()
-  }
-  return(.stateful_patterns$BIGN_PATTERNS)
+  # Use pseudo-pattern system
+  pseudo_patterns <- get_bign_pseudo_patterns()
+
+  # Extract just the regex patterns for backward compatibility
+  regex_patterns <- sapply(pseudo_patterns, function(p) p$regex)
+  names(regex_patterns) <- NULL
+
+  return(regex_patterns)
 }
 
 #' Add title pattern
@@ -238,98 +242,98 @@ get_table_header_patterns <- function() {
 }
 
 #' Configure patterns for a new table type
-#' 
+#'
 #' Easily add patterns for new table types without hardcoding
-#' 
+#'
 #' @param table_type Name of the table type (e.g., "safety", "efficacy", "demographics")
 #' @param title_patterns Vector of regex patterns for title detection
-#' @param population_patterns Vector of regex patterns for population detection  
+#' @param population_patterns Vector of regex patterns for population detection
 #' @param footnote_patterns Vector of regex patterns for footnote detection
 #' @param header_patterns Vector of regex patterns for table header detection
 #' @export
-configure_table_patterns <- function(table_type, 
+configure_table_patterns <- function(table_type,
                                    title_patterns = NULL,
-                                   population_patterns = NULL, 
+                                   population_patterns = NULL,
                                    footnote_patterns = NULL,
                                    header_patterns = NULL) {
-  
+
   message("Configuring patterns for table type: ", table_type)
-  
+
   if (!is.null(title_patterns)) {
     for (pattern in title_patterns) {
       add_title_pattern(pattern)
     }
     message("  Added ", length(title_patterns), " title patterns")
   }
-  
+
   if (!is.null(population_patterns)) {
     for (pattern in population_patterns) {
       add_population_pattern(pattern)
     }
     message("  Added ", length(population_patterns), " population patterns")
   }
-  
+
   if (!is.null(footnote_patterns)) {
     for (pattern in footnote_patterns) {
       add_footnote_pattern(pattern)
     }
     message("  Added ", length(footnote_patterns), " footnote patterns")
   }
-  
+
   if (!is.null(header_patterns)) {
     for (pattern in header_patterns) {
       add_table_header_pattern(pattern)
     }
     message("  Added ", length(header_patterns), " table header patterns")
   }
-  
+
   message("Table patterns configured for: ", table_type)
 }
 
 #' Show current pattern configuration
-#' 
+#'
 #' Display all currently configured patterns for debugging
-#' 
+#'
 #' @export
 show_pattern_config <- function() {
   cat("=== Current Pattern Configuration ===\n\n")
-  
+
   cat("Title Patterns:\n")
   for (i in seq_along(get_title_patterns())) {
     cat("  ", i, ": ", get_title_patterns()[i], "\n")
   }
-  
+
   cat("\nPopulation Patterns:\n")
   for (i in seq_along(get_population_patterns())) {
     cat("  ", i, ": ", get_population_patterns()[i], "\n")
   }
-  
+
   cat("\nFootnote Patterns:\n")
   for (i in seq_along(get_footnote_patterns())) {
     cat("  ", i, ": ", get_footnote_patterns()[i], "\n")
   }
-  
+
   cat("\nTable Header Patterns:\n")
   for (i in seq_along(get_table_header_patterns())) {
     cat("  ", i, ": ", get_table_header_patterns()[i], "\n")
   }
-  
+
   cat("\nBIGN Patterns:\n")
   for (i in seq_along(get_bign_patterns())) {
     cat("  ", i, ": ", get_bign_patterns()[i], "\n")
   }
-  
+
   cat("\nPercentage Indicator Patterns:\n")
   for (i in seq_along(get_percentage_patterns())) {
     cat("  ", i, ": ", get_percentage_patterns()[i], "\n")
   }
-  
+
   cat("\nStandard Variable Names:\n")
   var_names <- get_variable_names()
   for (name in names(var_names)) {
     cat("  ", name, ": ", var_names[[name]], "\n")
   }
-  
+
   cat("\nStandard Stat Names:\n")
   stat_names <- get_stat_names()
   for (name in names(stat_names)) {
@@ -347,7 +351,7 @@ get_percentage_patterns <- function() {
 }
 
 #' Get standard variable names
-#' @export  
+#' @export
 get_variable_names <- function() {
   if (is.null(.stateful_patterns$VARIABLE_NAMES)) {
     .init_global_patterns()
@@ -365,9 +369,9 @@ get_stat_names <- function() {
 }
 
 #' Set BIGN patterns
-#' 
+#'
 #' Updates the global BIGN patterns used for extraction.
-#' 
+#'
 #' @param patterns Vector of regex patterns (from most to least restrictive)
 #' @export
 set_bign_patterns <- function(patterns) {
@@ -375,29 +379,51 @@ set_bign_patterns <- function(patterns) {
   invisible(.stateful_patterns$BIGN_PATTERNS)
 }
 
-#' Add BIGN pattern
-#' 
-#' Adds a new pattern to the global BIGN patterns list at specified position.
-#' 
-#' @param pattern Regex pattern to add
+#' Add BIGN pattern (enhanced with pseudo-pattern support)
+#'
+#' Adds a new BIGN pattern. Accepts either regex patterns (legacy) or pseudo-patterns (recommended).
+#'
+#' @param pattern Pattern to add - can be regex or pseudo-pattern template
 #' @param position Position to insert (1 = highest priority, NULL = append to end)
+#' @param is_pseudo_pattern Whether the pattern is a pseudo-pattern template (default: auto-detect)
 #' @export
-add_bign_pattern <- function(pattern, position = NULL) {
-  current_patterns <- get_bign_patterns()
-  if (is.null(position)) {
-    .stateful_patterns$BIGN_PATTERNS <- c(current_patterns, pattern)
-  } else {
-    before <- if (position == 1) character(0) else current_patterns[1:(position-1)]
-    after <- if (position > length(current_patterns)) character(0) else current_patterns[position:length(current_patterns)]
-    .stateful_patterns$BIGN_PATTERNS <- c(before, pattern, after)
+add_bign_pattern <- function(pattern, position = NULL, is_pseudo_pattern = NULL) {
+  # Auto-detect if pattern is pseudo-pattern (contains {placeholders})
+  if (is.null(is_pseudo_pattern)) {
+    is_pseudo_pattern <- grepl("\\{[^}]+\\}", pattern)
   }
-  invisible(.stateful_patterns$BIGN_PATTERNS)
+
+  if (is_pseudo_pattern) {
+    # Use pseudo-pattern system
+    pattern_name <- paste0("custom_", length(get_bign_pseudo_patterns()) + 1)
+    add_bign_pseudo_pattern(pattern_name, pattern)
+    message("Added pseudo-pattern: ", pattern)
+  } else {
+    # Legacy regex pattern - convert to pseudo-pattern for consistency
+    warning("Adding raw regex patterns is deprecated. Consider using pseudo-patterns like '{N} = {value}'")
+
+    # Try to create a pseudo-pattern equivalent or add as custom
+    pattern_name <- paste0("legacy_", length(get_bign_pseudo_patterns()) + 1)
+    current_patterns <- get_bign_pseudo_patterns()
+
+    # Add as a direct regex pattern
+    current_patterns[[pattern_name]] <- list(
+      template = paste0("legacy: ", pattern),
+      regex = pattern,
+      stats = c("value"),  # Generic stat name
+      labels = c("N")      # Generic label
+    )
+
+    .stateful_patterns$BIGN_PSEUDO_PATTERNS <- current_patterns
+  }
+
+  invisible(get_bign_patterns())
 }
 
 #' Get statistical patterns
-#' 
+#'
 #' Returns the current global statistical patterns.
-#' 
+#'
 #' @return Named list of statistical pattern definitions
 #' @export
 get_stat_patterns <- function() {
@@ -408,9 +434,9 @@ get_stat_patterns <- function() {
 }
 
 #' Set statistical patterns
-#' 
+#'
 #' Updates the global statistical patterns used for parsing.
-#' 
+#'
 #' @param patterns Named list of pattern definitions
 #' @export
 set_stat_patterns <- function(patterns) {
@@ -419,9 +445,9 @@ set_stat_patterns <- function(patterns) {
 }
 
 #' Add statistical pattern
-#' 
+#'
 #' Adds a new pattern to the global statistical patterns registry.
-#' 
+#'
 #' @param name Pattern name/ID
 #' @param template Template string with placeholders like "mean (sd)"
 #' @param regex Regex to match the pattern with capture groups
@@ -437,7 +463,7 @@ add_stat_pattern <- function(name, template, regex, stats, labels, priority = TR
     stats = stats,
     labels = labels
   )
-  
+
   if (priority) {
     # Add at beginning for high priority
     .stateful_patterns$STAT_PATTERNS <- c(setNames(list(new_pattern), name), current_patterns)
@@ -457,16 +483,16 @@ add_stat_pattern <- function(name, template, regex, stats, labels, priority = TR
 parse_rtf_table_states <- function(rtf_file) {
   rtf_content <- readLines(rtf_file, warn = FALSE) |>
     paste(collapse = "\n")
-  
+
   # Extract all rows with RTF structure info
   rows <- extract_rtf_rows_with_state(rtf_content)
-  
+
   # Identify table states
   table_states <- identify_table_states(rows)
-  
+
   # Extract each section
   sections <- extract_table_sections(rows, table_states)
-  
+
   return(sections)
 }
 
@@ -475,45 +501,45 @@ parse_rtf_table_states <- function(rtf_file) {
 #' @keywords internal
 extract_rtf_rows_with_state <- function(rtf_content) {
   lines <- str_split(rtf_content, "\n")[[1]]
-  
+
   # Find row markers
   trowd_lines <- which(grepl("\\\\trowd", lines))
   row_end_lines <- which(grepl("\\{\\\\row\\}", lines))
-  
+
   rows <- list()
-  
+
   for (i in seq_along(trowd_lines)) {
     start_line <- trowd_lines[i]
     end_line <- row_end_lines[row_end_lines > start_line][1]
-    
+
     if (!is.na(end_line)) {
       row_content <- paste(lines[start_line:end_line], collapse = "\n")
-      
+
       # Extract comprehensive row properties for state detection
       row_info <- list(
         index = length(rows) + 1,
         line_start = start_line,
         line_end = end_line,
         content = row_content,
-        
+
         # Header indicators
         has_trhdr = grepl("\\\\trhdr", row_content),
-        
+
         # Border information (indicates table structure)
         borders = extract_border_info(row_content),
-        
+
         # Cell information
         cells = extract_cells_from_row(row_content),
         cell_positions = extract_cell_positions(row_content),
-        
+
         # Content characteristics for state detection
         characteristics = analyze_row_characteristics(row_content)
       )
-      
+
       rows[[length(rows) + 1]] <- row_info
     }
   }
-  
+
   return(rows)
 }
 
@@ -524,36 +550,36 @@ analyze_row_characteristics <- function(row_content) {
   cells <- extract_cells_from_row(row_content)
   cell_texts <- sapply(cells, function(c) trimws(c$text))
   non_empty_cells <- cell_texts[cell_texts != ""]
-  
+
   characteristics <- list(
     total_cells = length(cells),
     non_empty_cells = length(non_empty_cells),
     has_borders = grepl("\\\\clbrdr", row_content),
     has_shading = grepl("\\\\clcbpat", row_content),
-    
+
     # Content patterns (structural, not semantic)
     has_mostly_text = FALSE,
     has_mixed_content = FALSE,
     has_mostly_numbers = FALSE,
     is_mostly_empty = length(non_empty_cells) <= 1,
-    
+
     # Table structure indicators
     spans_multiple_columns = length(non_empty_cells) > 1,
     has_single_spanning_cell = length(non_empty_cells) == 1 && length(cells) > 1
   )
-  
+
   if (length(non_empty_cells) > 0) {
     # Analyze content types without semantic interpretation
     numeric_cells <- sum(grepl("^[0-9.,()% +-]+$", non_empty_cells))
     mixed_cells <- sum(grepl("[0-9].*[A-Za-z]|[A-Za-z].*[0-9]", non_empty_cells))
     text_cells <- length(non_empty_cells) - numeric_cells - mixed_cells
-    
+
     total_content_cells <- length(non_empty_cells)
     characteristics$has_mostly_numbers <- numeric_cells / total_content_cells > 0.7
     characteristics$has_mixed_content <- mixed_cells / total_content_cells > 0.3
     characteristics$has_mostly_text <- text_cells / total_content_cells > 0.7
   }
-  
+
   return(characteristics)
 }
 
@@ -564,35 +590,35 @@ identify_table_states <- function(rows) {
   if (length(rows) == 0) {
     return(list())
   }
-  
+
   # Find all rows with trhdr tags
   header_rows <- which(sapply(rows, function(r) {
     if (is.null(r$has_trhdr)) return(FALSE)
     r$has_trhdr
   }))
-  
+
   if (length(header_rows) == 0) {
     return(identify_sections_without_headers(rows))
   }
-  
+
   # Group consecutive header rows to identify header blocks
   header_blocks <- identify_header_blocks(rows, header_rows)
-  
+
   # Use the FIRST header block only for state detection
   first_block <- header_blocks[[1]]
-  
+
   sections <- list()
   sections$pre_header_end <- if (first_block$start > 1) first_block$start - 1 else 0
   sections$header_start <- first_block$start
   sections$header_end <- first_block$end
-  
+
   # Find table section after first header block
   sections$table_start <- determine_table_start_with_borders(rows, first_block$end)
   sections$table_end <- determine_table_end_with_borders(rows, sections$table_start, header_blocks)
-  
+
   # Footnotes start after table
   sections$footnotes_start <- if (sections$table_end < length(rows)) sections$table_end + 1 else length(rows) + 1
-  
+
   return(sections)
 }
 
@@ -603,10 +629,10 @@ identify_header_blocks <- function(rows, header_rows) {
   if (length(header_rows) == 0) {
     return(list())
   }
-  
+
   blocks <- list()
   current_block_start <- header_rows[1]
-  
+
   # Handle single header row case
   if (length(header_rows) == 1) {
     blocks[[1]] <- list(
@@ -616,25 +642,25 @@ identify_header_blocks <- function(rows, header_rows) {
     )
     return(blocks)
   }
-  
+
   for (i in 1:(length(header_rows) - 1)) {
     current_row <- header_rows[i]
     next_row <- header_rows[i + 1]
-    
+
     # Validate indices
     if (is.na(current_row) || is.na(next_row) ||
-        current_row < 1 || current_row > length(rows) || 
+        current_row < 1 || current_row > length(rows) ||
         next_row < 1 || next_row > length(rows)) {
       next
     }
-    
+
     # Check for gap between header rows (indicates new table section)
     gap <- next_row - current_row
-    
+
     # Also check for border patterns that indicate section breaks
     current_borders <- rows[[current_row]]$borders
     next_borders <- rows[[next_row]]$borders
-    
+
     # If gap > 2, or we see a border pattern indicating new section
     has_border_break <- FALSE
     if (!is.null(current_borders) && !is.null(next_borders)) {
@@ -643,11 +669,11 @@ identify_header_blocks <- function(rows, header_rows) {
         has_border_break <- current_borders$bottom > 0 && next_borders$top > 10
       }
     }
-    
+
     # Ensure logical values
     gap_break <- !is.na(gap) && gap > 2
     section_break <- gap_break || isTRUE(has_border_break)
-    
+
     if (section_break) {
       # End current block
       blocks[[length(blocks) + 1]] <- list(
@@ -655,19 +681,19 @@ identify_header_blocks <- function(rows, header_rows) {
         end = current_row,
         header_rows = header_rows[header_rows >= current_block_start & header_rows <= current_row]
       )
-      
+
       # Start new block
       current_block_start <- next_row
     }
   }
-  
+
   # Add final block
   blocks[[length(blocks) + 1]] <- list(
     start = current_block_start,
     end = header_rows[length(header_rows)],
     header_rows = header_rows[header_rows >= current_block_start & header_rows <= header_rows[length(header_rows)]]
   )
-  
+
   return(blocks)
 }
 
@@ -678,23 +704,23 @@ determine_table_start_with_borders <- function(rows, header_end) {
   if (header_end >= length(rows)) {
     return(length(rows) + 1)
   }
-  
+
   # Look for first row after header that has data content
   for (i in (header_end + 1):length(rows)) {
     row <- rows[[i]]
-    
+
     # Skip empty rows immediately after header
     if (row$characteristics$is_mostly_empty) {
       next
     }
-    
+
     # Look for row with typical data pattern
-    if (row$characteristics$spans_multiple_columns && 
+    if (row$characteristics$spans_multiple_columns &&
         !row$characteristics$is_mostly_empty) {
       return(i)
     }
   }
-  
+
   return(length(rows) + 1)
 }
 
@@ -705,7 +731,7 @@ determine_table_end_with_borders <- function(rows, table_start, header_blocks) {
   if (table_start > length(rows)) {
     return(length(rows))
   }
-  
+
   # RULE: If we encounter a page break, we've reached footnotes - table ends before page break
   for (i in table_start:length(rows)) {
     row <- rows[[i]]
@@ -713,37 +739,37 @@ determine_table_end_with_borders <- function(rows, table_start, header_blocks) {
       return(max(i - 1, table_start))
     }
   }
-  
+
   # If there are multiple header blocks, table ends before next header block
   if (length(header_blocks) > 1) {
     next_header_start <- header_blocks[[2]]$start
-    
+
     # Find last data row before next header
     for (i in (next_header_start - 1):table_start) {
       if (i < table_start) break
-      
+
       row <- rows[[i]]
-      if (!row$characteristics$is_mostly_empty && 
+      if (!row$characteristics$is_mostly_empty &&
           row$characteristics$spans_multiple_columns) {
         return(i)
       }
     }
   }
-  
+
   # Single table - find natural end
   last_data_row <- table_start
-  
+
   # Get reference structure from first few rows
   if (table_start + 2 <= length(rows)) {
     ref_rows <- rows[table_start:(table_start + 2)]
     expected_cols <- median(sapply(ref_rows, function(r) r$characteristics$total_cells))
-    
+
     # Find where table structure breaks
     for (i in table_start:length(rows)) {
       row <- rows[[i]]
-      
+
       # Check if this row fits table pattern
-      if (row$characteristics$spans_multiple_columns && 
+      if (row$characteristics$spans_multiple_columns &&
           abs(row$characteristics$total_cells - expected_cols) <= 1) {
         last_data_row <- i
       } else if (!row$characteristics$is_mostly_empty) {
@@ -754,7 +780,7 @@ determine_table_end_with_borders <- function(rows, table_start, header_blocks) {
   } else {
     last_data_row <- length(rows)
   }
-  
+
   return(last_data_row)
 }
 
@@ -764,54 +790,54 @@ determine_table_end_with_borders <- function(rows, table_start, header_blocks) {
 identify_table_boundaries <- function(rows, header_rows) {
   # Look for consistent table structure after headers
   boundaries <- list()
-  
+
   if (length(header_rows) > 0) {
     header_end <- max(header_rows)
-    
+
     # Find where consistent data rows start
     for (i in (header_end + 1):length(rows)) {
       row <- rows[[i]]
-      
+
       # Skip empty separator rows
       if (row$characteristics$is_mostly_empty) {
         next
       }
-      
+
       # Look for rows with multiple data cells (table data pattern)
-      if (row$characteristics$spans_multiple_columns && 
+      if (row$characteristics$spans_multiple_columns &&
           !row$characteristics$is_mostly_empty) {
         boundaries$table_start <- i
         break
       }
     }
-    
+
     # Find where table structure breaks down
     if (!is.null(boundaries$table_start)) {
       table_start <- boundaries$table_start
-      
+
       # Get the expected table structure from first few data rows
       expected_structure <- analyze_table_structure(rows[table_start:(table_start + 2)])
-      
+
       # Find where structure changes significantly
       for (i in (table_start + 3):length(rows)) {
         if (i > length(rows)) break
-        
+
         current_structure <- analyze_table_structure(rows[i])
-        
+
         # If structure changes significantly, might be end of table
         if (is_structure_break(expected_structure, current_structure)) {
           boundaries$table_end <- i - 1
           break
         }
       }
-      
+
       # If no clear break found, assume table goes to end
       if (is.null(boundaries$table_end)) {
         boundaries$table_end <- length(rows)
       }
     }
   }
-  
+
   return(boundaries)
 }
 
@@ -822,22 +848,22 @@ determine_table_start <- function(rows, header_end) {
   if (header_end >= length(rows)) {
     return(length(rows) + 1)
   }
-  
+
   # Look for first row with multi-column data after headers
   for (i in (header_end + 1):length(rows)) {
     row <- rows[[i]]
-    
+
     # Skip empty rows
     if (row$characteristics$is_mostly_empty) {
       next
     }
-    
+
     # Look for data pattern: first column = text, others = data
     if (row$characteristics$spans_multiple_columns) {
       return(i)
     }
   }
-  
+
   return(length(rows) + 1)
 }
 
@@ -848,19 +874,19 @@ determine_table_end <- function(rows, table_start) {
   if (table_start > length(rows)) {
     return(length(rows))
   }
-  
+
   # Analyze first few table rows to understand structure
   reference_rows <- rows[table_start:min(table_start + 2, length(rows))]
   expected_cols <- median(sapply(reference_rows, function(r) r$characteristics$total_cells))
-  
+
   # Find where structure breaks
   last_table_row <- table_start
-  
+
   for (i in table_start:length(rows)) {
     row <- rows[[i]]
-    
+
     # Check if this row fits table pattern
-    if (row$characteristics$spans_multiple_columns && 
+    if (row$characteristics$spans_multiple_columns &&
         abs(row$characteristics$total_cells - expected_cols) <= 1) {
       last_table_row <- i
     } else if (!row$characteristics$is_mostly_empty) {
@@ -868,7 +894,7 @@ determine_table_end <- function(rows, table_start) {
       break
     }
   }
-  
+
   return(last_table_row)
 }
 
@@ -879,7 +905,7 @@ analyze_table_structure <- function(rows) {
   if (!is.list(rows)) {
     rows <- list(rows)
   }
-  
+
   structures <- lapply(rows, function(row) {
     list(
       cell_count = row$characteristics$total_cells,
@@ -888,10 +914,10 @@ analyze_table_structure <- function(rows) {
       content_type = determine_content_type(row$characteristics)
     )
   })
-  
+
   # Return median/common structure
   cell_counts <- sapply(structures, function(s) s$cell_count)
-  
+
   list(
     typical_cell_count = median(cell_counts),
     typical_content_type = names(sort(table(sapply(structures, function(s) s$content_type)), decreasing = TRUE))[1]
@@ -920,13 +946,13 @@ is_structure_break <- function(expected, current) {
   if (is.null(expected) || is.null(current)) {
     return(FALSE)
   }
-  
+
   # Significant change in cell count
   cell_diff <- abs(expected$typical_cell_count - current$typical_cell_count)
-  
+
   # Content type change from data to text (might indicate footnotes)
   content_change <- expected$typical_content_type == "data" && current$typical_content_type == "text"
-  
+
   return(cell_diff > 2 || content_change)
 }
 
@@ -936,7 +962,7 @@ is_structure_break <- function(expected, current) {
 identify_sections_without_headers <- function(rows) {
   # Use border and content analysis
   sections <- list()
-  
+
   # Find first row with multiple columns (likely start of table)
   for (i in seq_along(rows)) {
     if (rows[[i]]$characteristics$spans_multiple_columns) {
@@ -944,7 +970,7 @@ identify_sections_without_headers <- function(rows) {
       break
     }
   }
-  
+
   if (is.null(sections$table_start)) {
     # No clear table found
     sections$pre_header_end <- length(rows)
@@ -960,7 +986,7 @@ identify_sections_without_headers <- function(rows) {
     sections$table_end <- determine_table_end(rows, sections$table_start)
     sections$footnotes_start <- sections$table_end + 1
   }
-  
+
   return(sections)
 }
 
@@ -969,14 +995,14 @@ identify_sections_without_headers <- function(rows) {
 #' @keywords internal
 extract_table_sections <- function(rows, states) {
   sections <- list()
-  
+
   # Pre-header section (title, population, etc.)
   if (states$pre_header_end > 0) {
     sections$pre_header <- extract_section_content(rows[1:states$pre_header_end])
   } else {
     sections$pre_header <- list()
   }
-  
+
   # Header section
   if (states$header_start <= states$header_end && states$header_start <= length(rows)) {
     sections$header <- list(
@@ -986,7 +1012,7 @@ extract_table_sections <- function(rows, states) {
   } else {
     sections$header <- list(rows = list(), analysis = list(type = "none"))
   }
-  
+
   # Table section
   if (states$table_start <= states$table_end && states$table_start <= length(rows)) {
     sections$table <- list(
@@ -996,17 +1022,17 @@ extract_table_sections <- function(rows, states) {
   } else {
     sections$table <- list(rows = list(), data = data.frame())
   }
-  
+
   # Footnotes section
   if (states$footnotes_start <= length(rows)) {
     sections$footnotes <- extract_section_content(rows[states$footnotes_start:length(rows)])
   } else {
     sections$footnotes <- list()
   }
-  
+
   # Add state boundaries for reference
   sections$states <- states
-  
+
   return(sections)
 }
 
@@ -1017,13 +1043,13 @@ extract_section_content <- function(section_rows) {
   if (length(section_rows) == 0) {
     return(list(text = character(), rows = list()))
   }
-  
+
   # Extract text content from each row
   content <- lapply(section_rows, function(row) {
     cells <- row$cells
     cell_texts <- sapply(cells, function(c) trimws(c$text))
     non_empty <- cell_texts[cell_texts != ""]
-    
+
     if (length(non_empty) == 0) {
       return("")
     } else if (length(non_empty) == 1) {
@@ -1033,18 +1059,18 @@ extract_section_content <- function(section_rows) {
       return(paste(non_empty, collapse = " | "))
     }
   })
-  
+
   text_content <- unlist(content)
   text_content <- text_content[text_content != ""]
-  
+
   # Filter out table content that got misclassified as footnotes
   # Look for patterns that indicate table headers/data rather than footnotes
   filtered_content <- character()
-  
+
   for (text in text_content) {
     # Use flexible pattern matching instead of hardcoded patterns
     is_table_content <- FALSE
-    
+
     # Check against configurable table header patterns
     table_header_patterns <- get_table_header_patterns()
     for (pattern in table_header_patterns) {
@@ -1053,25 +1079,25 @@ extract_section_content <- function(section_rows) {
         break
       }
     }
-    
+
     # Treatment group headers with N= (keep this as it's structural)
     if (!is_table_content && grepl("\\{Arm [A-C]:", text) && grepl("N =", text)) {
       is_table_content <- TRUE
     }
-    
+
     # Table data rows (structural pattern)
     if (!is_table_content && grepl("^\\\\\\\\", text) && grepl("\\d+", text) && grepl("[;|]", text)) {
       is_table_content <- TRUE
     }
-    
+
     if (!is_table_content) {
       filtered_content <- c(filtered_content, text)
     }
   }
-  
+
   # Remove duplicates (keep only unique footnotes)
   unique_content <- unique(filtered_content)
-  
+
   return(list(
     text = unique_content,
     rows = section_rows
@@ -1085,16 +1111,16 @@ analyze_header_structure_state <- function(header_rows) {
   if (length(header_rows) == 0) {
     return(list(type = "none"))
   }
-  
+
   # Extract top-left label
   top_left_label <- ""
   if (length(header_rows) > 0 && length(header_rows[[1]]$cells) > 0) {
     top_left_label <- trimws(header_rows[[1]]$cells[[1]]$text)
   }
-  
+
   # Build column hierarchy based on cell positions
   hierarchy <- build_column_hierarchy_state(header_rows)
-  
+
   # Determine structure type
   if (length(header_rows) >= 3) {
     structure_type <- "three_level"
@@ -1103,7 +1129,7 @@ analyze_header_structure_state <- function(header_rows) {
   } else {
     structure_type <- "single_level"
   }
-  
+
   return(list(
     type = structure_type,
     levels = length(header_rows),
@@ -1120,14 +1146,14 @@ build_column_hierarchy_state <- function(header_rows) {
   if (length(header_rows) == 0) {
     return(data.frame())
   }
-  
+
   # Get the deepest level (last header row) as base
   base_row <- header_rows[[length(header_rows)]]
-  
+
   if (is.null(base_row$cell_positions) || nrow(base_row$cell_positions) == 0) {
     return(data.frame())
   }
-  
+
   # Start with data columns (skip first column which is usually row labels)
   data_cols <- base_row$cell_positions
   if (nrow(data_cols) > 1) {
@@ -1135,7 +1161,7 @@ build_column_hierarchy_state <- function(header_rows) {
   } else {
     return(data.frame())
   }
-  
+
   # Initialize hierarchy
   hierarchy <- data.frame(
     column_index = data_cols$cell_num,
@@ -1143,27 +1169,27 @@ build_column_hierarchy_state <- function(header_rows) {
     left_pos = data_cols$left_pos,
     stringsAsFactors = FALSE
   )
-  
+
   # Add each header level
   for (level in seq_along(header_rows)) {
     level_row <- header_rows[[level]]
     level_cells <- sapply(level_row$cells, function(c) trimws(c$text))
     level_positions <- level_row$cell_positions
-    
+
     col_name <- paste0("level_", level)
     hierarchy[[col_name]] <- ""
-    
+
     # Map each data column to appropriate header cell based on position
     for (i in seq_len(nrow(hierarchy))) {
       data_pos <- hierarchy[i, ]
-      
+
       # Find which header cell this data column falls under
       if (!is.null(level_positions) && nrow(level_positions) > 0) {
         for (j in seq_len(nrow(level_positions))) {
           header_pos <- level_positions[j, ]
-          
+
           # Check if data column falls within header cell bounds
-          if (data_pos$left_pos >= header_pos$left_pos && 
+          if (data_pos$left_pos >= header_pos$left_pos &&
               data_pos$right_pos <= header_pos$right_pos) {
             if (j <= length(level_cells)) {
               hierarchy[i, col_name] <- level_cells[j]
@@ -1174,7 +1200,7 @@ build_column_hierarchy_state <- function(header_rows) {
       }
     }
   }
-  
+
   return(hierarchy)
 }
 
@@ -1185,15 +1211,15 @@ extract_table_data <- function(table_rows) {
   if (length(table_rows) == 0) {
     return(data.frame())
   }
-  
+
   # Filter out footnote-like rows before processing
   filtered_rows <- Filter(function(row) {
     cell_texts <- sapply(row$cells, function(cell) trimws(cell$text))
     combined_text <- paste(cell_texts, collapse = " ")
-    
+
     # Use flexible footnote pattern detection
     is_footnote <- FALSE
-    
+
     # Check against configurable footnote patterns
     footnote_patterns <- get_footnote_patterns()
     for (pattern in footnote_patterns) {
@@ -1202,18 +1228,18 @@ extract_table_data <- function(table_rows) {
         break
       }
     }
-    
+
     return(!is_footnote)
   }, table_rows)
-  
+
   # Extract text from filtered rows
   row_data <- lapply(filtered_rows, function(row) {
     sapply(row$cells, function(cell) trimws(cell$text))
   })
-  
+
   # Find maximum number of columns
   max_cols <- max(sapply(row_data, length))
-  
+
   # Pad shorter rows
   row_data <- lapply(row_data, function(row) {
     if (length(row) < max_cols) {
@@ -1222,11 +1248,11 @@ extract_table_data <- function(table_rows) {
       row
     }
   })
-  
+
   # Convert to data frame
   df <- as.data.frame(do.call(rbind, row_data), stringsAsFactors = FALSE)
   names(df) <- paste0("V", 1:ncol(df))
-  
+
   return(df)
 }
 
@@ -1241,27 +1267,27 @@ state_table_to_ard <- function(table_sections, config = list(), bign_patterns = 
   if (is.null(table_sections$table) || nrow(table_sections$table$data) == 0) {
     return(data.frame())
   }
-  
+
   # Extract table data and header structure
   table_data <- table_sections$table$data
   header_analysis <- table_sections$header$analysis
   table_rows <- table_sections$table$rows
-  
+
   # Analyze indentation patterns in table rows
   row_analysis <- detect_table_indentation_patterns(table_rows)
-  
+
   # Build hierarchical structure based on indentation
   hierarchical_structure <- build_hierarchical_structure(row_analysis)
-  
+
   # Convert to ARD using hierarchy
   ard_data <- convert_to_ard_with_state_hierarchy(table_data, header_analysis, config)
-  
+
   # Apply hierarchical structure to ARD data
   ard_data <- apply_hierarchical_structure_to_ard(ard_data, hierarchical_structure, row_analysis)
-  
+
   # Apply statistical pattern parsing
   ard_data <- expand_state_statistics(ard_data, config, bign_patterns)
-  
+
   # Filter out blank rows (those with stat values that are just backslashes)
   # These are typically separator rows from the RTF table structure
   if (nrow(ard_data) > 0) {
@@ -1271,7 +1297,7 @@ state_table_to_ard <- function(table_sections, config = list(), bign_patterns = 
         !(stat_name == "other" & grepl("^\\\\+$", stat)) # Double check for "other" entries
       )
   }
-  
+
   return(ard_data)
 }
 
@@ -1282,7 +1308,7 @@ convert_to_ard_with_state_hierarchy <- function(data_rows, header_analysis, conf
   if (nrow(data_rows) == 0) {
     return(data.frame())
   }
-  
+
   # Start with basic pivot
   ard_base <- data_rows |>
     mutate(across(everything(), as.character)) |>
@@ -1296,18 +1322,18 @@ convert_to_ard_with_state_hierarchy <- function(data_rows, header_analysis, conf
     mutate(
       column_index = as.integer(str_extract(column_name, "\\d+"))
     )
-  
+
   # Add hierarchy based on header structure
   if (header_analysis$type != "none" && !is.null(header_analysis$column_hierarchy)) {
     hierarchy <- header_analysis$column_hierarchy
-    
+
     # Map column indices to hierarchy levels
     ard_data <- ard_base |>
       left_join(hierarchy, by = c("column_index" = "column_index"))
-    
+
     # Detect and handle spanners vs actual group levels
     ard_data <- fix_spanner_hierarchy_state(ard_data, hierarchy, config)
-    
+
     # Create ARD group structure based on corrected levels
     if ("group1_level" %in% names(ard_data)) {
       ard_data <- ard_data |>
@@ -1319,7 +1345,7 @@ convert_to_ard_with_state_hierarchy <- function(data_rows, header_analysis, conf
           group1_level = clean_treatment_name(level_1)
         )
     }
-    
+
     if ("group2_level" %in% names(ard_data)) {
       ard_data <- ard_data |>
         mutate(group2 = "GROUP2")
@@ -1332,7 +1358,7 @@ convert_to_ard_with_state_hierarchy <- function(data_rows, header_analysis, conf
           )
       }
     }
-    
+
     if ("level_3" %in% names(hierarchy)) {
       ard_data <- ard_data |>
         mutate(
@@ -1340,17 +1366,17 @@ convert_to_ard_with_state_hierarchy <- function(data_rows, header_analysis, conf
           group3_level = clean_treatment_name(level_3)
         )
     }
-    
+
     # Add variable label from top-left
     if (nchar(header_analysis$top_left_label) > 0) {
       ard_data <- ard_data |>
         mutate(variable_label1 = header_analysis$top_left_label)
     }
-    
+
     # Clean up columns
     ard_data <- ard_data |>
       select(-column_name, -column_index, -starts_with("level_"))
-    
+
   } else {
     # Simple structure without hierarchy
     ard_data <- ard_base |>
@@ -1360,7 +1386,7 @@ convert_to_ard_with_state_hierarchy <- function(data_rows, header_analysis, conf
       ) |>
       select(-column_name, -column_index)
   }
-  
+
   return(ard_data)
 }
 
@@ -1371,7 +1397,7 @@ determine_group2_type_state <- function(level2_values, config) {
   if (!is.null(config$group2_name)) {
     return(config$group2_name)
   }
-  
+
   # Pure position-based: if we have a level 2, it's simply GROUP2
   # No content analysis - structure only
   return("GROUP2")
@@ -1384,9 +1410,9 @@ determine_group3_type_state <- function(level3_values, config) {
   if (!is.null(config$group3_name)) {
     return(config$group3_name)
   }
-  
+
   # Pure position-based: if we have a level 3, it's simply GROUP3
-  # No content analysis - structure only  
+  # No content analysis - structure only
   return("GROUP3")
 }
 
@@ -1401,12 +1427,12 @@ fix_spanner_hierarchy_state <- function(ard_data, hierarchy, config) {
     "Overall.*Summary",
     "Safety.*Parameter"
   )
-  
+
   # Check if level_1 contains spanner text
   if ("level_1" %in% names(hierarchy)) {
     level_1_values <- unique(hierarchy$level_1[hierarchy$level_1 != ""])
     is_level_1_spanner <- any(sapply(spanner_patterns, function(p) any(grepl(p, level_1_values, ignore.case = TRUE))))
-    
+
     if (is_level_1_spanner) {
       # level_1 is a spanner, use level_2 as group1_level
       if ("level_2" %in% names(hierarchy)) {
@@ -1425,7 +1451,7 @@ fix_spanner_hierarchy_state <- function(ard_data, hierarchy, config) {
           .keep = "all"
         ) |>
         select(-level_1)
-      
+
       # If there's level_2, it becomes group2_level
       if ("level_2" %in% names(hierarchy)) {
         ard_data <- ard_data |>
@@ -1437,7 +1463,7 @@ fix_spanner_hierarchy_state <- function(ard_data, hierarchy, config) {
       }
     }
   }
-  
+
   return(ard_data)
 }
 
@@ -1448,21 +1474,21 @@ clean_treatment_name <- function(treatment_text) {
   if (is.null(treatment_text) || length(treatment_text) == 0) {
     return(treatment_text)
   }
-  
+
   # Handle vectorized input
   result <- sapply(treatment_text, function(x) {
     if (is.na(x) || x == "") {
       return(x)
     }
-    
+
     # Extract treatment name before (N = xxx) part
     cleaned <- str_replace(x, "\\s*\\(N\\s*=\\s*\\d+\\).*$", "")
     cleaned <- str_replace_all(cleaned, "\\{|\\}", "")
     cleaned <- str_trim(cleaned)
-    
+
     return(cleaned)
   }, USE.NAMES = FALSE)
-  
+
   return(result)
 }
 
@@ -1476,23 +1502,23 @@ expand_state_statistics <- function(ard_data, config, bign_patterns = NULL) {
   if (!"stat" %in% names(ard_data)) {
     return(ard_data)
   }
-  
+
   # Process Big N headers first
   ard_data <- extract_state_bign_rows(ard_data, bign_patterns)
-  
+
   # Process each row and expand statistics
   expanded_rows <- purrr::map_dfr(seq_len(nrow(ard_data)), function(i) {
     row <- ard_data[i, ]
     stat_value <- row$stat
-    
+
     # Skip if already processed (e.g., Big N rows)
     if (!is.na(row$stat_name) && !is.null(row$stat_name) && row$stat_name != "") {
       return(row)
     }
-    
+
     # Parse the statistic
     parsed_stats <- parse_state_stat_value(stat_value, config)
-    
+
     # If parsing resulted in multiple rows, replicate the other columns
     if (nrow(parsed_stats) > 1) {
       other_cols <- row[, !names(row) %in% c("stat", "stat_name", "stat_label")]
@@ -1508,7 +1534,7 @@ expand_state_statistics <- function(ard_data, config, bign_patterns = NULL) {
       return(row)
     }
   })
-  
+
   return(expanded_rows)
 }
 
@@ -1520,23 +1546,23 @@ extract_state_bign_rows <- function(ard_data, bign_patterns = NULL) {
   if (!"group1_level" %in% names(ard_data)) {
     return(ard_data)
   }
-  
+
   # Use global patterns if none provided
   if (is.null(bign_patterns)) {
     bign_patterns <- get_bign_patterns()
   }
-  
+
   # Try patterns in order until we find matches
   big_n_rows <- NULL
   pattern_used <- NULL
-  
+
   for (pattern in bign_patterns) {
     matches <- ard_data |>
       filter(grepl(pattern, group1_level, ignore.case = TRUE))
-    
+
     if (nrow(matches) > 0) {
       pattern_used <- pattern
-      
+
       # Extract N values using the matching pattern
       big_n_rows <- matches |>
         distinct(group1_level) |>
@@ -1558,12 +1584,12 @@ extract_state_bign_rows <- function(ard_data, bign_patterns = NULL) {
       break
     }
   }
-  
+
   # If no pattern matched, return original data
   if (is.null(big_n_rows)) {
     return(ard_data)
   }
-  
+
   # Clean group1_level in main data using the pattern that worked
   ard_data_clean <- ard_data |>
     mutate(
@@ -1576,19 +1602,19 @@ extract_state_bign_rows <- function(ard_data, bign_patterns = NULL) {
         str_replace_all("\\{|\\}", "") |>
         str_trim()
     )
-  
+
   # Combine with Big N rows
   if (nrow(big_n_rows) > 0) {
     # Ensure compatible column structure
     common_cols <- intersect(names(big_n_rows), names(ard_data_clean))
     big_n_rows <- big_n_rows[common_cols]
     ard_data_clean <- ard_data_clean[common_cols]
-    
+
     result <- bind_rows(big_n_rows, ard_data_clean)
   } else {
     result <- ard_data_clean
   }
-  
+
   return(result)
 }
 
@@ -1612,16 +1638,16 @@ rtf_to_ard_json <- function(rtf_file, output_file = NULL, config = list(), bign_
   if (is.null(output_file)) {
     output_file <- str_replace(rtf_file, "\\.rtf$", "_ard.json")
   }
-  
+
   # Parse RTF using state-based approach
   table_sections <- parse_rtf_table_states(rtf_file)
-  
+
   # Convert to ARD
   ard_data <- state_table_to_ard(table_sections, config, bign_patterns)
-  
+
   # Extract metadata from pre-header section
   metadata <- extract_state_metadata(table_sections, rtf_file)
-  
+
   # Create JSON structure
   json_output <- list(
     metadata = metadata,
@@ -1635,14 +1661,14 @@ rtf_to_ard_json <- function(rtf_file, output_file = NULL, config = list(), bign_
       group_levels = sum(!is.na(ard_data[grepl("^group[2-9]", names(ard_data))]))
     )
   )
-  
+
   # Write JSON
   jsonlite::write_json(json_output, output_file, pretty = TRUE, auto_unbox = TRUE)
-  
+
   message("State-based JSON ARD file created: ", basename(output_file))
   message("  - Rows: ", json_output$summary$total_rows)
   message("  - Groups: ", json_output$summary$unique_groups)
-  
+
   return(invisible(json_output))
 }
 
@@ -1655,11 +1681,11 @@ extract_state_metadata <- function(table_sections, rtf_file) {
     conversion_date = format(Sys.time(), "%Y-%m-%d %H:%M:%S"),
     conversion_method = "rtf_state_parser"
   )
-  
+
   # Extract title and population from pre-header using flexible patterns
   if (!is.null(table_sections$pre_header) && length(table_sections$pre_header$text) > 0) {
     pre_header_text <- table_sections$pre_header$text
-    
+
     # Extract title using flexible patterns
     title_patterns <- get_title_patterns()
     for (pattern in title_patterns) {
@@ -1669,7 +1695,7 @@ extract_state_metadata <- function(table_sections, rtf_file) {
         break
       }
     }
-    
+
     # Extract population using flexible patterns
     population_patterns <- get_population_patterns()
     for (pattern in population_patterns) {
@@ -1684,12 +1710,12 @@ extract_state_metadata <- function(table_sections, rtf_file) {
       }
     }
   }
-  
+
   # Extract footnotes if available
   if (!is.null(table_sections$footnotes) && length(table_sections$footnotes$text) > 0) {
     metadata$footnotes <- table_sections$footnotes$text
   }
-  
+
   return(metadata)
 }
 
@@ -1703,13 +1729,13 @@ source_if_exists <- function(file) {
 # Include the cell extraction functions
 extract_cells_from_row <- function(row_content) {
   cell_parts <- str_split(row_content, "\\\\pard")[[1]]
-  
+
   cells <- list()
-  
+
   for (part in cell_parts) {
     if (grepl("\\{.*?\\\\cell", part)) {
       text_match <- str_extract(part, "\\{([^\\\\]*(?:\\\\(?!cell)[^\\\\]*)*)\\\\cell")
-      
+
       if (!is.na(text_match)) {
         text <- str_replace(text_match, "^\\{", "")
         text <- str_replace(text, "\\\\cell.*$", "")
@@ -1717,7 +1743,7 @@ extract_cells_from_row <- function(row_content) {
         text <- str_replace_all(text, "\\\\[a-z]+[0-9]*\\s*", "")
         text <- str_replace_all(text, "~", "")
         text <- str_trim(text)
-        
+
         cells[[length(cells) + 1]] <- list(
           index = length(cells) + 1,
           text = text,
@@ -1726,47 +1752,47 @@ extract_cells_from_row <- function(row_content) {
       }
     }
   }
-  
+
   return(cells)
 }
 
 extract_cell_positions <- function(row_content) {
   cellx_pattern <- "\\\\cellx(-?\\d+)"
   cellx_matches <- str_extract_all(row_content, cellx_pattern)[[1]]
-  
+
   if (length(cellx_matches) == 0) {
     return(NULL)
   }
-  
+
   positions <- as.integer(str_replace(cellx_matches, "\\\\cellx", ""))
-  
+
   cell_info <- data.frame(
     cell_num = seq_along(positions),
     right_pos = positions,
     left_pos = c(0, positions[-length(positions)]),
     width = c(positions[1], diff(positions))
   )
-  
+
   return(cell_info)
 }
 
 extract_border_info <- function(row_content) {
   borders <- list()
-  
+
   if (grepl("\\\\clbrdrt", row_content)) {
     top_width <- str_extract(row_content, "\\\\clbrdrt\\\\brdrs\\\\brdrw(\\d+)")
     if (!is.na(top_width)) {
       borders$top <- as.integer(str_extract(top_width, "\\d+$"))
     }
   }
-  
+
   if (grepl("\\\\clbrdrb", row_content)) {
     bottom_width <- str_extract(row_content, "\\\\clbrdrb\\\\brdrs\\\\brdrw(\\d+)")
     if (!is.na(bottom_width)) {
       borders$bottom <- as.integer(str_extract(bottom_width, "\\d+$"))
     }
   }
-  
+
   return(borders)
 }
 
@@ -1786,12 +1812,12 @@ extract_rtf_indentation <- function(row_content) {
     cell_left_margin = 0,
     method = "none"
   )
-  
+
   # Method 1: Visual indentation markers (check first cell text)
   cells <- extract_cells_from_row(row_content)
   if (length(cells) > 0) {
     first_cell_text <- trimws(cells[[1]]$text)
-    
+
     # Count leading backslashes as indentation levels
     if (grepl("^\\\\\\\\", first_cell_text)) {
       # Count the number of leading backslash pairs
@@ -1804,7 +1830,7 @@ extract_rtf_indentation <- function(row_content) {
         return(indent_info)
       }
     }
-    
+
     # Check for other visual indentation patterns (spaces, tabs, other markers)
     if (grepl("^\\s{4,}", first_cell_text)) {
       # 4+ spaces = 1 level, 8+ spaces = 2 levels, etc.
@@ -1816,45 +1842,45 @@ extract_rtf_indentation <- function(row_content) {
       }
     }
   }
-  
+
   # Method 2: Paragraph left indent (\li)
   li_match <- str_extract(row_content, "\\\\li(-?\\d+)")
   if (!is.na(li_match)) {
     indent_info$left_indent <- as.integer(str_extract(li_match, "-?\\d+"))
     indent_info$method <- "paragraph_indent"
   }
-  
-  # Method 3: First line indent (\fi) 
+
+  # Method 3: First line indent (\fi)
   fi_match <- str_extract(row_content, "\\\\fi(-?\\d+)")
   if (!is.na(fi_match)) {
     indent_info$first_line_indent <- as.integer(str_extract(fi_match, "-?\\d+"))
     if (indent_info$method == "none") indent_info$method <- "first_line_indent"
   }
-  
+
   # Method 4: Cell left padding (\clpadl)
   clpadl_match <- str_extract(row_content, "\\\\clpadl(-?\\d+)")
   if (!is.na(clpadl_match)) {
     indent_info$cell_left_margin <- as.integer(str_extract(clpadl_match, "-?\\d+"))
     if (indent_info$method == "none") indent_info$method <- "cell_padding"
   }
-  
+
   # Method 5: Cell position analysis (compare first cell position to reference)
   cell_positions <- extract_cell_positions(row_content)
   if (!is.null(cell_positions) && nrow(cell_positions) > 0) {
     first_cell_left <- cell_positions$left_pos[1]
-    
+
     # If first cell doesn't start at 0, it indicates indentation
     if (first_cell_left > 0 && indent_info$method == "none") {
       indent_info$cell_left_margin <- first_cell_left
       indent_info$method <- "cell_position"
     }
   }
-  
+
   # Calculate logical indentation level for non-visual methods
   if (indent_info$method != "visual_backslash" && indent_info$method != "visual_spaces") {
     indent_info$level <- calculate_indent_level(indent_info)
   }
-  
+
   return(indent_info)
 }
 
@@ -1868,22 +1894,22 @@ calculate_indent_level <- function(indent_info) {
   # 1 inch = 1440 twips, so these are rough guidelines
   base_indent_threshold <- 360  # ~0.25 inch
   indent_increment <- 360       # ~0.25 inch per level
-  
+
   total_indent <- 0
-  
+
   # Combine different indentation sources
   if (indent_info$left_indent > 0) {
     total_indent <- max(total_indent, indent_info$left_indent)
   }
-  
+
   if (indent_info$first_line_indent > 0) {
     total_indent <- max(total_indent, indent_info$first_line_indent)
   }
-  
+
   if (indent_info$cell_left_margin > 0) {
     total_indent <- max(total_indent, indent_info$cell_left_margin)
   }
-  
+
   # Convert to logical levels
   if (total_indent < base_indent_threshold) {
     return(0)  # No indentation
@@ -1902,17 +1928,17 @@ calculate_indent_level <- function(indent_info) {
 #' @keywords internal
 detect_table_indentation_patterns <- function(table_rows) {
   if (length(table_rows) == 0) {
-    return(data.frame(row_index = integer(), indent_level = integer(), 
+    return(data.frame(row_index = integer(), indent_level = integer(),
                      has_values = logical(), first_cell_text = character()))
   }
-  
+
   # Extract indentation and content info for each row
   row_analysis <- purrr::map_dfr(seq_along(table_rows), function(i) {
     row <- table_rows[[i]]
-    
+
     # Get indentation from RTF structure
     indent_info <- extract_rtf_indentation(row$content)
-    
+
     # Check if row has statistical values (non-empty cells beyond first)
     cells <- row$cells
     if (length(cells) <= 1) {
@@ -1924,7 +1950,7 @@ detect_table_indentation_patterns <- function(table_rows) {
       has_values <- any(value_cells != "" & !is.na(value_cells))
       first_cell_text <- if (length(cells) > 0) trimws(cells[[1]]$text) else ""
     }
-    
+
     data.frame(
       row_index = i,
       indent_level = indent_info$level,
@@ -1935,7 +1961,7 @@ detect_table_indentation_patterns <- function(table_rows) {
       stringsAsFactors = FALSE
     )
   })
-  
+
   return(row_analysis)
 }
 
@@ -1952,7 +1978,7 @@ build_hierarchical_structure <- function(row_analysis) {
   if (nrow(row_analysis) == 0) {
     return(list(variable_hierarchy = data.frame(), group_hierarchy = data.frame()))
   }
-  
+
   # Initialize tracking structures
   variable_hierarchy <- data.frame(
     row_index = integer(),
@@ -1961,7 +1987,7 @@ build_hierarchical_structure <- function(row_analysis) {
     parent_rows = character(),
     stringsAsFactors = FALSE
   )
-  
+
   group_hierarchy <- data.frame(
     row_index = integer(),
     group_level = integer(),
@@ -1970,29 +1996,29 @@ build_hierarchical_structure <- function(row_analysis) {
     parent_groups = character(),
     stringsAsFactors = FALSE
   )
-  
+
   # Track the current hierarchy stack
   label_stack <- character()  # For variable label concatenation
   group_stack <- character()  # For group nesting
-  
+
   for (i in seq_len(nrow(row_analysis))) {
     current_row <- row_analysis[i, ]
     current_level <- current_row$indent_level
     current_text <- current_row$first_cell_text
     has_values <- current_row$has_values
-    
+
     # Skip empty rows
     if (current_text == "" || is.na(current_text)) {
       next
     }
-    
+
     # Adjust stacks to current indentation level
     label_stack <- adjust_stack_to_level(label_stack, current_level)
     group_stack <- adjust_stack_to_level(group_stack, current_level)
-    
+
     if (has_values) {
       # This row has statistical values
-      
+
       # Check if this should create a group hierarchy entry
       if (current_level > 0) {
         # This is an indented row with values - add to group hierarchy
@@ -2006,7 +2032,7 @@ build_hierarchical_structure <- function(row_analysis) {
         )
         group_hierarchy <- rbind(group_hierarchy, group_entry)
       }
-      
+
       # Create variable label (concatenated if needed)
       if (length(label_stack) > 0) {
         # Rule 1: Concatenate with parent labels
@@ -2021,7 +2047,7 @@ build_hierarchical_structure <- function(row_analysis) {
         variable_path <- clean_current_text
         hierarchy_type <- "direct"
       }
-      
+
       variable_entry <- data.frame(
         row_index = i,
         variable_path = variable_path,
@@ -2030,7 +2056,7 @@ build_hierarchical_structure <- function(row_analysis) {
         stringsAsFactors = FALSE
       )
       variable_hierarchy <- rbind(variable_hierarchy, variable_entry)
-      
+
       # If this row has values and will have children, add to group stack
       if (i < nrow(row_analysis)) {
         next_levels <- row_analysis$indent_level[(i+1):nrow(row_analysis)]
@@ -2040,17 +2066,17 @@ build_hierarchical_structure <- function(row_analysis) {
           group_stack <- c(group_stack, current_text)
         }
       }
-      
+
     } else {
       # This row has NO statistical values - it's a label-only row
       # Add to label stack for Rule 1 (variable concatenation)
       label_stack <- c(label_stack, current_text)
-      
+
       # Also could be a group header for Rule 2
       # We'll determine this when we see children
     }
   }
-  
+
   return(list(
     variable_hierarchy = variable_hierarchy,
     group_hierarchy = group_hierarchy
@@ -2067,7 +2093,7 @@ adjust_stack_to_level <- function(stack, target_level) {
   if (target_level <= 0) {
     return(character())
   }
-  
+
   if (length(stack) > target_level) {
     # We've moved to a shallower level - trim the stack
     return(stack[1:target_level])
@@ -2094,10 +2120,10 @@ apply_hierarchical_structure_to_ard <- function(ard_data, hierarchical_structure
   if (nrow(ard_data) == 0) {
     return(ard_data)
   }
-  
+
   variable_hierarchy <- hierarchical_structure$variable_hierarchy
   group_hierarchy <- hierarchical_structure$group_hierarchy
-  
+
   # Create mapping from original variable names to hierarchical variable paths
   if (nrow(variable_hierarchy) > 0) {
     # Map original variables to hierarchical paths
@@ -2106,7 +2132,7 @@ apply_hierarchical_structure_to_ard <- function(ard_data, hierarchical_structure
       row_idx <- var_info$row_index
       original_variable <- row_analysis$first_cell_text[row_idx]
       hierarchical_path <- var_info$variable_path
-      
+
       # Update all ARD rows with this variable in variable_level
       if ("variable_level" %in% names(ard_data)) {
         ard_data$variable_level[ard_data$variable_level == original_variable] <- hierarchical_path
@@ -2117,33 +2143,33 @@ apply_hierarchical_structure_to_ard <- function(ard_data, hierarchical_structure
       }
     }
   }
-  
+
   # Apply group hierarchy
   if (nrow(group_hierarchy) > 0) {
     # Add additional group columns for nested structure
     max_group_level <- max(group_hierarchy$group_level, na.rm = TRUE)
-    
+
     for (level in 1:max_group_level) {
       group_col_name <- paste0("group", level + 1)  # group1 is already TRT
       group_level_col_name <- paste0("group", level + 1, "_level")
-      
+
       if (!group_col_name %in% names(ard_data)) {
         ard_data[[group_col_name]] <- NA_character_
         ard_data[[group_level_col_name]] <- NA_character_
       }
-      
+
       # Fill in group information for relevant rows
       level_groups <- group_hierarchy[group_hierarchy$group_level == level, ]
       for (j in seq_len(nrow(level_groups))) {
         group_info <- level_groups[j, ]
         row_idx <- group_info$row_index
         original_variable <- row_analysis$first_cell_text[row_idx]
-        
+
         # Find ARD rows that match this variable in variable_level
         variable_col <- if ("variable_level" %in% names(ard_data)) "variable_level" else "variable"
-        matching_rows <- which(ard_data[[variable_col]] == group_info$group_value | 
+        matching_rows <- which(ard_data[[variable_col]] == group_info$group_value |
                               grepl(paste0("\\Q", group_info$group_value, "\\E"), ard_data[[variable_col]]))
-        
+
         if (length(matching_rows) > 0) {
           ard_data[matching_rows, group_col_name] <- group_info$group_name
           ard_data[matching_rows, group_level_col_name] <- group_info$group_value
@@ -2151,6 +2177,6 @@ apply_hierarchical_structure_to_ard <- function(ard_data, hierarchical_structure
       }
     }
   }
-  
+
   return(ard_data)
 }

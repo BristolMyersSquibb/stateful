@@ -16,39 +16,39 @@ pseudo_to_regex <- function(template) {
   if (!is.character(template) || length(template) != 1) {
     stop("Template must be a single character string")
   }
-  
+
   # Extract placeholders
   placeholder_pattern <- "\\{([^}]+)\\}"
   matches <- gregexpr(placeholder_pattern, template)
-  
+
   if (matches[[1]][1] == -1) {
     stop("No placeholders found in template. Use {name} format for placeholders.")
   }
-  
+
   # Get placeholder names
   placeholder_matches <- regmatches(template, matches)[[1]]
   stat_names <- gsub("\\{|\\}", "", placeholder_matches)
-  
+
   # Build regex by replacing placeholders
   regex_pattern <- template
-  
+
   # Escape special regex characters EXCEPT our placeholders
   # First, temporarily replace placeholders
   for (i in seq_along(placeholder_matches)) {
     regex_pattern <- gsub(
-      placeholder_matches[i], 
-      paste0("<<<PLACEHOLDER", i, ">>>"), 
+      placeholder_matches[i],
+      paste0("<<<PLACEHOLDER", i, ">>>"),
       regex_pattern,
       fixed = TRUE
     )
   }
-  
+
   # Escape regex special characters
   special_chars <- c("(", ")", "[", "]", ".", "+", "*", "?", "^", "$", "|", "\\")
   for (char in special_chars) {
     regex_pattern <- gsub(char, paste0("\\", char), regex_pattern, fixed = TRUE)
   }
-  
+
   # Now replace placeholders with capture groups
   # Use simple pattern: one or more non-whitespace characters
   for (i in seq_along(placeholder_matches)) {
@@ -61,16 +61,16 @@ pseudo_to_regex <- function(template) {
       fixed = TRUE
     )
   }
-  
+
   # Replace whitespace with \\s* for flexibility
   regex_pattern <- gsub("\\s+", "\\\\s*", regex_pattern)
-  
+
   # Make % optional
   regex_pattern <- gsub("%", "%?", regex_pattern, fixed = TRUE)
-  
+
   # Add anchors
   regex_pattern <- paste0("^\\s*", regex_pattern, "\\s*$")
-  
+
   # Return structured result
   return(list(
     template = template,
@@ -88,18 +88,18 @@ pseudo_to_regex_simple <- function(template) {
   # Extract placeholders
   placeholder_pattern <- "\\{([^}]+)\\}"
   matches <- gregexpr(placeholder_pattern, template)
-  
+
   if (matches[[1]][1] == -1) {
     stop("No placeholders found in template")
   }
-  
+
   # Get placeholder names
   placeholder_matches <- regmatches(template, matches)[[1]]
   stat_names <- gsub("\\{|\\}", "", placeholder_matches)
-  
+
   # Start with the template
   regex_pattern <- template
-  
+
   # Escape special characters (but preserve our placeholders)
   # Replace placeholders with markers first
   for (i in seq_along(placeholder_matches)) {
@@ -110,7 +110,7 @@ pseudo_to_regex_simple <- function(template) {
       x = regex_pattern
     )
   }
-  
+
   # Escape parentheses and other special chars
   regex_pattern <- gsub("(", "\\(", regex_pattern, fixed = TRUE)
   regex_pattern <- gsub(")", "\\)", regex_pattern, fixed = TRUE)
@@ -120,7 +120,7 @@ pseudo_to_regex_simple <- function(template) {
   regex_pattern <- gsub("+", "\\+", regex_pattern, fixed = TRUE)
   regex_pattern <- gsub("*", "\\*", regex_pattern, fixed = TRUE)
   regex_pattern <- gsub("?", "\\?", regex_pattern, fixed = TRUE)
-  
+
   # Replace markers with capture groups
   # Use [^\\s()]+ to capture non-whitespace, non-parenthesis characters
   for (i in seq_along(placeholder_matches)) {
@@ -131,16 +131,16 @@ pseudo_to_regex_simple <- function(template) {
       x = regex_pattern
     )
   }
-  
+
   # Handle whitespace - make it flexible
   regex_pattern <- gsub("\\s+", "\\\\s*", regex_pattern)
-  
+
   # Make % optional
   regex_pattern <- gsub("%", "%?", regex_pattern, fixed = TRUE)
-  
+
   # Add anchors
   regex_pattern <- paste0("^\\s*", regex_pattern, "\\s*$")
-  
+
   return(list(
     template = template,
     regex = regex_pattern,
@@ -172,7 +172,7 @@ create_default_labels <- function(stat_names) {
     total = "Total",
     estimate = "Estimate"
   )
-  
+
   sapply(stat_names, function(name) {
     if (name %in% names(label_map)) {
       label_map[[name]]
@@ -206,13 +206,13 @@ update_stat_patterns_to_pseudo <- function() {
     "count_total" = "{n}/{total}",
     "mean_sd_n" = "{mean} ({sd}) [{n}]"
   )
-  
+
   # Convert each pseudo-pattern to full pattern definition
   patterns <- list()
   for (name in names(pseudo_patterns)) {
     template <- pseudo_patterns[[name]]
     pattern_info <- pseudo_to_regex_simple(template)  # Use simple version
-    
+
     patterns[[name]] <- list(
       template = template,
       regex = pattern_info$regex,
@@ -220,10 +220,10 @@ update_stat_patterns_to_pseudo <- function() {
       labels = pattern_info$labels
     )
   }
-  
+
   # Update global patterns
   set_stat_patterns(patterns)
-  
+
   invisible(patterns)
 }
 
@@ -234,7 +234,7 @@ update_stat_patterns_to_pseudo <- function() {
 #' @export
 parse_stat_value_pseudo <- function(stat_value, patterns = NULL) {
   stat_value <- trimws(as.character(stat_value))
-  
+
   # Skip if empty or NA
   if (is.na(stat_value) || stat_value == "") {
     return(data.frame(
@@ -244,31 +244,31 @@ parse_stat_value_pseudo <- function(stat_value, patterns = NULL) {
       stringsAsFactors = FALSE
     ))
   }
-  
+
   # Get patterns
   if (is.null(patterns)) {
     patterns <- get_stat_patterns()
   }
-  
+
   # Try each pattern (greedy - first match wins)
   for (pattern_name in names(patterns)) {
     pattern <- patterns[[pattern_name]]
-    
+
     if (grepl(pattern$regex, stat_value)) {
       # Extract matches
       matches <- regmatches(stat_value, regexec(pattern$regex, stat_value))[[1]]
-      
+
       if (length(matches) > 1) {
         # matches[1] is full match, rest are capture groups
         values <- matches[-1]
-        
+
         # Clean up values - remove trailing % from percentages
         for (i in seq_along(values)) {
           if (pattern$stats[i] == "pct" && grepl("%$", values[i])) {
             values[i] <- sub("%$", "", values[i])
           }
         }
-        
+
         # Create result with one row per statistic
         result <- data.frame(
           stat = values,
@@ -276,12 +276,12 @@ parse_stat_value_pseudo <- function(stat_value, patterns = NULL) {
           stat_label = pattern$labels,
           stringsAsFactors = FALSE
         )
-        
+
         return(result)
       }
     }
   }
-  
+
   # No pattern matched - return as "other"
   return(data.frame(
     stat = stat_value,
@@ -299,20 +299,20 @@ parse_stat_value_pseudo <- function(stat_value, patterns = NULL) {
 #' @param template Pseudo-pattern template (e.g., "n (pct%)")
 #' @param labels Optional custom labels for the statistics
 #' @param priority Priority for pattern matching (higher = checked first)
-#' 
+#'
 #' @export
-#' 
+#'
 #' @examples
 #' # Add a new pattern for count (percentage)
 #' add_pseudo_pattern("count_pct", "{n} ({pct}%)")
-#' 
+#'
 #' # Add pattern with custom labels
 #' add_pseudo_pattern("ci_range", "{hr} ({ci_lower}-{ci_upper})",
 #'                   labels = c("Hazard Ratio", "95% CI Lower", "95% CI Upper"))
 add_pseudo_pattern <- function(name, template, labels = NULL, priority = NULL) {
   # Convert pseudo-pattern to regex
   pattern_info <- pseudo_to_regex_simple(template)
-  
+
   # Use provided labels or defaults
   if (!is.null(labels)) {
     if (length(labels) != length(pattern_info$stats)) {
@@ -320,7 +320,7 @@ add_pseudo_pattern <- function(name, template, labels = NULL, priority = NULL) {
     }
     pattern_info$labels <- labels
   }
-  
+
   # Add to pattern registry
   add_stat_pattern(
     name = name,
@@ -330,4 +330,99 @@ add_pseudo_pattern <- function(name, template, labels = NULL, priority = NULL) {
     labels = pattern_info$labels,
     priority = ifelse(is.null(priority), TRUE, priority == 1)
   )
+}
+
+#' Initialize BIGN pseudo-patterns
+#' @keywords internal
+.init_bign_pseudo_patterns <- function() {
+  # Single flexible pattern that handles most BIGN formats
+  template <- "{n} = {value}"
+  pattern_info <- pseudo_to_regex_simple(template)
+
+  # Enhance regex to be more flexible with whitespace and optional parens
+  flexible_regex <- "(?:\\()?\\s*[NnBbIiGg]*\\s*[=:]?\\s*(\\d+)(?:\\s*\\)|\\s*;?|$)"
+
+  bign_patterns <- list(
+    "flexible_n" = list(
+      template = template,
+      regex = flexible_regex,
+      stats = c("n", "value"),
+      labels = c("n", "value")
+    )
+  )
+
+  bign_patterns
+}
+
+#' Get BIGN patterns using pseudo-pattern system
+#' @keywords internal
+get_bign_pseudo_patterns <- function() {
+  if (is.null(.stateful_patterns$BIGN_PSEUDO_PATTERNS)) {
+    .stateful_patterns$BIGN_PSEUDO_PATTERNS <- .init_bign_pseudo_patterns()
+  }
+  return(.stateful_patterns$BIGN_PSEUDO_PATTERNS)
+}
+
+#' Parse BIGN value using pseudo-pattern system
+#' @param bign_text Character string containing BIGN information
+#' @return List with extracted N value and label, or NULL if no match
+#' @keywords internal
+parse_bign_value_pseudo <- function(bign_text) {
+  bign_text <- trimws(as.character(bign_text))
+
+  # Skip if empty or NA
+  if (is.na(bign_text) || bign_text == "") {
+    return(NULL)
+  }
+
+  # Use simple regex to extract numbers after N/n indicators
+  # Flexible pattern: optional parens, N/n, optional =/:, number
+  n_match <- regexec("(?:\\()?\\s*[NnBbIiGg]*\\s*[=:]?\\s*(\\d+)", bign_text, perl = TRUE)
+
+  if (n_match[[1]][1] != -1) {
+    match_groups <- regmatches(bign_text, n_match)[[1]]
+
+    if (length(match_groups) >= 2) {
+      n_value <- as.numeric(match_groups[2])  # First capture group
+
+      # Extract label by removing the matched BIGN part
+      full_match <- match_groups[1]
+      label_part <- stringr::str_replace(bign_text, stringr::fixed(full_match), "")
+      label_part <- trimws(label_part)
+
+      list(
+        n_value = n_value,
+        label = if (nchar(label_part) > 0) label_part else NA_character_,
+        pattern_used = "flexible_n",
+        full_match = full_match
+      )
+    }
+  } else {
+    NULL
+  }
+}
+
+#' Add BIGN pseudo-pattern
+#' @param name Pattern name
+#' @param template Template like "({N} = {value})"
+#' @export
+add_bign_pseudo_pattern <- function(name, template) {
+  # Convert template to regex pattern
+  pattern_info <- pseudo_to_regex_simple(template)
+
+  # Get current patterns
+  current_patterns <- get_bign_pseudo_patterns()
+
+  # Add new pattern
+  current_patterns[[name]] <- list(
+    template = template,
+    regex = pattern_info$regex,
+    stats = pattern_info$stats,
+    labels = pattern_info$labels
+  )
+
+  # Update global patterns
+  .stateful_patterns$BIGN_PSEUDO_PATTERNS <- current_patterns
+
+  invisible(current_patterns)
 }

@@ -10,15 +10,15 @@
 #'
 #' @export
 rtf_to_ard <- function(file, config = list()) {
-  
+
   # STAGE 1: RTF → DataFrame (direct parsing)
   table_structure <- parse_rtf_to_dataframe(file)
-  
-  # STAGE 2: DataFrame → ARD (unparsed)  
+
+  # STAGE 2: DataFrame → ARD (unparsed)
   ard_unparsed <- dataframe_to_ard_unparsed(table_structure, config)
-  
+
   # STAGE 3: ARD (unparsed) → ARD (parsed)
   ard_parsed <- parse_ard_statistics(ard_unparsed)
-  
+
   return(ard_parsed)
 }

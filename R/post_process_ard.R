@@ -11,12 +11,12 @@
 #'
 #' @export
 post_process_ard <- function(ard_data, total_n = NULL) {
-  
+
   # Ensure ard_data is a data frame
   if (is.matrix(ard_data)) {
     ard_data <- as.data.frame(ard_data, stringsAsFactors = FALSE)
   }
-  
+
   # First, get unique identifier columns for matching
   # Include variable_label1 and context if present to distinguish sections
   id_cols <- c("group1", "group1_level", "variable")
@@ -26,23 +26,23 @@ post_process_ard <- function(ard_data, total_n = NULL) {
   if ("context" %in% names(ard_data)) {
     id_cols <- c(id_cols, "context")
   }
-  
+
   # Get global patterns for flexible detection
   percentage_patterns <- get_percentage_patterns()
   stat_names <- get_stat_names()
-  
+
   # Create combined percentage pattern for detection
   percentage_regex <- paste(percentage_patterns, collapse = "|")
-  
+
   # First, identify rows that need percentage pairs
   # Build the filter condition based on available columns
   has_variable_label1 <- "variable_label1" %in% names(ard_data)
-  
+
   if (has_variable_label1) {
     needs_percentage <- ard_data |>
       filter(
         stat_name == stat_names$count &
-        (grepl(percentage_regex, variable) | 
+        (grepl(percentage_regex, variable) |
          (!is.na(variable_label1) & grepl(percentage_regex, variable_label1)))
       ) |>
       select(all_of(id_cols))
@@ -54,7 +54,7 @@ post_process_ard <- function(ard_data, total_n = NULL) {
       ) |>
       select(all_of(id_cols))
   }
-  
+
   # Check which ones are missing percentage values
   # Use all identifier columns for proper matching
   missing_percentages <- needs_percentage |>
@@ -62,7 +62,7 @@ post_process_ard <- function(ard_data, total_n = NULL) {
       ard_data |> filter(stat_name == stat_names$percentage),
       by = id_cols
     )
-  
+
   # Create percentage rows for missing values
   if (nrow(missing_percentages) > 0 && !is.null(total_n)) {
     new_percentage_rows <- missing_percentages |>
@@ -84,17 +84,17 @@ post_process_ard <- function(ard_data, total_n = NULL) {
         stat = as.character(calc_percent)
       ) |>
       select(-n_value, -total, -calc_percent)
-    
+
     # Add the new percentage rows
     ard_data <- bind_rows(ard_data, new_percentage_rows)
   }
-  
+
   # Also check for orphaned percentage values that need count pairs
   if (has_variable_label1) {
     needs_count <- ard_data |>
       filter(
         stat_name == stat_names$percentage &
-        (grepl(percentage_regex, variable) | 
+        (grepl(percentage_regex, variable) |
          (!is.na(variable_label1) & grepl(percentage_regex, variable_label1)))
       ) |>
       select(all_of(id_cols))
@@ -106,19 +106,19 @@ post_process_ard <- function(ard_data, total_n = NULL) {
       ) |>
       select(all_of(id_cols))
   }
-  
+
   missing_counts <- needs_count |>
     anti_join(
       ard_data |> filter(stat_name == stat_names$count),
       by = id_cols
     )
-  
+
   # For missing counts, we can't calculate them from percentages alone
   # but we should flag this as a data quality issue
   if (nrow(missing_counts) > 0) {
     warning("Found ", nrow(missing_counts), " percentage values without corresponding counts")
   }
-  
+
   # Sort the data for better readability
   ard_data |>
     arrange(group1, group1_level, variable, stat_name)
@@ -136,14 +136,14 @@ extract_total_n <- function(ard_data) {
   if (is.matrix(ard_data)) {
     ard_data <- as.data.frame(ard_data, stringsAsFactors = FALSE)
   }
-  
+
   # Use global patterns for flexible variable and stat name detection
   variable_names <- get_variable_names()
   stat_names <- get_stat_names()
-  
+
   bign_rows <- ard_data |>
     filter(variable == variable_names$bign, stat_name == stat_names$total)
-  
+
   if (nrow(bign_rows) > 0) {
     totals <- setNames(
       as.numeric(bign_rows$stat),
@@ -151,6 +151,6 @@ extract_total_n <- function(ard_data) {
     )
     return(totals)
   }
-  
+
   return(NULL)
 }

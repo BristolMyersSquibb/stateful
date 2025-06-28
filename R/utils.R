@@ -3,10 +3,10 @@
 #' @keywords internal
 utils::globalVariables(c(
   "variable",
-  "stat", 
+  "stat",
   "column_name",
   "level_1",
-  "level_2", 
+  "level_2",
   "level_3",
   "column_index",
   "stat_unparsed",

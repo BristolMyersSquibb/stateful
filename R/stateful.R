@@ -43,7 +43,7 @@ NULL
     "\\(N\\d+\\)",                   # (N123)
     "N\\d+"                          # N123
   )
-  
+
   # Initialize with basic patterns (will be updated when pseudo_pattern.R loads)
   .stateful_patterns$STAT_PATTERNS <- list(
     "n_pct" = list(
@@ -75,7 +75,7 @@ NULL
 #' \dontrun{
 #' # Launch the Shiny app
 #' launch_stateful_app()
-#' 
+#'
 #' # Launch on specific port
 #' launch_stateful_app(port = 3838)
 #' }
@@ -84,11 +84,11 @@ launch_stateful_app <- function(port = NULL, host = "127.0.0.1", launch.browser 
   if (app_dir == "") {
     stop("Could not find Shiny app directory. Please reinstall the package.")
   }
-  
+
   if (!requireNamespace("shiny", quietly = TRUE)) {
     stop("The 'shiny' package is required to run the Stateful app. Please install it with: install.packages('shiny')")
   }
-  
+
   shiny::runApp(
     appDir = app_dir,
     port = port,
