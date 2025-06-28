@@ -2,15 +2,17 @@
 % Please edit documentation in R/rtf_parser.R
 \name{add_bign_pattern}
 \alias{add_bign_pattern}
-\title{Add BIGN pattern}
+\title{Add BIGN pattern (enhanced with pseudo-pattern support)}
 \usage{
-add_bign_pattern(pattern, position = NULL)
+add_bign_pattern(pattern, position = NULL, is_pseudo_pattern = NULL)
 }
 \arguments{
-\item{pattern}{Regex pattern to add}
+\item{pattern}{Pattern to add - can be regex or pseudo-pattern template}
 
 \item{position}{Position to insert (1 = highest priority, NULL = append to end)}
+
+\item{is_pseudo_pattern}{Whether the pattern is a pseudo-pattern template (default: auto-detect)}
 }
 \description{
-Adds a new pattern to the global BIGN patterns list at specified position.
+Adds a new BIGN pattern. Accepts either regex patterns (legacy) or pseudo-patterns (recommended).
 }

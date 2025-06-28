@@ -9,7 +9,7 @@ add_stat_pattern(name, template, regex, stats, labels, priority = TRUE)
 \arguments{
 \item{name}{Pattern name/ID}
 
-\item{template}{Template string with placeholders like "\\{mean\\} (\\{sd\\})"}
+\item{template}{Template string with placeholders like "mean (sd)"}
 
 \item{regex}{Regex to match the pattern with capture groups}
 

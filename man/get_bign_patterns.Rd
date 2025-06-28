@@ -2,7 +2,7 @@
 % Please edit documentation in R/rtf_parser.R
 \name{get_bign_patterns}
 \alias{get_bign_patterns}
-\title{Get BIGN patterns}
+\title{Get BIGN patterns (legacy - now using pseudo-patterns)}
 \usage{
 get_bign_patterns()
 }
@@ -10,5 +10,5 @@ get_bign_patterns()
 Vector of regex patterns
 }
 \description{
-Returns the current global BIGN patterns.
+Returns regex patterns converted from pseudo-patterns for backward compatibility.
 }

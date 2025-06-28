@@ -4,6 +4,6 @@
 \alias{pseudo-pattern-v3}
 \title{Simplified Pseudo-Pattern System V3 - Using Simple Regex}
 \description{
-Converts user-friendly pseudo-patterns like "\\{n\\} (\\{pct\\})" into regex patterns
+Converts user-friendly pseudo-patterns like "n in (pct\%)" into regex patterns
 using simple non-whitespace capture groups.
 }

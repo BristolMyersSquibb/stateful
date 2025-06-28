@@ -9,7 +9,7 @@ add_pseudo_pattern(name, template, labels = NULL, priority = NULL)
 \arguments{
 \item{name}{Pattern name}
 
-\item{template}{Pseudo-pattern template (e.g., "\\{n\\} (\\{pct\\}\%)")}
+\item{template}{Pseudo-pattern template (e.g., "n (pct\%)")}
 
 \item{labels}{Optional custom labels for the statistics}
 

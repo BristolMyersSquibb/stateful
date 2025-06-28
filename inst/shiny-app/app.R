@@ -189,16 +189,26 @@ ui <- dashboardPage(
           box(title = "AI-Powered SQL Query Interface", status = "primary", solidHeader = TRUE, width = 12,
             div(class = "alert alert-info",
               icon("info-circle"),
-              "This feature uses Azure OpenAI to generate SQL queries from natural language questions.",
-              "All queries are traceable and can be reviewed before execution."
+              "This feature uses Azure OpenAI to generate SQL queries from natural language questions about ARD summary data.",
+              "Uses sqldf to execute queries. Only aggregate/summary questions supported - no patient-level queries."
             ),
-            h4("Query Examples:"),
+            div(class = "alert alert-warning",
+              icon("exclamation-triangle"),
+              HTML("<strong>IMPORTANT:</strong> This is summary data only. You cannot ask patient-level questions like 'which patients' or 'show me individual subjects'.")
+            ),
+            h4("Valid Query Examples (Summary Data):"),
             tags$ul(
-              tags$li("What are the total number of patients in each treatment group?"),
-              tags$li("Compare the mean age between treatment groups"),
-              tags$li("Show me all adverse events with incidence > 10%"),
-              tags$li("Which treatment group has the highest rate of serious adverse events?"),
-              tags$li("List all demographic variables by treatment group")
+              tags$li("How many subjects are in each treatment group?"),
+              tags$li("Compare adverse event percentages between treatments"),
+              tags$li("Which treatment group has the highest death rate?"),
+              tags$li("What are the mean values by treatment group?"),
+              tags$li("Show me statistics for variables containing 'age'")
+            ),
+            h4("Invalid Query Examples (Patient-Level):"),
+            tags$ul(class = "text-danger",
+              tags$li("Which patients had adverse events? (NOT SUPPORTED)"),
+              tags$li("Show me patient demographics (NOT SUPPORTED)"),
+              tags$li("List individual patient data (NOT SUPPORTED)")
             ),
             br(),
             textAreaInput("llm_query", "Enter your question in plain English:", 
@@ -649,20 +659,26 @@ server <- function(input, output, session) {
     # Show processing message
     showNotification("Generating SQL query using Azure OpenAI...", type = "message", id = "llm_processing")
     
-    # Generate table schema for LLM
-    table_schema <- if (length(values$parsed_data) > 0) {
-      stateful::generate_table_schema(values$parsed_data)
+    # Get first ARD dataset for LLM query
+    ard_data <- if (length(values$parsed_data) > 0) {
+      values$parsed_data[[1]]$ard_data  # Use first dataset
     } else {
-      "No tables loaded yet."
+      data.frame()  # Empty data frame
+    }
+    
+    if (nrow(ard_data) == 0) {
+      showNotification("No ARD data loaded. Please parse RTF files first.", type = "error")
+      removeNotification("llm_processing")
+      return()
     }
     
     # Get example queries
     examples <- stateful::get_example_queries()
     
-    # Call Azure OpenAI to generate SQL
+    # Call Azure OpenAI to generate SQL (updated function signature)
     llm_result <- stateful::generate_sql_from_question(
       question = input$llm_query,
-      table_schema = table_schema,
+      ard_data = ard_data,
       examples = examples
     )
     
@@ -681,8 +697,8 @@ server <- function(input, output, session) {
       })
       
       # Try to execute the SQL query
-      if (length(values$parsed_data) > 0 && !is.na(llm_result$sql)) {
-        exec_result <- stateful::execute_ard_sql(llm_result$sql, values$parsed_data)
+      if (nrow(ard_data) > 0 && !is.na(llm_result$sql)) {
+        exec_result <- stateful::execute_ard_sql(ard_data, llm_result$sql)
         
         if (exec_result$success) {
           output$llm_response <- renderText({

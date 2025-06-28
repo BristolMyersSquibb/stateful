@@ -1,23 +1,24 @@
 #' LLM Query Module for SQL Generation
 #'
 #' Uses Azure OpenAI via ellmer package to generate SQL queries
-#' from natural language questions about ARD data.
+#' from natural language questions about ARD summary data using sqldf.
 #'
 #' @name llm-query
 NULL
 
 #' Generate SQL query from natural language question
 #'
-#' Uses Azure OpenAI to convert a natural language question about ARD data
-#' into a SQL query that can be executed against the data.
+#' Uses Azure OpenAI to convert a natural language question about ARD JSON data
+#' into a SQL query that can be executed with sqldf against the ARD summary data.
+#' Only supports aggregate/summary questions, not patient-level queries.
 #'
-#' @param question The natural language question
-#' @param table_schema Description of available tables and columns
+#' @param question The natural language question about summary data
+#' @param ard_data ARD data frame from JSON file
 #' @param examples Optional examples to help guide the LLM
 #'
 #' @return List with generated SQL and explanation
 #' @export
-generate_sql_from_question <- function(question, table_schema, examples = NULL) {
+generate_sql_from_question <- function(question, ard_data, examples = NULL) {
   # Check if ellmer is available
   if (!requireNamespace("ellmer", quietly = TRUE)) {
     return(list(
@@ -28,15 +29,20 @@ generate_sql_from_question <- function(question, table_schema, examples = NULL) 
     ))
   }
 
+  # Generate schema from ARD data
+  table_schema <- generate_table_schema(ard_data)
+  
   # Build the system prompt
   system_prompt <- build_sql_system_prompt(table_schema, examples)
 
   # Build the user prompt
   user_prompt <- paste0(
-    "Generate a SQL query to answer this question about clinical trial data:\n\n",
+    "Generate a SQL query to answer this question about clinical trial summary data:\n\n",
     "Question: ", question, "\n\n",
+    "Remember: This is SUMMARY data only. You cannot answer patient-level questions.\n",
+    "Valid questions are about treatment group comparisons, statistics, counts, percentages, etc.\n\n",
     "Please provide:\n",
-    "1. The SQL query\n",
+    "1. The SQL query (use table name 'ard_data')\n",
     "2. A brief explanation of what the query does\n",
     "3. Any assumptions made\n\n",
     "Format your response as:\n",
@@ -84,29 +90,46 @@ generate_sql_from_question <- function(question, table_schema, examples = NULL) 
 #' @keywords internal
 build_sql_system_prompt <- function(table_schema, examples = NULL) {
   prompt <- paste0(
-    "You are an expert SQL developer specializing in clinical trial data analysis. ",
-    "You generate precise, efficient SQL queries for ARD (Analysis Results Data) format data.\n\n",
+    "You are an expert SQL developer specializing in clinical trial ARD (Analysis Results Data) analysis. ",
+    "You generate SQL queries using sqldf to analyze summarized clinical trial data from JSON ARD files.\n\n",
 
-    "The data follows the CDISC ARD standard with these key columns:\n",
+    "IMPORTANT CONSTRAINTS:\n",
+    "- This is SUMMARY data only - you cannot answer patient-level questions\n",
+    "- No queries about 'which patient' or individual patient data\n",
+    "- Only aggregate, filtering, and summary questions are possible\n",
+    "- Data contains pre-calculated statistics, not raw patient records\n\n",
+
+    "The data follows CDISC ARD standard with these key columns:\n",
     "- group1, group1_level: Primary grouping (usually treatment groups)\n",
     "- group2, group2_level: Secondary grouping (if present)\n",
     "- variable: The variable being measured\n",
     "- variable_level: Specific level of the variable\n",
     "- stat_name: Type of statistic (n, pct, mean, sd, etc.)\n",
     "- stat_label: Human-readable label for the statistic\n",
-    "- stat: The numeric value\n\n",
+    "- stat: The numeric value (stored as text)\n\n",
 
-    "Available tables and their schemas:\n",
+    "Available data schema:\n",
     table_schema, "\n\n",
 
-    "Guidelines:\n",
-    "1. Always use proper SQL syntax compatible with standard SQL or SQLite\n",
-    "2. Include appropriate JOINs when querying multiple tables\n",
-    "3. Use CAST(stat AS NUMERIC) when performing calculations on stat values\n",
-    "4. Consider that stat values are stored as text but contain numeric data\n",
-    "5. Use meaningful aliases for clarity\n",
-    "6. Include comments in complex queries\n",
-    "7. Handle NULL values appropriately\n"
+    "SQL Guidelines for sqldf:\n",
+    "1. Use simple table name 'ard_data' (no database prefixes)\n",
+    "2. Cast stat values: CAST(stat AS REAL) for calculations\n",
+    "3. Use standard SQL-92 syntax (sqldf uses SQLite)\n",
+    "4. Filter by stat_name to get specific statistics\n",
+    "5. Group by treatment groups or variable levels\n",
+    "6. Handle text-stored numeric values properly\n",
+    "7. Use WHERE clauses to focus on relevant variables\n\n",
+
+    "Example valid questions:\n",
+    "- How many subjects in each treatment group?\n",
+    "- What are the mean values by treatment?\n",
+    "- Which treatment group has the highest percentage?\n",
+    "- Compare adverse event rates between groups\n\n",
+
+    "INVALID questions (will be rejected):\n",
+    "- Which patients had adverse events?\n",
+    "- Show me patient demographics\n",
+    "- List individual patient data\n"
   )
 
   if (!is.null(examples)) {
@@ -181,115 +204,154 @@ parse_sql_response <- function(raw_response) {
 #' Generate table schema description from ARD data
 #'
 #' Creates a schema description that can be used by the LLM to understand
-#' the structure of the available data.
+#' the structure of the available ARD summary data.
 #'
-#' @param ard_data_list Named list of ARD data frames
+#' @param ard_data ARD data frame
 #' @return Character string describing the schema
 #' @export
-generate_table_schema <- function(ard_data_list) {
-  schema_parts <- lapply(names(ard_data_list), function(table_name) {
-    df <- ard_data_list[[table_name]]$ard_data
+generate_table_schema <- function(ard_data) {
+  # Get column info with sample values
+  col_info <- paste(
+    sapply(names(ard_data), function(col) {
+      sample_values <- head(unique(ard_data[[col]][!is.na(ard_data[[col]])]), 3)
+      sample_str <- if (length(sample_values) > 0) {
+        paste0(" (examples: ", paste(shQuote(sample_values), collapse=", "), ")")
+      } else {
+        ""
+      }
+      paste0("  - ", col, ": ", class(ard_data[[col]])[1], sample_str)
+    }),
+    collapse = "\n"
+  )
 
-    # Get column info
-    col_info <- paste(
-      sapply(names(df), function(col) {
-        sample_values <- head(unique(df[[col]][!is.na(df[[col]])]), 3)
-        sample_str <- if (length(sample_values) > 0) {
-          paste0(" (e.g., ", paste(sample_values, collapse=", "), ")")
-        } else {
-          ""
-        }
-        paste0("  - ", col, ": ", class(df[[col]])[1], sample_str)
-      }),
-      collapse = "\n"
-    )
+  # Get key summary information
+  unique_groups <- if ("group1_level" %in% names(ard_data)) {
+    length(unique(ard_data$group1_level[!is.na(ard_data$group1_level)]))
+  } else { 0 }
+  
+  unique_variables <- if ("variable_level" %in% names(ard_data)) {
+    length(unique(ard_data$variable_level[!is.na(ard_data$variable_level)]))
+  } else if ("variable" %in% names(ard_data)) {
+    length(unique(ard_data$variable[!is.na(ard_data$variable)]))
+  } else { 0 }
+  
+  available_stats <- if ("stat_name" %in% names(ard_data)) {
+    paste(unique(ard_data$stat_name[!is.na(ard_data$stat_name)]), collapse=", ")
+  } else { "unknown" }
 
-    # Get summary stats
-    summary_info <- paste0(
-      "  Total rows: ", nrow(df), "\n",
-      "  Unique groups: ", length(unique(df$group1_level)), "\n",
-      "  Unique variables: ", length(unique(df$variable))
-    )
-
-    paste0(
-      "Table: ", table_name, "\n",
-      "Columns:\n", col_info, "\n",
-      "Summary:\n", summary_info
-    )
-  })
-
-  paste(schema_parts, collapse = "\n\n")
+  paste0(
+    "Table: ard_data (ARD summary data for sqldf queries)\n",
+    "Columns:\n", col_info, "\n\n",
+    "Summary:\n",
+    "  Total rows: ", nrow(ard_data), "\n",
+    "  Treatment groups: ", unique_groups, "\n",
+    "  Unique variables: ", unique_variables, "\n",
+    "  Available statistics: ", available_stats, "\n\n",
+    "Note: Use table name 'ard_data' in SQL queries"
+  )
 }
 
-#' Create example queries for common questions
+#' Create example queries for common ARD questions
 #'
-#' @return Character string with example SQL queries
+#' @return Character string with example SQL queries for sqldf
 #' @export
 get_example_queries <- function() {
   examples <- c(
-    "Q: How many patients are in each treatment group?
-SQL: SELECT group1_level, CAST(stat AS INTEGER) as patient_count
+    "Q: How many subjects are in each treatment group?
+SQL: SELECT group1_level, CAST(stat AS REAL) as subject_count
      FROM ard_data
      WHERE variable = 'BIGN' AND stat_name = 'N'
      ORDER BY group1_level;",
 
     "Q: What is the mean age by treatment group?
-SQL: SELECT group1_level, CAST(stat AS NUMERIC) as mean_age
+SQL: SELECT group1_level, CAST(stat AS REAL) as mean_age
      FROM ard_data
-     WHERE variable LIKE '%Age%' AND stat_name = 'mean'
+     WHERE variable_level LIKE '%Age%' AND stat_name = 'mean'
      ORDER BY group1_level;",
 
-    "Q: Compare adverse event rates between groups
+    "Q: Compare adverse event percentages between treatment groups
 SQL: SELECT
        group1_level,
        variable_level as adverse_event,
-       MAX(CASE WHEN stat_name = 'n' THEN CAST(stat AS INTEGER) END) as count,
-       MAX(CASE WHEN stat_name = 'pct' THEN CAST(stat AS NUMERIC) END) as percentage
+       MAX(CASE WHEN stat_name = 'n' THEN CAST(stat AS REAL) END) as count,
+       MAX(CASE WHEN stat_name = 'pct' THEN CAST(stat AS REAL) END) as percentage
      FROM ard_data
-     WHERE variable LIKE '%Adverse%' OR variable LIKE '%AE%'
+     WHERE variable_level LIKE '%ADVERSE%' OR variable_level LIKE '%AE%'
      GROUP BY group1_level, variable_level
-     ORDER BY percentage DESC;"
+     HAVING percentage IS NOT NULL
+     ORDER BY percentage DESC;",
+
+    "Q: Which treatment group has the highest death rate?
+SQL: SELECT group1_level, CAST(stat AS REAL) as death_percentage
+     FROM ard_data
+     WHERE variable_level LIKE '%DIED%' AND stat_name = 'pct'
+     ORDER BY death_percentage DESC
+     LIMIT 1;"
   )
 
   paste(examples, collapse = "\n\n")
 }
 
-#' Execute SQL query on ARD data
+#' Execute SQL query on ARD data using sqldf
 #'
-#' Converts ARD data to a temporary SQLite database and executes the query.
+#' Executes SQL query against ARD data frame using sqldf package.
+#' Only supports queries on summary/aggregate data, not patient-level data.
 #'
-#' @param sql SQL query string
-#' @param ard_data_list Named list of ARD data frames
+#' @param ard_data ARD data frame from JSON file
+#' @param sql SQL query string (use table name 'ard_data')
 #' @return Query results as a data frame
 #' @export
-execute_ard_sql <- function(sql, ard_data_list) {
-  if (!requireNamespace("RSQLite", quietly = TRUE)) {
-    stop("RSQLite package is required to execute SQL queries")
+execute_ard_sql <- function(ard_data, sql) {
+  if (!requireNamespace("sqldf", quietly = TRUE)) {
+    stop("sqldf package is required to execute SQL queries. Install with: install.packages('sqldf')")
   }
 
-  # Create temporary SQLite connection
-  con <- RSQLite::dbConnect(RSQLite::SQLite(), ":memory:")
-  on.exit(RSQLite::dbDisconnect(con), add = TRUE)
-
-  # Load each table into the database
-  for (table_name in names(ard_data_list)) {
-    ard_data <- ard_data_list[[table_name]]$ard_data
-    RSQLite::dbWriteTable(con, table_name, ard_data, overwrite = TRUE)
+  # Validate that this looks like a summary query, not patient-level
+  patient_indicators <- c(
+    "patient", "subject", "individual", "person",
+    "which patient", "show me patients", "list patients"
+  )
+  
+  if (any(sapply(patient_indicators, function(x) grepl(x, tolower(sql))))) {
+    return(list(
+      success = FALSE,
+      data = NULL,
+      error = "Patient-level queries are not supported. This data contains only summary statistics. Please ask aggregate questions about treatment groups, means, counts, etc."
+    ))
   }
 
-  # Execute query
+  # Execute query using sqldf
   tryCatch({
-    result <- RSQLite::dbGetQuery(con, sql)
+    # sqldf will automatically find 'ard_data' in the calling environment
+    result <- sqldf::sqldf(sql)
+    
     return(list(
       success = TRUE,
       data = result,
-      error = NULL
+      error = NULL,
+      rows_returned = nrow(result)
     ))
   }, error = function(e) {
     return(list(
       success = FALSE,
       data = NULL,
-      error = e$message
+      error = paste("SQL execution error:", e$message)
     ))
   })
+}
+
+#' Load ARD JSON file as data frame
+#'
+#' Convenience function to load ARD JSON files for LLM querying
+#'
+#' @param json_file Path to ARD JSON file
+#' @return ARD data frame
+#' @export
+load_ard_json <- function(json_file) {
+  if (!requireNamespace("jsonlite", quietly = TRUE)) {
+    stop("jsonlite package is required to load JSON files")
+  }
+  
+  ard_json <- jsonlite::fromJSON(json_file)
+  return(ard_json$ard_data)
 }

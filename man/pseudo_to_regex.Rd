@@ -7,7 +7,7 @@
 pseudo_to_regex(template)
 }
 \arguments{
-\item{template}{Character string with placeholders, e.g., "\\{n\\} (\\{pct\\}\%)"}
+\item{template}{Character string with placeholders, e.g., "n (pct\%)"}
 }
 \value{
 List with regex pattern and metadata
