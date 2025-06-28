@@ -197,9 +197,8 @@ lapply(patterns, parse_stat_value_pseudo)
 ## Requirements
 
 - R >= 4.0.0
-- Pandoc >= 2.14.2 (for RTF input support)
 - Required packages: stringr, dplyr, tidyr, purrr, jsonlite, tools
-- Optional: shiny, ellmer (for LLM features)
+- Optional: shiny, ellmer (for LLM features), sqldf (for SQL queries)
 
 ## License
 
