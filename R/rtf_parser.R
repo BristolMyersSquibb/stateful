@@ -423,7 +423,7 @@ set_stat_patterns <- function(patterns) {
 #' Adds a new pattern to the global statistical patterns registry.
 #' 
 #' @param name Pattern name/ID
-#' @param template Template string with placeholders like "{mean} ({sd})"
+#' @param template Template string with placeholders like "mean (sd)"
 #' @param regex Regex to match the pattern with capture groups
 #' @param stats Vector of stat_name values for each capture group
 #' @param labels Vector of stat_label values for each capture group

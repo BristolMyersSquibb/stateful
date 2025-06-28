@@ -1,6 +1,6 @@
 #' Simplified Pseudo-Pattern System V3 - Using Simple Regex
 #'
-#' Converts user-friendly pseudo-patterns like "{n} ({pct})" into regex patterns
+#' Converts user-friendly pseudo-patterns like "n in (pct%)" into regex patterns
 #' using simple non-whitespace capture groups.
 #'
 #' @name pseudo-pattern-v3
@@ -8,7 +8,7 @@ NULL
 
 #' Convert pseudo-pattern to regex pattern (ultra-simplified)
 #'
-#' @param template Character string with placeholders, e.g., "{n} ({pct}%)"
+#' @param template Character string with placeholders, e.g., "n (pct%)"
 #' @return List with regex pattern and metadata
 #' @export
 pseudo_to_regex <- function(template) {
@@ -81,6 +81,8 @@ pseudo_to_regex <- function(template) {
 }
 
 #' Alternative: Use numbered capture groups for compatibility
+#' @param template Character string with placeholders like "n (pct%)"
+#' @return List with regex pattern and metadata
 #' @export
 pseudo_to_regex_simple <- function(template) {
   # Extract placeholders
@@ -226,6 +228,9 @@ update_stat_patterns_to_pseudo <- function() {
 }
 
 #' Parse statistic value using pseudo-pattern system
+#' @param stat_value Character string containing the statistic to parse
+#' @param patterns Optional list of patterns to use (if NULL, uses global patterns)
+#' @return Data frame with parsed statistics
 #' @export
 parse_stat_value_pseudo <- function(stat_value, patterns = NULL) {
   stat_value <- trimws(as.character(stat_value))
@@ -291,7 +296,7 @@ parse_stat_value_pseudo <- function(stat_value, patterns = NULL) {
 #' Convenience function that converts a pseudo-pattern and adds it to the registry.
 #'
 #' @param name Pattern name
-#' @param template Pseudo-pattern template (e.g., "{n} ({pct}%)")
+#' @param template Pseudo-pattern template (e.g., "n (pct%)")
 #' @param labels Optional custom labels for the statistics
 #' @param priority Priority for pattern matching (higher = checked first)
 #' 

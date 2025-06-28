@@ -1,0 +1,52 @@
+# R build artifacts
+*.Rcheck/
+*.tar.gz
+*.o
+*.so
+*.dll
+
+# R session files
+.RData
+.Rhistory
+.Rapp.history
+
+# R project files (if using RStudio)
+.Rproj.user/
+*.Rproj
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*~
+*.tmp
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+
+# renv files (if using renv)
+renv/
+renv.lock
+
+# Log files
+*.log
+
+# Claude Code settings (local configuration)
+.claude/
+
+# Backup files
+*.bak
+*.backup
+
+# Debug and temporary development files
+debug_*.R
+test_package.R

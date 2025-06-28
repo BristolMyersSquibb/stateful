@@ -14,14 +14,15 @@
 #' - [get_bign_patterns()], [set_bign_patterns()], [add_bign_pattern()]: Manage BIGN extraction patterns
 #' - [get_stat_patterns()], [set_stat_patterns()], [add_stat_pattern()]: Manage statistical parsing patterns
 #'
-#' @docType package
-#' @name stateful-package
+#' @keywords internal
+"_PACKAGE"
 #' @import dplyr stringr
 #' @importFrom jsonlite write_json
 #' @importFrom purrr map_dfr
 #' @importFrom tidyr separate pivot_longer
 #' @importFrom tools file_path_sans_ext
 #' @importFrom stats median setNames
+#' @importFrom utils head
 NULL
 
 #' Global Pattern Registry Environment
