@@ -1,0 +1,29 @@
+Package: stateful
+Title: State-Based RTF Table Parser for ARD Conversion
+Version: 0.1.0
+Authors@R: 
+    person("Author", "Name", , "author@example.com", role = c("aut", "cre"))
+Description: A modern state-based parser for RTF tables that converts clinical 
+    trial data into Analysis Results Data (ARD) format. Features global pattern 
+    registries, position-aware parsing, and template-based statistical extraction.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stringr,
+    dplyr,
+    tidyr,
+    purrr,
+    jsonlite,
+    tools
+Suggests: 
+    shiny,
+    DT,
+    shinydashboard,
+    shinyFiles,
+    plotly,
+    ellmer,
+    RSQLite,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
