@@ -188,9 +188,7 @@ update_stat_patterns_to_pseudo <- function() {
   # Define patterns using pseudo-pattern syntax
   pseudo_patterns <- list(
     # Most common patterns first (for greedy matching)
-    "n_pct" = "{n} ({pct}%)",
-    "n_pct_tight" = "{n}({pct}%)",
-    "n_pct_nopercent" = "{n} ({pct})",
+    "n_pct" = "{n} ({pct}%)",  # Handles all variations: space/no-space, %/no-%
     "mean_sd" = "{mean} ({sd})",
     "mean_se" = "{mean} ({se})",
     "median_range" = "{median} ({min}, {max})",
@@ -544,8 +542,7 @@ reorder_patterns_by_context <- function(patterns, variable_context) {
     priority_patterns <- c("mean_sd", "mean_se", "median_range", "median_iqr", 
                           "median_q1_q3", "range", "range_comma")
   } else if (is_categorical) {
-    priority_patterns <- c("n_pct", "n_pct_tight", "n_pct_nopercent", "count_only", 
-                          "pct_only", "count_total")
+    priority_patterns <- c("n_pct", "count_only", "pct_only", "count_total")
   }
   
   # Reorder: priority patterns first, then the rest
