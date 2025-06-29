@@ -29,8 +29,9 @@ generate_sql_from_question <- function(question, ard_data, examples = NULL) {
     ))
   }
 
-  # Generate schema from ARD data
-  table_schema <- generate_table_schema(ard_data)
+  # Generate detailed schema analysis
+  structure_info <- inspect_ard_structure(ard_data)
+  table_schema <- format_ard_structure_for_llm(structure_info)
   
   # Build the system prompt
   system_prompt <- build_sql_system_prompt(table_schema, examples)
@@ -338,4 +339,149 @@ load_ard_json <- function(json_file) {
   
   ard_json <- jsonlite::fromJSON(json_file)
   return(ard_json$ard_data)
+}
+
+#' Inspect ARD data structure for LLM queries
+#'
+#' Provides detailed information about the ARD data structure that can be used
+#' by LLMs to generate accurate SQL queries. Includes column names, data types,
+#' unique values, and sample data.
+#'
+#' @param ard_data ARD data frame
+#' @param max_unique_values Maximum number of unique values to show per column (default: 10)
+#' @return List with detailed data structure information
+#' @export
+inspect_ard_structure <- function(ard_data, max_unique_values = 10) {
+  if (!is.data.frame(ard_data)) {
+    stop("ard_data must be a data frame")
+  }
+  
+  structure_info <- list(
+    table_name = "ard_data",
+    total_rows = nrow(ard_data),
+    total_columns = ncol(ard_data),
+    columns = list()
+  )
+  
+  # Analyze each column
+  for (col_name in names(ard_data)) {
+    col_data <- ard_data[[col_name]]
+    unique_vals <- unique(col_data[!is.na(col_data)])
+    
+    # Limit unique values shown
+    if (length(unique_vals) > max_unique_values) {
+      shown_vals <- head(unique_vals, max_unique_values)
+      more_count <- length(unique_vals) - max_unique_values
+      unique_display <- list(
+        values = shown_vals,
+        note = paste("... and", more_count, "more values")
+      )
+    } else {
+      unique_display <- list(
+        values = unique_vals,
+        note = NULL
+      )
+    }
+    
+    structure_info$columns[[col_name]] <- list(
+      data_type = class(col_data)[1],
+      unique_count = length(unique_vals),
+      null_count = sum(is.na(col_data)),
+      unique_values = unique_display,
+      sample_values = head(col_data[!is.na(col_data)], 5)
+    )
+  }
+  
+  # Add summary statistics for key columns
+  if ("stat_name" %in% names(ard_data)) {
+    structure_info$available_statistics <- unique(ard_data$stat_name[!is.na(ard_data$stat_name)])
+  }
+  
+  if ("variable" %in% names(ard_data)) {
+    structure_info$variables <- unique(ard_data$variable[!is.na(ard_data$variable)])
+  }
+  
+  if ("group1_level" %in% names(ard_data)) {
+    structure_info$treatment_groups <- unique(ard_data$group1_level[!is.na(ard_data$group1_level)])
+  }
+  
+  return(structure_info)
+}
+
+#' Format ARD structure for LLM consumption
+#'
+#' Converts the detailed structure information into a formatted string
+#' that can be easily consumed by LLMs for SQL generation.
+#'
+#' @param structure_info Output from inspect_ard_structure()
+#' @return Formatted string describing the data structure
+#' @export
+format_ard_structure_for_llm <- function(structure_info) {
+  output <- paste0(
+    "ARD Data Structure Analysis\n",
+    "===========================\n\n",
+    "Table: ", structure_info$table_name, "\n",
+    "Total Rows: ", structure_info$total_rows, "\n",
+    "Total Columns: ", structure_info$total_columns, "\n\n",
+    "COLUMNS:\n"
+  )
+  
+  for (col_name in names(structure_info$columns)) {
+    col_info <- structure_info$columns[[col_name]]
+    
+    output <- paste0(output,
+      "- ", col_name, " (", col_info$data_type, ")\n",
+      "  Unique values: ", col_info$unique_count,
+      if (col_info$null_count > 0) paste0(" (", col_info$null_count, " nulls)") else "",
+      "\n"
+    )
+    
+    if (length(col_info$unique_values$values) > 0) {
+      if (length(col_info$unique_values$values) <= 5) {
+        output <- paste0(output, "  Values: ", paste(shQuote(col_info$unique_values$values), collapse = ", "), "\n")
+      } else {
+        output <- paste0(output, "  Sample values: ", paste(shQuote(head(col_info$unique_values$values, 5)), collapse = ", "))
+        if (!is.null(col_info$unique_values$note)) {
+          output <- paste0(output, " ", col_info$unique_values$note)
+        }
+        output <- paste0(output, "\n")
+      }
+    }
+    output <- paste0(output, "\n")
+  }
+  
+  # Add summary sections
+  if (!is.null(structure_info$available_statistics)) {
+    output <- paste0(output,
+      "AVAILABLE STATISTICS:\n",
+      paste(structure_info$available_statistics, collapse = ", "), "\n\n"
+    )
+  }
+  
+  if (!is.null(structure_info$treatment_groups)) {
+    output <- paste0(output,
+      "TREATMENT GROUPS:\n",
+      paste(shQuote(structure_info$treatment_groups), collapse = ", "), "\n\n"
+    )
+  }
+  
+  if (!is.null(structure_info$variables)) {
+    output <- paste0(output,
+      "VARIABLES MEASURED:\n"
+    )
+    for (var in structure_info$variables) {
+      output <- paste0(output, "- ", shQuote(var), "\n")
+    }
+    output <- paste0(output, "\n")
+  }
+  
+  output <- paste0(output,
+    "SQL USAGE NOTES:\n",
+    "- Use table name '", structure_info$table_name, "'\n",
+    "- Cast 'stat' column to REAL for numeric operations: CAST(stat AS REAL)\n",
+    "- Filter by 'stat_name' to get specific statistics (n, pct, mean, etc.)\n",
+    "- Use WHERE clauses on 'variable' to focus on specific measurements\n"
+  )
+  
+  return(output)
 }

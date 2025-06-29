@@ -273,6 +273,13 @@ ui <- dashboardPage(
         ),
         
         fluidRow(
+          box(title = "Data Structure Analysis", status = "info", solidHeader = TRUE, width = 12,
+            p("This detailed structure analysis is provided to the LLM to ensure accurate SQL generation:"),
+            verbatimTextOutput("data_structure_info")
+          )
+        ),
+        
+        fluidRow(
           box(title = "Generated SQL Code", status = "warning", solidHeader = TRUE, width = 12,
             verbatimTextOutput("generated_code"),
             br(),
@@ -767,6 +774,17 @@ server <- function(input, output, session) {
         Title = sapply(values$parsed_data, function(x) x$metadata$title %||% "N/A"),
         Rows = sapply(values$parsed_data, function(x) nrow(x$ard_data))
       )
+    }
+  })
+  
+  # Show detailed data structure for LLM queries
+  output$data_structure_info <- renderText({
+    if (length(values$parsed_data) > 0) {
+      ard_data <- values$parsed_data[[1]]$ard_data
+      structure_info <- stateful::inspect_ard_structure(ard_data)
+      stateful::format_ard_structure_for_llm(structure_info)
+    } else {
+      "No data loaded. Please parse RTF files first."
     }
   })
   

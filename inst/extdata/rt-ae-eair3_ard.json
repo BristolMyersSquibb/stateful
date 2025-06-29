@@ -1,0 +1,1578 @@
+{
+  "metadata": {
+    "source_file": "rt-ae-eair3.rtf",
+    "conversion_date": "2025-06-28 21:43:38",
+    "conversion_method": "rtf_state_parser",
+    "footnotes": ["Table 14.3.1.1.8.3{ }Exposure Adjusted Incidence Rate of Adverse Event Summary{ }Cumulative Treatment Period{ }Treated Population{ }", "Total{ }N = 638", "System Organ Class Preferred Term | n (%) | P-Y | IR/{ }100 P-Y", "TOTAL SUBJECTS WITH AN EVENT | 440 ( 69.0) | 203.3 | 216.4", "Infections and infestations | 275 ( 43.1) | 298.2 | 92.2", "Upper respiratory tract infection | 65 ( 10.2) | 403.1 | 16.1", "Nasopharyngitis | 50 (  7.8) | 407.7 | 12.3", "COVID-19 | 31 (  4.9) | 416.1 | 7.5", "Urinary tract infection | 24 (  3.8) | 419.8 | 5.7", "Pharyngitis | 17 (  2.7) | 423.4 | 4.0", "Bronchitis | 21 (  3.3) | 424.1 | 5.0", "Gastroenteritis | 14 (  2.2) | 424.0 | 3.3", "Oral herpes | 13 (  2.0) | 425.8 | 3.1", "Sinusitis | 14 (  2.2) | 424.9 | 3.3", "Tonsillitis | 13 (  2.0) | 424.2 | 3.1", "Respiratory tract infection | 10 (  1.6) | 425.9 | 2.3", "Herpes simplex | 5 (  0.8) | 429.4 | 1.2", "Cellulitis | 6 (  0.9) | 430.0 | 1.4", "Dengue fever | 4 (  0.6) | 430.1 | 0.9", "Gastroenteritis viral | 5 (  0.8) | 429.6 | 1.2", "Herpes zoster | 4 (  0.6) | 430.4 | 0.9", "Influenza | 12 (  1.9) | 425.3 | 2.8", "Pulpitis dental | 4 (  0.6) | 429.6 | 0.9", "Tinea pedis | 4 (  0.6) | 428.8 | 0.9", "Conjunctivitis | 3 (  0.5) | 430.6 | 0.7", "Erysipelas | 2 (  0.3) | 429.4 | 0.5", "Folliculitis | 5 (  0.8) | 430.0 | 1.2", "n = number of subjects; P-Y = person-years of exposure based on time to first onset.Incidence rate per 100 person-years of exposure (IR/100 P-Y): event count*100/person-years of exposure.MedDRA: 27.1Adverse events are treatment emergent AEs with an onset date on or after the first dose date of study treatment up to 30 days afterthe last dose date of treatment in the study.Program Path: BMS_GBS\\\\IM011\\\\HAB31370\\\\Biostatistics\\\\Production\\\\Tables\\\\CSRProgram Name: rt-ae-eair3.sas                                                                                        19DEC2024:12:19:01", "Protocol: IM011054 | of {{\\*{ NUMPAGES }}}", "DEUC 6 mg{ }N = 332 | PBO-DEUC 6 mg{ }N = 306", "System Organ Class Preferred Term | n (%) | P-Y | IR/{ }100 P-Y | n (%) | P-Y | IR/{ }100 P-Y", "Infections and infestations", "Fungal skin infection | 2 (  0.6) | 265.7 | 0.8 | 0 | 164.5 | 0", "Furuncle | 2 (  0.6) | 265.5 | 0.8 | 0 | 164.5 | 0", "Gingivitis | 2 (  0.6) | 266.0 | 0.8 | 0 | 164.5 | 0", "Laryngitis | 2 (  0.6) | 265.2 | 0.8 | 0 | 164.5 | 0", "Oral candidiasis | 2 (  0.6) | 265.4 | 0.8 | 4 (  1.3) | 163.2 | 2.5", "Otitis externa | 2 (  0.6) | 265.7 | 0.8 | 0 | 164.5 | 0", "Otitis media | 2 (  0.6) | 266.3 | 0.8 | 1 (  0.3) | 163.8 | 0.6", "Paronychia | 2 (  0.6) | 266.2 | 0.8 | 1 (  0.3) | 164.3 | 0.6", "Periodontitis | 2 (  0.6) | 266.0 | 0.8 | 0 | 164.5 | 0", "Pharyngitis bacterial | 2 (  0.6) | 265.9 | 0.8 | 1 (  0.3) | 164.0 | 0.6", "Pharyngotonsillitis | 2 (  0.6) | 265.5 | 0.8 | 3 (  1.0) | 163.5 | 1.8", "Pneumonia | 2 (  0.6) | 265.4 | 0.8 | 1 (  0.3) | 164.1 | 0.6", "Pustule | 2 (  0.6) | 265.7 | 0.8 | 1 (  0.3) | 163.9 | 0.6", "Rhinitis | 2 (  0.6) | 265.7 | 0.8 | 0 | 164.5 | 0", "Tooth abscess | 2 (  0.6) | 266.5 | 0.8 | 0 | 164.5 | 0", "Tracheobronchitis | 2 (  0.6) | 264.9 | 0.8 | 0 | 164.5 | 0", "Viral upper respiratory tract infection | 2 (  0.6) | 266.3 | 0.8 | 3 (  1.0) | 164.3 | 1.8", "Acute sinusitis | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Appendicitis | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Asymptomatic bacteriuria | 1 (  0.3) | 266.4 | 0.4 | 2 (  0.7) | 164.2 | 1.2", "Conjunctivitis bacterial | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Conjunctivitis viral | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Dermatophytosis | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Diverticulitis | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Fungal skin infection | 2 (  0.3) | 430.2 | 0.5", "Furuncle | 2 (  0.3) | 430.0 | 0.5", "Gingivitis | 2 (  0.3) | 430.5 | 0.5", "Laryngitis | 2 (  0.3) | 429.7 | 0.5", "Oral candidiasis | 6 (  0.9) | 428.5 | 1.4", "Otitis externa | 2 (  0.3) | 430.2 | 0.5", "Otitis media | 3 (  0.5) | 430.1 | 0.7", "Paronychia | 3 (  0.5) | 430.5 | 0.7", "Periodontitis | 2 (  0.3) | 430.4 | 0.5", "Pharyngitis bacterial | 3 (  0.5) | 429.8 | 0.7", "Pharyngotonsillitis | 5 (  0.8) | 428.9 | 1.2", "Pneumonia | 3 (  0.5) | 429.5 | 0.7", "Pustule | 3 (  0.5) | 429.6 | 0.7", "Rhinitis | 2 (  0.3) | 430.2 | 0.5", "Tooth abscess | 2 (  0.3) | 431.0 | 0.5", "Tracheobronchitis | 2 (  0.3) | 429.4 | 0.5", "Viral upper respiratory tract infection | 5 (  0.8) | 430.5 | 1.2", "Acute sinusitis | 1 (  0.2) | 430.7 | 0.2", "Appendicitis | 1 (  0.2) | 431.1 | 0.2", "Asymptomatic bacteriuria | 3 (  0.5) | 430.5 | 0.7", "Conjunctivitis bacterial | 1 (  0.2) | 431.0 | 0.2", "Conjunctivitis viral | 1 (  0.2) | 430.8 | 0.2", "Dermatophytosis | 1 (  0.2) | 430.7 | 0.2", "Diverticulitis | 1 (  0.2) | 430.8 | 0.2", "Ear infection | 1 (  0.3) | 266.2 | 0.4 | 4 (  1.3) | 163.6 | 2.4", "Fungal foot infection | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Genital infection | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Gingival abscess | 1 (  0.3) | 266.1 | 0.4 | 0 | 164.5 | 0", "Groin abscess | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Infection parasitic | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Lower respiratory tract infection | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Lyme disease | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Lymphangitis | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Onychomycosis | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Oral fungal infection | 1 (  0.3) | 266.1 | 0.4 | 0 | 164.5 | 0", "Oral infection | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Respiratory tract infection viral | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Skin bacterial infection | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Superinfection | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Tinea cruris | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Tonsillitis bacterial | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Tooth infection | 1 (  0.3) | 266.4 | 0.4 | 2 (  0.7) | 164.0 | 1.2", "Vaginal infection | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Viral pharyngitis | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Viral skin infection | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Vulval cellulitis | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Vulvovaginal candidiasis | 1 (  0.3) | 266.0 | 0.4 | 1 (  0.3) | 163.9 | 0.6", "Vulvovaginal mycotic infection | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Ear infection | 5 (  0.8) | 429.7 | 1.2", "Fungal foot infection | 1 (  0.2) | 430.4 | 0.2", "Genital infection | 1 (  0.2) | 430.3 | 0.2", "Gingival abscess | 1 (  0.2) | 430.5 | 0.2", "Groin abscess | 1 (  0.2) | 430.8 | 0.2", "Infection parasitic | 1 (  0.2) | 430.8 | 0.2", "Lower respiratory tract infection | 1 (  0.2) | 430.9 | 0.2", "Lyme disease | 1 (  0.2) | 431.0 | 0.2", "Lymphangitis | 1 (  0.2) | 431.1 | 0.2", "Onychomycosis | 1 (  0.2) | 430.5 | 0.2", "Oral fungal infection | 1 (  0.2) | 430.6 | 0.2", "Oral infection | 1 (  0.2) | 430.3 | 0.2", "Respiratory tract infection viral | 1 (  0.2) | 430.7 | 0.2", "Skin bacterial infection | 1 (  0.2) | 430.5 | 0.2", "Superinfection | 1 (  0.2) | 431.0 | 0.2", "Tinea cruris | 1 (  0.2) | 431.0 | 0.2", "Tonsillitis bacterial | 1 (  0.2) | 430.6 | 0.2", "Tooth infection | 3 (  0.5) | 430.4 | 0.7", "Vaginal infection | 1 (  0.2) | 431.0 | 0.2", "Viral pharyngitis | 1 (  0.2) | 430.8 | 0.2", "Viral skin infection | 1 (  0.2) | 430.4 | 0.2", "Vulval cellulitis | 1 (  0.2) | 431.2 | 0.2", "Vulvovaginal candidiasis | 2 (  0.3) | 429.9 | 0.5", "Vulvovaginal mycotic infection | 1 (  0.2) | 430.8 | 0.2", "COVID-19 pneumonia | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Gastrointestinal viral infection | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Hepatitis E | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Hepatitis infectious mononucleosis | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Herpes ophthalmic | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Herpes virus infection | 0 | 266.7 | 0 | 2 (  0.7) | 163.8 | 1.2", "Herpes zoster disseminated | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Nasal herpes | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Pneumonia viral | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Sinobronchitis | 0 | 266.7 | 0 | 1 (  0.3) | 163.9 | 0.6", "Tracheitis | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Gastrointestinal disorders | 66 ( 19.9) | 228.7 | 28.9 | 28 (  9.2) | 152.5 | 18.4", "Diarrhoea | 15 (  4.5) | 259.7 | 5.8 | 6 (  2.0) | 161.4 | 3.7", "Mouth ulceration | 8 (  2.4) | 260.6 | 3.1 | 6 (  2.0) | 162.0 | 3.7", "Nausea | 8 (  2.4) | 262.2 | 3.1 | 1 (  0.3) | 163.9 | 0.6", "Stomatitis | 5 (  1.5) | 263.2 | 1.9 | 1 (  0.3) | 164.0 | 0.6", "Aphthous ulcer | 4 (  1.2) | 264.0 | 1.5 | 3 (  1.0) | 163.2 | 1.8", "Dyspepsia | 4 (  1.2) | 264.6 | 1.5 | 0 | 164.5 | 0", "Gastritis | 4 (  1.2) | 264.4 | 1.5 | 0 | 164.5 | 0", "Haemorrhoids | 4 (  1.2) | 265.3 | 1.5 | 0 | 164.5 | 0", "Abdominal pain | 3 (  0.9) | 264.6 | 1.1 | 0 | 164.5 | 0", "Constipation | 3 (  0.9) | 265.9 | 1.1 | 0 | 164.5 | 0", "Gastrooesophageal reflux disease | 3 (  0.9) | 265.2 | 1.1 | 0 | 164.5 | 0", "COVID-19 pneumonia | 1 (  0.2) | 430.8 | 0.2", "Gastrointestinal viral infection | 1 (  0.2) | 430.9 | 0.2", "Hepatitis E | 1 (  0.2) | 431.3 | 0.2", "Hepatitis infectious mononucleosis | 1 (  0.2) | 431.2 | 0.2", "Herpes ophthalmic | 1 (  0.2) | 430.8 | 0.2", "Herpes virus infection | 2 (  0.3) | 430.6 | 0.5", "Herpes zoster disseminated | 1 (  0.2) | 430.7 | 0.2", "Nasal herpes | 1 (  0.2) | 430.8 | 0.2", "Pneumonia viral | 1 (  0.2) | 431.2 | 0.2", "Sinobronchitis | 1 (  0.2) | 430.7 | 0.2", "Tracheitis | 1 (  0.2) | 431.1 | 0.2", "Gastrointestinal disorders | 94 ( 14.7) | 381.2 | 24.7", "Diarrhoea | 21 (  3.3) | 421.2 | 5.0", "Mouth ulceration | 14 (  2.2) | 422.5 | 3.3", "Nausea | 9 (  1.4) | 426.1 | 2.1", "Stomatitis | 6 (  0.9) | 427.1 | 1.4", "Aphthous ulcer | 7 (  1.1) | 427.2 | 1.6", "Dyspepsia | 4 (  0.6) | 429.1 | 0.9", "Gastritis | 4 (  0.6) | 428.9 | 0.9", "Haemorrhoids | 4 (  0.6) | 429.8 | 0.9", "Abdominal pain | 3 (  0.5) | 429.1 | 0.7", "Constipation | 3 (  0.5) | 430.4 | 0.7", "Gastrooesophageal reflux disease | 3 (  0.5) | 429.7 | 0.7", "Gastrointestinal disorders", "Toothache | 3 (  0.9) | 265.9 | 1.1 | 0 | 164.5 | 0", "Vomiting | 3 (  0.9) | 265.4 | 1.1 | 2 (  0.7) | 163.5 | 1.2", "Abdominal pain upper | 2 (  0.6) | 266.0 | 0.8 | 1 (  0.3) | 164.1 | 0.6", "Dental caries | 2 (  0.6) | 265.6 | 0.8 | 1 (  0.3) | 163.9 | 0.6", "Hiatus hernia | 2 (  0.6) | 265.9 | 0.8 | 1 (  0.3) | 164.1 | 0.6", "Inguinal hernia | 2 (  0.6) | 265.8 | 0.8 | 0 | 164.5 | 0", "Rectal haemorrhage | 2 (  0.6) | 264.8 | 0.8 | 0 | 164.5 | 0", "Abdominal distension | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Abdominal pain lower | 1 (  0.3) | 266.1 | 0.4 | 0 | 164.5 | 0", "Abdominal tenderness | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Acquired oesophageal web | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Cheilitis | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Chronic gastritis | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Diverticulum intestinal | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Erosive oesophagitis | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Food poisoning | 1 (  0.3) | 265.9 | 0.4 | 1 (  0.3) | 164.1 | 0.6", "Gastrointestinal haemorrhage | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Intestinal metaplasia | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Large intestine polyp | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Odynophagia | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Peptic ulcer | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Tooth disorder | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Abdominal discomfort | 0 | 266.7 | 0 | 2 (  0.7) | 163.8 | 1.2", "Cheilosis | 0 | 266.7 | 0 | 1 (  0.3) | 163.8 | 0.6", "Toothache | 3 (  0.5) | 430.4 | 0.7", "Vomiting | 5 (  0.8) | 428.9 | 1.2", "Abdominal pain upper | 3 (  0.5) | 430.1 | 0.7", "Dental caries | 3 (  0.5) | 429.5 | 0.7", "Hiatus hernia | 3 (  0.5) | 429.9 | 0.7", "Inguinal hernia | 2 (  0.3) | 430.3 | 0.5", "Rectal haemorrhage | 2 (  0.3) | 429.3 | 0.5", "Abdominal distension | 1 (  0.2) | 430.8 | 0.2", "Abdominal pain lower | 1 (  0.2) | 430.6 | 0.2", "Abdominal tenderness | 1 (  0.2) | 430.4 | 0.2", "Acquired oesophageal web | 1 (  0.2) | 430.8 | 0.2", "Cheilitis | 1 (  0.2) | 430.3 | 0.2", "Chronic gastritis | 1 (  0.2) | 430.8 | 0.2", "Diverticulum intestinal | 1 (  0.2) | 430.8 | 0.2", "Erosive oesophagitis | 1 (  0.2) | 430.8 | 0.2", "Food poisoning | 2 (  0.3) | 430.0 | 0.5", "Gastrointestinal haemorrhage | 1 (  0.2) | 431.1 | 0.2", "Intestinal metaplasia | 1 (  0.2) | 430.8 | 0.2", "Large intestine polyp | 1 (  0.2) | 430.7 | 0.2", "Odynophagia | 1 (  0.2) | 430.9 | 0.2", "Peptic ulcer | 1 (  0.2) | 430.8 | 0.2", "Tooth disorder | 1 (  0.2) | 430.4 | 0.2", "Abdominal discomfort | 2 (  0.3) | 430.5 | 0.5", "Cheilosis | 1 (  0.2) | 430.5 | 0.2", "Diverticulum oesophageal | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Enteritis | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Enterocolitis | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Gastrointestinal inflammation | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Gingival bleeding | 0 | 266.7 | 0 | 1 (  0.3) | 163.9 | 0.6", "Gingival pain | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Hyperchlorhydria | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Loose tooth | 0 | 266.7 | 0 | 1 (  0.3) | 164.2 | 0.6", "Skin and subcutaneous tissue disorders | 45 ( 13.6) | 240.0 | 18.8 | 39 ( 12.7) | 150.7 | 25.9", "Rash | 9 (  2.7) | 261.7 | 3.4 | 5 (  1.6) | 162.9 | 3.1", "Acne | 4 (  1.2) | 263.6 | 1.5 | 9 (  2.9) | 161.3 | 5.6", "Alopecia | 4 (  1.2) | 265.3 | 1.5 | 1 (  0.3) | 164.3 | 0.6", "Pruritus | 4 (  1.2) | 264.7 | 1.5 | 3 (  1.0) | 163.3 | 1.8", "Dermatitis | 3 (  0.9) | 264.7 | 1.1 | 1 (  0.3) | 164.2 | 0.6", "Dermatitis acneiform | 3 (  0.9) | 264.7 | 1.1 | 1 (  0.3) | 163.9 | 0.6", "Dermatitis allergic | 3 (  0.9) | 265.1 | 1.1 | 1 (  0.3) | 164.5 | 0.6", "Rash papular | 3 (  0.9) | 265.0 | 1.1 | 0 | 164.5 | 0", "Urticaria | 3 (  0.9) | 266.1 | 1.1 | 3 (  1.0) | 164.0 | 1.8", "Rosacea | 2 (  0.6) | 264.8 | 0.8 | 1 (  0.3) | 163.9 | 0.6", "Cellulite | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Dermatitis atopic | 1 (  0.3) | 265.9 | 0.4 | 1 (  0.3) | 164.0 | 0.6", "Dermatitis psoriasiform | 1 (  0.3) | 265.7 | 0.4 | 0 | 164.5 | 0", "Dyshidrotic eczema | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Diverticulum oesophageal | 1 (  0.2) | 430.8 | 0.2", "Enteritis | 1 (  0.2) | 430.7 | 0.2", "Enterocolitis | 1 (  0.2) | 431.0 | 0.2", "Gastrointestinal inflammation | 1 (  0.2) | 431.2 | 0.2", "Gingival bleeding | 1 (  0.2) | 430.6 | 0.2", "Gingival pain | 1 (  0.2) | 430.8 | 0.2", "Hyperchlorhydria | 1 (  0.2) | 431.2 | 0.2", "Loose tooth | 1 (  0.2) | 431.0 | 0.2", "Skin and subcutaneous tissue disorders | 84 ( 13.2) | 390.7 | 21.5", "Rash | 14 (  2.2) | 424.5 | 3.3", "Acne | 13 (  2.0) | 424.9 | 3.1", "Alopecia | 5 (  0.8) | 429.6 | 1.2", "Pruritus | 7 (  1.1) | 428.0 | 1.6", "Dermatitis | 4 (  0.6) | 428.9 | 0.9", "Dermatitis acneiform | 4 (  0.6) | 428.6 | 0.9", "Dermatitis allergic | 4 (  0.6) | 429.6 | 0.9", "Rash papular | 3 (  0.5) | 429.5 | 0.7", "Urticaria | 6 (  0.9) | 430.1 | 1.4", "Rosacea | 3 (  0.5) | 428.7 | 0.7", "Cellulite | 1 (  0.2) | 430.4 | 0.2", "Dermatitis atopic | 2 (  0.3) | 429.9 | 0.5", "Dermatitis psoriasiform | 1 (  0.2) | 430.2 | 0.2", "Dyshidrotic eczema | 1 (  0.2) | 431.2 | 0.2", "Skin and subcutaneous tissue disorders", "Erythema | 1 (  0.3) | 266.3 | 0.4 | 2 (  0.7) | 163.7 | 1.2", "Hidradenitis | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Ingrowing nail | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Nail disorder | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Prurigo | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Psoriasis | 1 (  0.3) | 266.1 | 0.4 | 5 (  1.6) | 162.8 | 3.1", "Rash maculo-papular | 1 (  0.3) | 266.7 | 0.4 | 1 (  0.3) | 163.9 | 0.6", "Skin lesion | 1 (  0.3) | 266.1 | 0.4 | 3 (  1.0) | 163.5 | 1.8", "Intertrigo | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Lichen planus | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Rash erythematous | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Skin ulcer | 0 | 266.7 | 0 | 1 (  0.3) | 163.8 | 0.6", "Metabolism and nutrition disorders | 40 ( 12.0) | 244.8 | 16.3 | 34 ( 11.1) | 152.8 | 22.3", "Hyperuricaemia | 8 (  2.4) | 262.9 | 3.0 | 10 (  3.3) | 160.6 | 6.2", "Hyperlipidaemia | 7 (  2.1) | 262.7 | 2.7 | 4 (  1.3) | 162.8 | 2.5", "Dyslipidaemia | 6 (  1.8) | 262.8 | 2.3 | 6 (  2.0) | 162.7 | 3.7", "Hypercholesterolaemia | 4 (  1.2) | 265.0 | 1.5 | 3 (  1.0) | 163.2 | 1.8", "Hypertriglyceridaemia | 4 (  1.2) | 264.1 | 1.5 | 2 (  0.7) | 163.7 | 1.2", "Vitamin D deficiency | 4 (  1.2) | 264.8 | 1.5 | 2 (  0.7) | 163.9 | 1.2", "Hyperglycaemia | 3 (  0.9) | 265.1 | 1.1 | 1 (  0.3) | 163.9 | 0.6", "Hypoglycaemia | 2 (  0.6) | 266.3 | 0.8 | 0 | 164.5 | 0", "Obesity | 2 (  0.6) | 265.1 | 0.8 | 0 | 164.5 | 0", "Abnormal weight gain | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Erythema | 3 (  0.5) | 429.9 | 0.7", "Hidradenitis | 1 (  0.2) | 430.8 | 0.2", "Ingrowing nail | 1 (  0.2) | 430.3 | 0.2", "Nail disorder | 1 (  0.2) | 430.3 | 0.2", "Prurigo | 1 (  0.2) | 430.3 | 0.2", "Psoriasis | 6 (  0.9) | 429.0 | 1.4", "Rash maculo-papular | 2 (  0.3) | 430.6 | 0.5", "Skin lesion | 4 (  0.6) | 429.6 | 0.9", "Intertrigo | 1 (  0.2) | 430.9 | 0.2", "Lichen planus | 1 (  0.2) | 431.0 | 0.2", "Rash erythematous | 1 (  0.2) | 430.8 | 0.2", "Skin ulcer | 1 (  0.2) | 430.6 | 0.2", "Metabolism and nutrition disorders | 74 ( 11.6) | 397.5 | 18.6", "Hyperuricaemia | 18 (  2.8) | 423.5 | 4.3", "Hyperlipidaemia | 11 (  1.7) | 425.5 | 2.6", "Dyslipidaemia | 12 (  1.9) | 425.5 | 2.8", "Hypercholesterolaemia | 7 (  1.1) | 428.3 | 1.6", "Hypertriglyceridaemia | 6 (  0.9) | 427.8 | 1.4", "Vitamin D deficiency | 6 (  0.9) | 428.8 | 1.4", "Hyperglycaemia | 4 (  0.6) | 429.0 | 0.9", "Hypoglycaemia | 2 (  0.3) | 430.8 | 0.5", "Obesity | 2 (  0.3) | 429.6 | 0.5", "Abnormal weight gain | 1 (  0.2) | 430.3 | 0.2", "Metabolism and nutrition disorders", "Dehydration | 1 (  0.3) | 266.1 | 0.4 | 0 | 164.5 | 0", "Hyperkalaemia | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Hypokalaemia | 1 (  0.3) | 266.7 | 0.4 | 1 (  0.3) | 164.5 | 0.6", "Hyponatraemia | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Magnesium deficiency | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Type 2 diabetes mellitus | 1 (  0.3) | 266.3 | 0.4 | 1 (  0.3) | 164.0 | 0.6", "Decreased appetite | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Diabetes mellitus | 0 | 266.7 | 0 | 4 (  1.3) | 162.4 | 2.5", "Diabetes mellitus inadequate control | 0 | 266.7 | 0 | 1 (  0.3) | 163.8 | 0.6", "Diabetic metabolic decompensation | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Hypomagnesaemia | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Impaired fasting glucose | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Insulin resistance | 0 | 266.7 | 0 | 1 (  0.3) | 164.2 | 0.6", "Iron deficiency | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Investigations | 37 ( 11.1) | 245.4 | 15.1 | 19 (  6.2) | 157.7 | 12.0", "Blood creatine phosphokinase increased | 9 (  2.7) | 262.8 | 3.4 | 7 (  2.3) | 162.5 | 4.3", "Alanine aminotransferase increased | 6 (  1.8) | 262.0 | 2.3 | 1 (  0.3) | 163.8 | 0.6", "Weight increased | 4 (  1.2) | 264.2 | 1.5 | 0 | 164.5 | 0", "Aspartate aminotransferase increased | 3 (  0.9) | 264.6 | 1.1 | 3 (  1.0) | 163.7 | 1.8", "Glomerular filtration rate decreased | 3 (  0.9) | 266.3 | 1.1 | 0 | 164.5 | 0", "Haemoglobin decreased | 2 (  0.6) | 265.4 | 0.8 | 1 (  0.3) | 164.1 | 0.6", "Hepatic enzyme increased | 2 (  0.6) | 265.9 | 0.8 | 1 (  0.3) | 164.5 | 0.6", "Influenza A virus test positive | 2 (  0.6) | 265.3 | 0.8 | 0 | 164.5 | 0", "Dehydration | 1 (  0.2) | 430.6 | 0.2", "Hyperkalaemia | 1 (  0.2) | 430.5 | 0.2", "Hypokalaemia | 2 (  0.3) | 431.2 | 0.5", "Hyponatraemia | 1 (  0.2) | 430.7 | 0.2", "Magnesium deficiency | 1 (  0.2) | 430.7 | 0.2", "Type 2 diabetes mellitus | 2 (  0.3) | 430.3 | 0.5", "Decreased appetite | 1 (  0.2) | 431.2 | 0.2", "Diabetes mellitus | 4 (  0.6) | 429.1 | 0.9", "Diabetes mellitus inadequate control | 1 (  0.2) | 430.5 | 0.2", "Diabetic metabolic decompensation | 1 (  0.2) | 430.7 | 0.2", "Hypomagnesaemia | 1 (  0.2) | 431.1 | 0.2", "Impaired fasting glucose | 1 (  0.2) | 431.1 | 0.2", "Insulin resistance | 1 (  0.2) | 431.0 | 0.2", "Iron deficiency | 1 (  0.2) | 431.1 | 0.2", "Investigations | 56 (  8.8) | 403.2 | 13.9", "Blood creatine phosphokinase increased | 16 (  2.5) | 425.3 | 3.8", "Alanine aminotransferase increased | 7 (  1.1) | 425.8 | 1.6", "Weight increased | 4 (  0.6) | 428.7 | 0.9", "Aspartate aminotransferase increased | 6 (  0.9) | 428.3 | 1.4", "Glomerular filtration rate decreased | 3 (  0.5) | 430.8 | 0.7", "Haemoglobin decreased | 3 (  0.5) | 429.5 | 0.7", "Hepatic enzyme increased | 3 (  0.5) | 430.3 | 0.7", "Influenza A virus test positive | 2 (  0.3) | 429.8 | 0.5", "Investigations", "Lymphocyte count decreased | 2 (  0.6) | 265.4 | 0.8 | 0 | 164.5 | 0", "Urine analysis abnormal | 2 (  0.6) | 265.5 | 0.8 | 0 | 164.5 | 0", "Blood cholesterol increased | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Blood creatinine increased | 1 (  0.3) | 265.8 | 0.4 | 1 (  0.3) | 164.1 | 0.6", "Blood lactate dehydrogenase increased | 1 (  0.3) | 266.1 | 0.4 | 1 (  0.3) | 164.1 | 0.6", "Blood pressure increased | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Blood triglycerides increased | 1 (  0.3) | 266.1 | 0.4 | 2 (  0.7) | 163.9 | 1.2", "Full blood count abnormal | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Glomerular filtration rate abnormal | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Monocyte count decreased | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Platelet count decreased | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Blood glucose increased | 0 | 266.7 | 0 | 1 (  0.3) | 163.8 | 0.6", "Blood immunoglobulin E increased | 0 | 266.7 | 0 | 1 (  0.3) | 163.8 | 0.6", "Blood phosphorus increased | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Eosinophil count increased | 0 | 266.7 | 0 | 1 (  0.3) | 163.9 | 0.6", "Transaminases increased | 0 | 266.7 | 0 | 1 (  0.3) | 163.8 | 0.6", "Weight decreased | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Musculoskeletal and connective tissue disorders | 32 (  9.6) | 251.9 | 12.7 | 21 (  6.9) | 157.1 | 13.4", "Arthralgia | 5 (  1.5) | 264.5 | 1.9 | 5 (  1.6) | 163.1 | 3.1", "Back pain | 5 (  1.5) | 264.4 | 1.9 | 2 (  0.7) | 163.6 | 1.2", "Psoriatic arthropathy | 5 (  1.5) | 266.0 | 1.9 | 5 (  1.6) | 162.2 | 3.1", "Arthritis | 4 (  1.2) | 265.7 | 1.5 | 0 | 164.5 | 0", "Pain in extremity | 4 (  1.2) | 264.4 | 1.5 | 0 | 164.5 | 0", "Lymphocyte count decreased | 2 (  0.3) | 429.9 | 0.5", "Urine analysis abnormal | 2 (  0.3) | 430.0 | 0.5", "Blood cholesterol increased | 1 (  0.2) | 430.8 | 0.2", "Blood creatinine increased | 2 (  0.3) | 429.9 | 0.5", "Blood lactate dehydrogenase increased | 2 (  0.3) | 430.2 | 0.5", "Blood pressure increased | 1 (  0.2) | 430.4 | 0.2", "Blood triglycerides increased | 3 (  0.5) | 430.0 | 0.7", "Full blood count abnormal | 1 (  0.2) | 430.7 | 0.2", "Glomerular filtration rate abnormal | 1 (  0.2) | 431.2 | 0.2", "Monocyte count decreased | 1 (  0.2) | 431.1 | 0.2", "Platelet count decreased | 1 (  0.2) | 430.5 | 0.2", "Blood glucose increased | 1 (  0.2) | 430.5 | 0.2", "Blood immunoglobulin E increased | 1 (  0.2) | 430.5 | 0.2", "Blood phosphorus increased | 1 (  0.2) | 430.9 | 0.2", "Eosinophil count increased | 1 (  0.2) | 430.6 | 0.2", "Transaminases increased | 1 (  0.2) | 430.5 | 0.2", "Weight decreased | 1 (  0.2) | 431.1 | 0.2", "Musculoskeletal and connective tissue disorders | 53 (  8.3) | 409.0 | 13.0", "Arthralgia | 10 (  1.6) | 427.6 | 2.3", "Back pain | 7 (  1.1) | 428.0 | 1.6", "Psoriatic arthropathy | 10 (  1.6) | 428.2 | 2.3", "Arthritis | 4 (  0.6) | 430.2 | 0.9", "Pain in extremity | 4 (  0.6) | 428.9 | 0.9", "Musculoskeletal and connective tissue disorders", "Osteoporosis | 2 (  0.6) | 265.9 | 0.8 | 0 | 164.5 | 0", "Spinal osteoarthritis | 2 (  0.6) | 265.6 | 0.8 | 0 | 164.5 | 0", "Degenerative bone disease | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Exostosis | 1 (  0.3) | 266.1 | 0.4 | 0 | 164.5 | 0", "Fibromyalgia | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Groin pain | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Intervertebral disc disorder | 1 (  0.3) | 266.0 | 0.4 | 1 (  0.3) | 164.2 | 0.6", "Joint swelling | 1 (  0.3) | 265.9 | 0.4 | 2 (  0.7) | 164.4 | 1.2", "Musculoskeletal chest pain | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Musculoskeletal discomfort | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Osteonecrosis | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Osteoporotic fracture | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Patellofemoral pain syndrome | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Polyarthritis | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Spinal pain | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Spondylolisthesis | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Neck pain | 0 | 266.7 | 0 | 2 (  0.7) | 164.0 | 1.2", "Osteoarthritis | 0 | 266.7 | 0 | 4 (  1.3) | 163.2 | 2.5", "Rotator cuff syndrome | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Tendonitis | 0 | 266.7 | 0 | 1 (  0.3) | 164.2 | 0.6", "Trigger finger | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Vascular disorders | 32 (  9.6) | 250.2 | 12.8 | 15 (  4.9) | 159.7 | 9.4", "Hypertension | 23 (  6.9) | 254.7 | 9.0 | 12 (  3.9) | 160.5 | 7.5", "Osteoporosis | 2 (  0.3) | 430.3 | 0.5", "Spinal osteoarthritis | 2 (  0.3) | 430.1 | 0.5", "Degenerative bone disease | 1 (  0.2) | 431.0 | 0.2", "Exostosis | 1 (  0.2) | 430.6 | 0.2", "Fibromyalgia | 1 (  0.2) | 431.1 | 0.2", "Groin pain | 1 (  0.2) | 430.3 | 0.2", "Intervertebral disc disorder | 2 (  0.3) | 430.2 | 0.5", "Joint swelling | 3 (  0.5) | 430.3 | 0.7", "Musculoskeletal chest pain | 1 (  0.2) | 430.8 | 0.2", "Musculoskeletal discomfort | 1 (  0.2) | 430.3 | 0.2", "Osteonecrosis | 1 (  0.2) | 430.4 | 0.2", "Osteoporotic fracture | 1 (  0.2) | 430.8 | 0.2", "Patellofemoral pain syndrome | 1 (  0.2) | 430.7 | 0.2", "Polyarthritis | 1 (  0.2) | 430.9 | 0.2", "Spinal pain | 1 (  0.2) | 431.2 | 0.2", "Spondylolisthesis | 1 (  0.2) | 431.0 | 0.2", "Neck pain | 2 (  0.3) | 430.8 | 0.5", "Osteoarthritis | 4 (  0.6) | 429.9 | 0.9", "Rotator cuff syndrome | 1 (  0.2) | 430.8 | 0.2", "Tendonitis | 1 (  0.2) | 430.9 | 0.2", "Trigger finger | 1 (  0.2) | 430.7 | 0.2", "Vascular disorders | 47 (  7.4) | 409.9 | 11.5", "Hypertension | 35 (  5.5) | 415.2 | 8.4", "Vascular disorders", "Hypotension | 5 (  1.5) | 264.8 | 1.9 | 0 | 164.5 | 0", "Peripheral venous disease | 2 (  0.6) | 265.6 | 0.8 | 1 (  0.3) | 164.0 | 0.6", "Varicose vein | 1 (  0.3) | 266.1 | 0.4 | 1 (  0.3) | 164.2 | 0.6", "White coat hypertension | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Superficial vein thrombosis | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Nervous system disorders | 25 (  7.5) | 255.9 | 9.8 | 6 (  2.0) | 163.8 | 3.7", "Headache | 7 (  2.1) | 262.3 | 2.7 | 4 (  1.3) | 163.8 | 2.4", "Dizziness | 4 (  1.2) | 266.1 | 1.5 | 1 (  0.3) | 164.5 | 0.6", "Neuritis | 2 (  0.6) | 266.2 | 0.8 | 0 | 164.5 | 0", "Sciatica | 2 (  0.6) | 266.1 | 0.8 | 0 | 164.5 | 0", "Somnolence | 2 (  0.6) | 266.2 | 0.8 | 0 | 164.5 | 0", "Bell's palsy | 1 (  0.3) | 266.0 | 0.4 | 1 (  0.3) | 164.4 | 0.6", "Carpal tunnel syndrome | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Cerebral haemorrhage | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Disturbance in attention | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Head discomfort | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Intracranial aneurysm | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Lacunar infarction | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Migraine | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Post herpetic neuralgia | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Presyncope | 1 (  0.3) | 266.1 | 0.4 | 0 | 164.5 | 0", "Syncope | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Embolic stroke | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Hypotension | 5 (  0.8) | 429.3 | 1.2", "Peripheral venous disease | 3 (  0.5) | 429.6 | 0.7", "Varicose vein | 2 (  0.3) | 430.3 | 0.5", "White coat hypertension | 1 (  0.2) | 430.4 | 0.2", "Superficial vein thrombosis | 1 (  0.2) | 431.2 | 0.2", "Nervous system disorders | 31 (  4.9) | 419.7 | 7.4", "Headache | 11 (  1.7) | 426.1 | 2.6", "Dizziness | 5 (  0.8) | 430.6 | 1.2", "Neuritis | 2 (  0.3) | 430.7 | 0.5", "Sciatica | 2 (  0.3) | 430.5 | 0.5", "Somnolence | 2 (  0.3) | 430.7 | 0.5", "Bell's palsy | 2 (  0.3) | 430.4 | 0.5", "Carpal tunnel syndrome | 1 (  0.2) | 430.5 | 0.2", "Cerebral haemorrhage | 1 (  0.2) | 431.2 | 0.2", "Disturbance in attention | 1 (  0.2) | 430.7 | 0.2", "Head discomfort | 1 (  0.2) | 430.8 | 0.2", "Intracranial aneurysm | 1 (  0.2) | 431.1 | 0.2", "Lacunar infarction | 1 (  0.2) | 431.2 | 0.2", "Migraine | 1 (  0.2) | 430.7 | 0.2", "Post herpetic neuralgia | 1 (  0.2) | 431.1 | 0.2", "Presyncope | 1 (  0.2) | 430.6 | 0.2", "Syncope | 1 (  0.2) | 430.2 | 0.2", "Embolic stroke | 1 (  0.2) | 431.2 | 0.2", "General disorders and administration site conditions | 20 (  6.0) | 257.6 | 7.8 | 7 (  2.3) | 162.2 | 4.3", "Fatigue | 6 (  1.8) | 262.8 | 2.3 | 1 (  0.3) | 164.5 | 0.6", "Pyrexia | 4 (  1.2) | 264.8 | 1.5 | 1 (  0.3) | 164.0 | 0.6", "Chest pain | 3 (  0.9) | 265.5 | 1.1 | 1 (  0.3) | 164.4 | 0.6", "Asthenia | 2 (  0.6) | 265.3 | 0.8 | 0 | 164.5 | 0", "Drug intolerance | 1 (  0.3) | 266.7 | 0.4 | 2 (  0.7) | 163.4 | 1.2", "Hyperplasia | 1 (  0.3) | 266.8 | 0.4 | 0 | 164.5 | 0", "Influenza like illness | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Malaise | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Nodule | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Oedema peripheral | 1 (  0.3) | 266.4 | 0.4 | 1 (  0.3) | 164.4 | 0.6", "Gravitational oedema | 0 | 266.7 | 0 | 1 (  0.3) | 163.9 | 0.6", "Inflammation | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Injury, poisoning and procedural complications | 19 (  5.7) | 259.0 | 7.3 | 10 (  3.3) | 161.6 | 6.2", "Fall | 5 (  1.5) | 265.1 | 1.9 | 3 (  1.0) | 163.4 | 1.8", "Contusion | 3 (  0.9) | 264.3 | 1.1 | 1 (  0.3) | 164.5 | 0.6", "Ligament sprain | 2 (  0.6) | 265.6 | 0.8 | 0 | 164.5 | 0", "Limb injury | 2 (  0.6) | 265.7 | 0.8 | 0 | 164.5 | 0", "Meniscus injury | 2 (  0.6) | 266.4 | 0.8 | 2 (  0.7) | 164.3 | 1.2", "Road traffic accident | 2 (  0.6) | 265.8 | 0.8 | 0 | 164.5 | 0", "Accident at home | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Arthropod bite | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Chest injury | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "General disorders and administration site conditions | 27 (  4.2) | 419.8 | 6.4", "Fatigue | 7 (  1.1) | 427.4 | 1.6", "Pyrexia | 5 (  0.8) | 428.7 | 1.2", "Chest pain | 4 (  0.6) | 430.0 | 0.9", "Asthenia | 2 (  0.3) | 429.8 | 0.5", "Drug intolerance | 3 (  0.5) | 430.0 | 0.7", "Hyperplasia | 1 (  0.2) | 431.3 | 0.2", "Influenza like illness | 1 (  0.2) | 431.2 | 0.2", "Malaise | 1 (  0.2) | 431.2 | 0.2", "Nodule | 1 (  0.2) | 430.9 | 0.2", "Oedema peripheral | 2 (  0.3) | 430.7 | 0.5", "Gravitational oedema | 1 (  0.2) | 430.7 | 0.2", "Inflammation | 1 (  0.2) | 431.0 | 0.2", "Injury, poisoning and procedural complications | 29 (  4.5) | 420.6 | 6.9", "Fall | 8 (  1.3) | 428.5 | 1.9", "Contusion | 4 (  0.6) | 428.8 | 0.9", "Ligament sprain | 2 (  0.3) | 430.1 | 0.5", "Limb injury | 2 (  0.3) | 430.2 | 0.5", "Meniscus injury | 4 (  0.6) | 430.7 | 0.9", "Road traffic accident | 2 (  0.3) | 430.2 | 0.5", "Accident at home | 1 (  0.2) | 430.9 | 0.2", "Arthropod bite | 1 (  0.2) | 430.3 | 0.2", "Chest injury | 1 (  0.2) | 430.4 | 0.2", "Injury, poisoning and procedural complications", "Foreign body in eye | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Hand fracture | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Joint dislocation | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Joint injury | 1 (  0.3) | 266.5 | 0.4 | 2 (  0.7) | 164.0 | 1.2", "Procedural pain | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Radius fracture | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Spinal compression fracture | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Spinal fracture | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Tooth fracture | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Wound | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Wrist fracture | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Muscle strain | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Rib fracture | 0 | 266.7 | 0 | 1 (  0.3) | 163.9 | 0.6", "Tendon rupture | 0 | 266.7 | 0 | 1 (  0.3) | 164.2 | 0.6", "Tibia fracture | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Traumatic fracture | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Respiratory, thoracic and mediastinal disorders | 19 (  5.7) | 256.4 | 7.4 | 7 (  2.3) | 162.0 | 4.3", "Cough | 3 (  0.9) | 265.4 | 1.1 | 2 (  0.7) | 163.4 | 1.2", "Oropharyngeal pain | 3 (  0.9) | 264.8 | 1.1 | 0 | 164.5 | 0", "Asthma | 2 (  0.6) | 266.1 | 0.8 | 1 (  0.3) | 164.3 | 0.6", "Catarrh | 2 (  0.6) | 266.1 | 0.8 | 0 | 164.5 | 0", "Bronchospasm | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Dyspnoea | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Foreign body in eye | 1 (  0.2) | 431.0 | 0.2", "Hand fracture | 1 (  0.2) | 431.1 | 0.2", "Joint dislocation | 1 (  0.2) | 430.7 | 0.2", "Joint injury | 3 (  0.5) | 430.5 | 0.7", "Procedural pain | 1 (  0.2) | 431.1 | 0.2", "Radius fracture | 1 (  0.2) | 430.7 | 0.2", "Spinal compression fracture | 1 (  0.2) | 431.2 | 0.2", "Spinal fracture | 1 (  0.2) | 430.8 | 0.2", "Tooth fracture | 1 (  0.2) | 431.1 | 0.2", "Wound | 1 (  0.2) | 431.1 | 0.2", "Wrist fracture | 1 (  0.2) | 430.9 | 0.2", "Muscle strain | 1 (  0.2) | 430.8 | 0.2", "Rib fracture | 1 (  0.2) | 430.6 | 0.2", "Tendon rupture | 1 (  0.2) | 431.0 | 0.2", "Tibia fracture | 1 (  0.2) | 431.0 | 0.2", "Traumatic fracture | 1 (  0.2) | 430.7 | 0.2", "Respiratory, thoracic and mediastinal disorders | 26 (  4.1) | 418.4 | 6.2", "Cough | 5 (  0.8) | 428.8 | 1.2", "Oropharyngeal pain | 3 (  0.5) | 429.3 | 0.7", "Asthma | 3 (  0.5) | 430.4 | 0.7", "Catarrh | 2 (  0.3) | 430.5 | 0.5", "Bronchospasm | 1 (  0.2) | 430.7 | 0.2", "Dyspnoea | 1 (  0.2) | 430.2 | 0.2", "Respiratory, thoracic and mediastinal disorders", "Nasal congestion | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Paranasal sinus inflammation | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Pharyngeal ulceration | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Pneumonitis | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Reflux laryngitis | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Rhinitis allergic | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Rhinorrhoea | 1 (  0.3) | 266.7 | 0.4 | 1 (  0.3) | 164.1 | 0.6", "Upper respiratory tract inflammation | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Allergic bronchitis | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Obstructive sleep apnoea syndrome | 0 | 266.7 | 0 | 1 (  0.3) | 164.2 | 0.6", "Upper respiratory tract congestion | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Blood and lymphatic system disorders | 16 (  4.8) | 261.2 | 6.1 | 5 (  1.6) | 162.3 | 3.1", "Anaemia | 8 (  2.4) | 263.8 | 3.0 | 3 (  1.0) | 162.9 | 1.8", "Neutropenia | 3 (  0.9) | 265.9 | 1.1 | 0 | 164.5 | 0", "Leukopenia | 2 (  0.6) | 266.3 | 0.8 | 0 | 164.5 | 0", "Leukocytosis | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Lymphadenitis | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Lymphadenopathy | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Lymphopenia | 1 (  0.3) | 266.1 | 0.4 | 0 | 164.5 | 0", "Thrombocytosis | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Bone marrow oedema | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Thrombocytopenia | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Nasal congestion | 1 (  0.2) | 430.5 | 0.2", "Paranasal sinus inflammation | 1 (  0.2) | 430.7 | 0.2", "Pharyngeal ulceration | 1 (  0.2) | 430.2 | 0.2", "Pneumonitis | 1 (  0.2) | 430.9 | 0.2", "Reflux laryngitis | 1 (  0.2) | 430.5 | 0.2", "Rhinitis allergic | 1 (  0.2) | 431.0 | 0.2", "Rhinorrhoea | 2 (  0.3) | 430.8 | 0.5", "Upper respiratory tract inflammation | 1 (  0.2) | 430.2 | 0.2", "Allergic bronchitis | 1 (  0.2) | 430.9 | 0.2", "Obstructive sleep apnoea syndrome | 1 (  0.2) | 431.0 | 0.2", "Upper respiratory tract congestion | 1 (  0.2) | 431.0 | 0.2", "Blood and lymphatic system disorders | 21 (  3.3) | 423.6 | 5.0", "Anaemia | 11 (  1.7) | 426.8 | 2.6", "Neutropenia | 3 (  0.5) | 430.4 | 0.7", "Leukopenia | 2 (  0.3) | 430.8 | 0.5", "Leukocytosis | 1 (  0.2) | 430.9 | 0.2", "Lymphadenitis | 1 (  0.2) | 431.1 | 0.2", "Lymphadenopathy | 1 (  0.2) | 430.8 | 0.2", "Lymphopenia | 1 (  0.2) | 430.6 | 0.2", "Thrombocytosis | 1 (  0.2) | 431.0 | 0.2", "Bone marrow oedema | 1 (  0.2) | 431.0 | 0.2", "Thrombocytopenia | 1 (  0.2) | 430.8 | 0.2", "Renal and urinary disorders | 15 (  4.5) | 263.1 | 5.7 | 8 (  2.6) | 162.5 | 4.9", "Haematuria | 3 (  0.9) | 265.8 | 1.1 | 2 (  0.7) | 164.3 | 1.2", "Renal impairment | 2 (  0.6) | 266.7 | 0.7 | 2 (  0.7) | 163.6 | 1.2", "Urinary incontinence | 2 (  0.6) | 266.1 | 0.8 | 0 | 164.5 | 0", "Acute kidney injury | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Calculus urinary | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Chronic kidney disease | 1 (  0.3) | 266.4 | 0.4 | 1 (  0.3) | 164.1 | 0.6", "Dysuria | 1 (  0.3) | 266.7 | 0.4 | 1 (  0.3) | 164.2 | 0.6", "Pollakiuria | 1 (  0.3) | 266.0 | 0.4 | 1 (  0.3) | 164.2 | 0.6", "Renal colic | 1 (  0.3) | 266.6 | 0.4 | 1 (  0.3) | 164.4 | 0.6", "Renal cyst | 1 (  0.3) | 266.4 | 0.4 | 1 (  0.3) | 164.3 | 0.6", "Urethral stenosis | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Nephrolithiasis | 0 | 266.7 | 0 | 1 (  0.3) | 164.2 | 0.6", "Psychiatric disorders | 14 (  4.2) | 260.0 | 5.4 | 5 (  1.6) | 162.5 | 3.1", "Insomnia | 4 (  1.2) | 265.0 | 1.5 | 0 | 164.5 | 0", "Anxiety | 3 (  0.9) | 265.5 | 1.1 | 0 | 164.5 | 0", "Depression | 3 (  0.9) | 265.6 | 1.1 | 0 | 164.5 | 0", "Sleep disorder | 2 (  0.6) | 265.8 | 0.8 | 1 (  0.3) | 164.0 | 0.6", "Grief reaction | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Libido decreased | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Premature ejaculation | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Bruxism | 0 | 266.7 | 0 | 1 (  0.3) | 163.9 | 0.6", "Depressive symptom | 0 | 266.7 | 0 | 1 (  0.3) | 164.2 | 0.6", "Hallucination | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Renal and urinary disorders | 23 (  3.6) | 425.6 | 5.4", "Haematuria | 5 (  0.8) | 430.1 | 1.2", "Renal impairment | 4 (  0.6) | 430.3 | 0.9", "Urinary incontinence | 2 (  0.3) | 430.6 | 0.5", "Acute kidney injury | 1 (  0.2) | 431.2 | 0.2", "Calculus urinary | 1 (  0.2) | 430.9 | 0.2", "Chronic kidney disease | 2 (  0.3) | 430.5 | 0.5", "Dysuria | 2 (  0.3) | 430.9 | 0.5", "Pollakiuria | 2 (  0.3) | 430.2 | 0.5", "Renal colic | 2 (  0.3) | 431.1 | 0.5", "Renal cyst | 2 (  0.3) | 430.7 | 0.5", "Urethral stenosis | 1 (  0.2) | 431.2 | 0.2", "Nephrolithiasis | 1 (  0.2) | 430.9 | 0.2", "Psychiatric disorders | 19 (  3.0) | 422.5 | 4.5", "Insomnia | 4 (  0.6) | 429.5 | 0.9", "Anxiety | 3 (  0.5) | 429.9 | 0.7", "Depression | 3 (  0.5) | 430.1 | 0.7", "Sleep disorder | 3 (  0.5) | 429.7 | 0.7", "Grief reaction | 1 (  0.2) | 430.4 | 0.2", "Libido decreased | 1 (  0.2) | 430.8 | 0.2", "Premature ejaculation | 1 (  0.2) | 430.4 | 0.2", "Bruxism | 1 (  0.2) | 430.6 | 0.2", "Depressive symptom | 1 (  0.2) | 430.9 | 0.2", "Hallucination | 1 (  0.2) | 431.2 | 0.2", "Psychiatric disorders", "Panic attack | 0 | 266.7 | 0 | 1 (  0.3) | 163.9 | 0.6", "Psychotic disorder | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Eye disorders | 6 (  1.8) | 263.7 | 2.3 | 1 (  0.3) | 164.4 | 0.6", "Cataract | 2 (  0.6) | 266.1 | 0.8 | 0 | 164.5 | 0", "Conjunctival haemorrhage | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Dry eye | 1 (  0.3) | 266.3 | 0.4 | 0 | 164.5 | 0", "Glaucoma | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Visual acuity reduced | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Vitreous detachment | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Age-related macular degeneration | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Reproductive system and breast disorders | 6 (  1.8) | 264.1 | 2.3 | 4 (  1.3) | 163.3 | 2.4", "Benign prostatic hyperplasia | 3 (  0.9) | 265.6 | 1.1 | 1 (  0.3) | 164.3 | 0.6", "Menstruation irregular | 2 (  0.6) | 265.8 | 0.8 | 0 | 164.5 | 0", "Adnexa uteri cyst | 1 (  0.3) | 266.8 | 0.4 | 0 | 164.5 | 0", "Uterine prolapse | 1 (  0.3) | 266.2 | 0.4 | 0 | 164.5 | 0", "Balanoposthitis | 0 | 266.7 | 0 | 1 (  0.3) | 164.2 | 0.6", "Endometrial hyperplasia with cellular atypia | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Genital haemorrhage | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Uterine polyp | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Ear and labyrinth disorders | 5 (  1.5) | 264.6 | 1.9 | 2 (  0.7) | 164.4 | 1.2", "Vertigo | 2 (  0.6) | 265.7 | 0.8 | 1 (  0.3) | 164.4 | 0.6", "Panic attack | 1 (  0.2) | 430.7 | 0.2", "Psychotic disorder | 1 (  0.2) | 431.2 | 0.2", "Eye disorders | 7 (  1.1) | 428.1 | 1.6", "Cataract | 2 (  0.3) | 430.6 | 0.5", "Conjunctival haemorrhage | 1 (  0.2) | 430.3 | 0.2", "Dry eye | 1 (  0.2) | 430.8 | 0.2", "Glaucoma | 1 (  0.2) | 430.7 | 0.2", "Visual acuity reduced | 1 (  0.2) | 431.0 | 0.2", "Vitreous detachment | 1 (  0.2) | 430.5 | 0.2", "Age-related macular degeneration | 1 (  0.2) | 431.1 | 0.2", "Reproductive system and breast disorders | 10 (  1.6) | 427.4 | 2.3", "Benign prostatic hyperplasia | 4 (  0.6) | 429.9 | 0.9", "Menstruation irregular | 2 (  0.3) | 430.2 | 0.5", "Adnexa uteri cyst | 1 (  0.2) | 431.3 | 0.2", "Uterine prolapse | 1 (  0.2) | 430.6 | 0.2", "Balanoposthitis | 1 (  0.2) | 430.9 | 0.2", "Endometrial hyperplasia with cellular atypia | 1 (  0.2) | 431.1 | 0.2", "Genital haemorrhage | 1 (  0.2) | 431.1 | 0.2", "Uterine polyp | 1 (  0.2) | 430.7 | 0.2", "Ear and labyrinth disorders | 7 (  1.1) | 429.0 | 1.6", "Vertigo | 3 (  0.5) | 430.1 | 0.7", "Ear and labyrinth disorders", "External ear inflammation | 1 (  0.3) | 265.9 | 0.4 | 0 | 164.5 | 0", "Tinnitus | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Tympanic membrane perforation | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Middle ear inflammation | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Cardiac disorders | 3 (  0.9) | 265.0 | 1.1 | 6 (  2.0) | 162.6 | 3.7", "Arrhythmia | 1 (  0.3) | 266.4 | 0.4 | 0 | 164.5 | 0", "Atrial fibrillation | 1 (  0.3) | 266.3 | 0.4 | 2 (  0.7) | 164.2 | 1.2", "Palpitations | 1 (  0.3) | 266.7 | 0.4 | 0 | 164.5 | 0", "Sinus bradycardia | 1 (  0.3) | 265.7 | 0.4 | 0 | 164.5 | 0", "Angina unstable | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Arteriosclerosis coronary artery | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Bundle branch block left | 0 | 266.7 | 0 | 1 (  0.3) | 164.1 | 0.6", "Coronary artery disease | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Tachycardia | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Endocrine disorders | 3 (  0.9) | 265.1 | 1.1 | 1 (  0.3) | 164.5 | 0.6", "Hypothyroidism | 2 (  0.6) | 265.8 | 0.8 | 0 | 164.5 | 0", "Hyperparathyroidism primary | 1 (  0.3) | 266.0 | 0.4 | 0 | 164.5 | 0", "Goitre | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Immune system disorders | 3 (  0.9) | 265.4 | 1.1 | 2 (  0.7) | 164.3 | 1.2", "Seasonal allergy | 2 (  0.6) | 265.9 | 0.8 | 0 | 164.5 | 0", "Drug hypersensitivity | 1 (  0.3) | 266.3 | 0.4 | 1 (  0.3) | 164.4 | 0.6", "External ear inflammation | 1 (  0.2) | 430.4 | 0.2", "Tinnitus | 1 (  0.2) | 431.2 | 0.2", "Tympanic membrane perforation | 1 (  0.2) | 431.0 | 0.2", "Middle ear inflammation | 1 (  0.2) | 431.2 | 0.2", "Cardiac disorders | 9 (  1.4) | 427.6 | 2.1", "Arrhythmia | 1 (  0.2) | 430.9 | 0.2", "Atrial fibrillation | 3 (  0.5) | 430.5 | 0.7", "Palpitations | 1 (  0.2) | 431.1 | 0.2", "Sinus bradycardia | 1 (  0.2) | 430.2 | 0.2", "Angina unstable | 1 (  0.2) | 430.7 | 0.2", "Arteriosclerosis coronary artery | 1 (  0.2) | 430.7 | 0.2", "Bundle branch block left | 1 (  0.2) | 430.8 | 0.2", "Coronary artery disease | 1 (  0.2) | 431.0 | 0.2", "Tachycardia | 1 (  0.2) | 431.1 | 0.2", "Endocrine disorders | 4 (  0.6) | 429.5 | 0.9", "Hypothyroidism | 2 (  0.3) | 430.3 | 0.5", "Hyperparathyroidism primary | 1 (  0.2) | 430.5 | 0.2", "Goitre | 1 (  0.2) | 431.2 | 0.2", "Immune system disorders | 5 (  0.8) | 429.8 | 1.2", "Seasonal allergy | 2 (  0.3) | 430.4 | 0.5", "Drug hypersensitivity | 2 (  0.3) | 430.7 | 0.5", "Immune system disorders", "Food allergy | 0 | 266.7 | 0 | 1 (  0.3) | 164.4 | 0.6", "Neoplasms benign, malignant and unspecified (incl cysts and polyps) | 3 (  0.9) | 266.4 | 1.1 | 2 (  0.7) | 164.1 | 1.2", "Glioblastoma | 1 (  0.3) | 266.8 | 0.4 | 0 | 164.5 | 0", "Prostate cancer | 1 (  0.3) | 266.6 | 0.4 | 0 | 164.5 | 0", "Skin papilloma | 1 (  0.3) | 266.5 | 0.4 | 1 (  0.3) | 164.1 | 0.6", "Endometrial cancer stage 0 | 0 | 266.7 | 0 | 1 (  0.3) | 164.5 | 0.6", "Hepatobiliary disorders | 2 (  0.6) | 265.6 | 0.8 | 1 (  0.3) | 164.3 | 0.6", "Alcoholic liver disease | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Hypertransaminasaemia | 1 (  0.3) | 265.8 | 0.4 | 0 | 164.5 | 0", "Cholelithiasis | 0 | 266.7 | 0 | 1 (  0.3) | 164.3 | 0.6", "Congenital, familial and genetic disorders | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Clinodactyly | 1 (  0.3) | 266.5 | 0.4 | 0 | 164.5 | 0", "Surgical and medical procedures | 1 (  0.3) | 266.8 | 0.4 | 0 | 164.5 | 0", "Cataract operation | 1 (  0.3) | 266.8 | 0.4 | 0 | 164.5 | 0", "Product issues | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Device dislocation | 0 | 266.7 | 0 | 1 (  0.3) | 164.0 | 0.6", "Food allergy | 1 (  0.2) | 431.1 | 0.2", "Neoplasms benign, malignant and unspecified (incl cysts and polyps) | 5 (  0.8) | 430.5 | 1.2", "Glioblastoma | 1 (  0.2) | 431.2 | 0.2", "Prostate cancer | 1 (  0.2) | 431.1 | 0.2", "Skin papilloma | 2 (  0.3) | 430.6 | 0.5", "Endometrial cancer stage 0 | 1 (  0.2) | 431.3 | 0.2", "Hepatobiliary disorders | 3 (  0.5) | 429.9 | 0.7", "Alcoholic liver disease | 1 (  0.2) | 431.0 | 0.2", "Hypertransaminasaemia | 1 (  0.2) | 430.3 | 0.2", "Cholelithiasis | 1 (  0.2) | 431.1 | 0.2", "Congenital, familial and genetic disorders | 1 (  0.2) | 431.0 | 0.2", "Clinodactyly | 1 (  0.2) | 431.0 | 0.2", "Surgical and medical procedures | 1 (  0.2) | 431.3 | 0.2", "Cataract operation | 1 (  0.2) | 431.3 | 0.2", "Product issues | 1 (  0.2) | 430.7 | 0.2", "Device dislocation | 1 (  0.2) | 430.7 | 0.2"]
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "255"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "76.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "111.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "229.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "185"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "60.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "92.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "200.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "167"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "50.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "173.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "96.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "108"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "35.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "124.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "86.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Upper respiratory tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "40"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Upper respiratory tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "12.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Upper respiratory tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "246.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Upper respiratory tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "16.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Upper respiratory tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "25"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Upper respiratory tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "8.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Upper respiratory tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "156.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Upper respiratory tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "15.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nasopharyngitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "28"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nasopharyngitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "8.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nasopharyngitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "252.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nasopharyngitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "11.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nasopharyngitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "22"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nasopharyngitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "7.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nasopharyngitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "155.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nasopharyngitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "14.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "COVID-19",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "23"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "COVID-19",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "6.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "COVID-19",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "254.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "COVID-19",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "9.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "COVID-19",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "COVID-19",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "COVID-19",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "161.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "COVID-19",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "4.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "17"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "5.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "258.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "6.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "161.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "4.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pharyngitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "13"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pharyngitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "3.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pharyngitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "260.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pharyngitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "5.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pharyngitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pharyngitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pharyngitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "163.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pharyngitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "2.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Bronchitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "12"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Bronchitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "3.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Bronchitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "261.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Bronchitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "4.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Bronchitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Bronchitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Bronchitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "162.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Bronchitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "5.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "11"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "3.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "260.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "4.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "163.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Oral herpes",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "10"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Oral herpes",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "3.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Oral herpes",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "262.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Oral herpes",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "3.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Oral herpes",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Oral herpes",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Oral herpes",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "163.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Oral herpes",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinusitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "10"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinusitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "3.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinusitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "261.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinusitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "3.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinusitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinusitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinusitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "163.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinusitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "2.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tonsillitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tonsillitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tonsillitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "261.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tonsillitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "3.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tonsillitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tonsillitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tonsillitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "162.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tonsillitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "2.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "262.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "3.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "163.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes simplex",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes simplex",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes simplex",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "264.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes simplex",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes simplex",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes simplex",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "164.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes simplex",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "266.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "163.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Dengue fever",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Dengue fever",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Dengue fever",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "265.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Dengue fever",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Dengue fever",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Dengue fever",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Dengue fever",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "164.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Dengue fever",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis viral",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis viral",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis viral",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "265.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis viral",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis viral",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis viral",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis viral",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "164.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastroenteritis viral",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes zoster",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes zoster",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes zoster",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "266.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes zoster",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes zoster",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes zoster",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes zoster",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "164.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Herpes zoster",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Influenza",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Influenza",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Influenza",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "264.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Influenza",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Influenza",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Influenza",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Influenza",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "160.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Influenza",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "5.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pulpitis dental",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pulpitis dental",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pulpitis dental",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "265.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pulpitis dental",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pulpitis dental",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pulpitis dental",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pulpitis dental",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "164.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Pulpitis dental",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tinea pedis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tinea pedis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tinea pedis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "264.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tinea pedis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tinea pedis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tinea pedis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tinea pedis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "163.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Tinea pedis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Conjunctivitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Conjunctivitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Conjunctivitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "266.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Conjunctivitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Conjunctivitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Conjunctivitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Conjunctivitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "164.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Conjunctivitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "264.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "164.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Folliculitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Folliculitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Folliculitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "266.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Folliculitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Folliculitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Folliculitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Folliculitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "163.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Folliculitis",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "1.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    }
+  ],
+  "summary": {
+    "total_rows": 195,
+    "unique_groups": 1,
+    "unique_variables": 26,
+    "stat_types": ["N", "n", "pct", "value", "other"],
+    "hierarchical_variables": 0,
+    "group_levels": 0
+  }
+}

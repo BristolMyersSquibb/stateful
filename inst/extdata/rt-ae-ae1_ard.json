@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "source_file": "rt-ae-ae1.rtf",
+    "conversion_date": "2025-06-29 17:37:32",
+    "conversion_method": "rtf_state_parser",
+    "footnotes": "AEs are treatment emergent AEs with an onset date on or after the first dose date of study treatment up to 30 days after the lastdose date of treatment in the study.SAE = Serious Adverse Event; AE = Adverse Event (Treatment Emergent) DC = Discontinuation of treatment.MedDRA: 27.1Program Path: BMS_GBS\\\\IM011\\\\HAB31370\\\\Biostatistics\\\\Production\\\\Tables\\\\CSRProgram Name: rt-ae-ae1.sas                                                                                          12DEC2024:06:33:34"
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "333"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "665"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "DEATHs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "DEATHs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "DEATHs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "AEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "200"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "AEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "60.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "AEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "160"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "AEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "48.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "AEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "360"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "AEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "54.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "TREATMENT RELATED AEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "64"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "TREATMENT RELATED AEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "19.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "TREATMENT RELATED AEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "39"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "TREATMENT RELATED AEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "11.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "TREATMENT RELATED AEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "103"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "TREATMENT RELATED AEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "15.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "SAEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "SAEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "SAEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "SAEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "SAEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "SAEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "TREATMENT RELATED SAEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "TREATMENT RELATED SAEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "TREATMENT RELATED SAEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "TREATMENT RELATED SAEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "TREATMENT RELATED SAEs",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "TREATMENT RELATED SAEs",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "AEs LEADING TO DC",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "DEUC",
+      "variable": "AEs LEADING TO DC",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "AEs LEADING TO DC",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "PBO",
+      "variable": "AEs LEADING TO DC",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "AEs LEADING TO DC",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Total",
+      "variable": "AEs LEADING TO DC",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.1"
+    }
+  ],
+  "summary": {
+    "total_rows": 36,
+    "unique_groups": 3,
+    "unique_variables": 7,
+    "stat_types": ["N", "n", "pct"],
+    "hierarchical_variables": 0,
+    "group_levels": 0
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "source_file": "rt-ef-cfbsvdh.rtf",
+    "conversion_date": "2025-06-28 22:01:40",
+    "conversion_method": "rtf_state_parser",
+    "footnotes": ["Table 14.2.2.3.5{ }Change from Baseline in PsA-modified SvdH Score(structural damage) at Week 16 - Main Estimand{ }Randomized Population{ }", "Timepoint{ }  Statistic | DEUC 6 mg{ }N = 336 | PBO{ }N = 334", "DIFFERENCE AT WEEK 16", "ADJUSTED MEAN CHANGES(SE) | 0.9778 (0.33449) | 0.8182 (0.32944)", "95% CONFIDENCE INTERVAL FOR MEAN | (0.3221, 1.6335) | (0.1724, 1.4640)", "VS PLACEBO", "ADJUSTED MEAN DIFFERENCE (SE) | 0.1596 (0.44430) | N.A.", "95% CONFIDENCE INTERVAL FOR DIFFERENCE | (-0.7114, 1.0306) | N.A.", "P VALUE | 0.7194 | N.A.", "Analysis of Covariance presents change from baseline as the dependent variable with treatment, randomization stratification variables,and baseline value of the key secondary measure as independent variables.Treatment policy strategy is used for treatment discontinuation and use of rescue therapy prior to week 16.Missing data are imputed by control-based pattern multiple imputation.Observed data are used for descriptive statistics. Imputed data after considering multiple imputation are used in ANCOVA model.N1 represents the total number of subjects at the visit timepoint.N.A.: Not Applicable.Program Path: BMS_GBS\\\\IM011\\\\HAB31370\\\\Biostatistics\\\\Production\\\\Tables\\\\CSRProgram Name: rt-ef-cfbsvdh.sas                                                                                      12DEC2024:07:07:04"]
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N1",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "303"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N1",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "308"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "18.3999"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "31.84339"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "25.5644"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "38.01085"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "7.0000"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "8.5000"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "0.000, 299.000"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "0.500, 259.500"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N1",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "247"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N1",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "252"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "20.1950"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "34.83295"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "26.4927"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "38.87264"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "7.0000"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "9.5000"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "0.000, 299.000"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "0.500, 259.500"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N1",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "245"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N1",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "251"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "0.3980"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "2.00852"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "0.5757"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN (SD)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "2.73874"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.0000"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "0.0000"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "-3.500, 16.333"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "-24.000, 17.500"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    }
+  ],
+  "summary": {
+    "total_rows": 35,
+    "unique_groups": 2,
+    "unique_variables": 6,
+    "stat_types": ["N", "n", "mean", "sd", "value", "other"],
+    "hierarchical_variables": 0,
+    "group_levels": 0
+  }
+}

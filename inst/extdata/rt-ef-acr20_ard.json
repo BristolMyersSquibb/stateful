@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "source_file": "rt-ef-acr20.rtf",
+    "conversion_date": "2025-06-28 22:01:39",
+    "conversion_method": "rtf_state_parser",
+    "footnotes": "Total number of subjects is the number of subjects in the Randomized Population.Responders are subjects with >=20{} improvement from baseline, with respect to main estimand strategy.Composite variable strategy is used for treatment discontinuation prior to Week 16.Treatment policy strategy is used for rescue medication therapy prior to Week 16.The 95{} CI is calculated using Clopper-Pearson exact method.Risk difference and odds ratio are obtained from stratified contingency tables. P-value is obtained using a Cochran Mantel Haenszel (CMH)test stratified by Screening hsCRP concentration (< 10 mg/L, >= 10 mg/L) and csDMARD use at baseline (yes/no).Missing ACR20 composite response is treated with non-responder imputation. N.A. = Not Applicable.ICE: Intercurrent event.Program Path: BMS_GBS\\\\IM011\\\\HAB31370\\\\Biostatistics\\\\Production\\\\Tables\\\\CSRProgram Name: rt-ef-acr20.sas                                                                                        12DEC2024:06:45:33"
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "336"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "334"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "RESPONDERS n (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "182"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "RESPONDERS n (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "54.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "RESPONDERS n (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "114"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "RESPONDERS n (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "34.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS n (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "154"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS n (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "45.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS n (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "220"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS n (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "65.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "19"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "5.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "23"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "6.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "11"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "3.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "RESPONSE RATE (%)",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "54.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "RESPONSE RATE (%)",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "34.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "(95% CI)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "( 48.7,  59.6)"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "(95% CI)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "( 29.1,  39.5)"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "20.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "N.A."
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "(95% CI)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "( 12.7,  27.4)"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "(95% CI)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "N.A."
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "P-VALUE",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "<0.0001"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "P-VALUE",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "N.A."
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "2.29"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "N.A."
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "(95% CI)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "( 1.67,  3.13)"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "(95% CI)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "N.A."
+    }
+  ],
+  "summary": {
+    "total_rows": 33,
+    "unique_groups": 1,
+    "unique_variables": 11,
+    "stat_types": ["N", "n", "pct", "value", "other"],
+    "hierarchical_variables": 0,
+    "group_levels": 0
+  }
+}
