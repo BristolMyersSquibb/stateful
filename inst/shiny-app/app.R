@@ -93,6 +93,19 @@ ui <- dashboardPage(
       # Pattern Management Tab - UPDATED
       tabItem(tabName = "patterns",
         fluidRow(
+          box(title = "Pattern System Features", status = "success", solidHeader = TRUE, width = 12,
+            h4("New Enhancements:"),
+            tags$ul(
+              tags$li(tags$strong("Minimal Hardcoding:"), " Single BIGN pattern replaces 8+ regex patterns"),
+              tags$li(tags$strong("Context-Aware Matching:"), " Patterns selected based on variable context (e.g., 'MEAN (SD)' → mean/sd pattern)"),
+              tags$li(tags$strong("Number-Only Matching:"), " Patterns now correctly match only numbers, preventing comma bleeding"),
+              tags$li(tags$strong("Template Syntax:"), " Use {placeholders} instead of complex regex"),
+              tags$li(tags$strong("Runtime Extensible:"), " Add patterns without modifying source code")
+            )
+          )
+        ),
+        
+        fluidRow(
           box(title = "Current Patterns", status = "info", solidHeader = TRUE, width = 6,
             h4("BIGN Patterns:"),
             p("Single maximal pattern covers most cases. Add specific patterns if needed."),
@@ -100,6 +113,14 @@ ui <- dashboardPage(
             br(),
             h4("Statistical Patterns:"),
             p("Context-aware patterns automatically prioritize based on variable labels."),
+            tags$small(
+              tags$ul(
+                tags$li("Mean/SD patterns prioritized for continuous variables"),
+                tags$li("N/% patterns prioritized for categorical variables"),
+                tags$li("CI patterns prioritized for confidence intervals"),
+                style = "color: #666;"
+              )
+            ),
             verbatimTextOutput("current_stat_patterns")
           ),
           
@@ -125,6 +146,14 @@ ui <- dashboardPage(
                      placeholder = "e.g., Hazard Ratio,CI Lower,CI Upper"),
             actionButton("add_stat_btn", "Add Pattern", class = "btn-primary"),
             br(), br(),
+            
+            h4("Example Patterns to Add:"),
+            tags$ul(
+              tags$li(tags$code("ci_spaces"), ": ", tags$code("{estimate}  ( {ci_lower}, {ci_upper})"), " - CI with extra spaces"),
+              tags$li(tags$code("q1_q3"), ": ", tags$code("{q1}, {q3}"), " - Quartile ranges"),
+              tags$li(tags$code("mean_ci"), ": ", tags$code("{mean} [{ci_lower}, {ci_upper}]"), " - Mean with CI"),
+              style = "font-size: 0.9em; margin-bottom: 15px;"
+            ),
             
             h4("Common Templates:"),
             selectInput("common_templates", "Select a template:",
