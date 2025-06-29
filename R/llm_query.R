@@ -39,8 +39,9 @@ generate_sql_from_question <- function(question, ard_data, examples = NULL) {
   user_prompt <- paste0(
     "Generate a SQL query to answer this question about clinical trial summary data:\n\n",
     "Question: ", question, "\n\n",
-    "Remember: This is SUMMARY data only. You cannot answer patient-level questions.\n",
-    "Valid questions are about treatment group comparisons, statistics, counts, percentages, etc.\n\n",
+    "Remember: This is SUMMARY data only. You cannot query individual patient records.\n",
+    "Valid questions include aggregate counts (total patients/subjects), group comparisons, statistics, percentages, etc.\n",
+    "Questions about 'how many patients' or 'total subjects' are VALID when asking for summary counts.\n\n",
     "Please provide:\n",
     "1. The SQL query (use table name 'ard_data')\n",
     "2. A brief explanation of what the query does\n",
@@ -121,15 +122,18 @@ build_sql_system_prompt <- function(table_schema, examples = NULL) {
     "7. Use WHERE clauses to focus on relevant variables\n\n",
 
     "Example valid questions:\n",
-    "- How many subjects in each treatment group?\n",
+    "- How many subjects/patients in each treatment group?\n",
+    "- How many patients were treated in this table?\n",
     "- What are the mean values by treatment?\n",
     "- Which treatment group has the highest percentage?\n",
-    "- Compare adverse event rates between groups\n\n",
+    "- Compare adverse event rates between groups\n",
+    "- Total number of subjects across all treatments\n\n",
 
     "INVALID questions (will be rejected):\n",
-    "- Which patients had adverse events?\n",
-    "- Show me patient demographics\n",
-    "- List individual patient data\n"
+    "- Which specific patients had adverse events?\n",
+    "- Show me individual patient demographics\n",
+    "- List each patient's data separately\n",
+    "- Patient-level record retrieval\n"
   )
 
   if (!is.null(examples)) {
@@ -306,19 +310,8 @@ execute_ard_sql <- function(ard_data, sql) {
     stop("sqldf package is required to execute SQL queries. Install with: install.packages('sqldf')")
   }
 
-  # Validate that this looks like a summary query, not patient-level
-  patient_indicators <- c(
-    "patient", "subject", "individual", "person",
-    "which patient", "show me patients", "list patients"
-  )
-  
-  if (any(sapply(patient_indicators, function(x) grepl(x, tolower(sql))))) {
-    return(list(
-      success = FALSE,
-      data = NULL,
-      error = "Patient-level queries are not supported. This data contains only summary statistics. Please ask aggregate questions about treatment groups, means, counts, etc."
-    ))
-  }
+  # Let the LLM handle determining appropriate queries
+  # No validation needed - the LLM knows the data structure and constraints
 
   # Execute query using sqldf
   tryCatch({
