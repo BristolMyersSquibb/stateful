@@ -9,12 +9,12 @@ add_bign_pseudo_pattern(name, template)
 \arguments{
 \item{name}{Pattern name}
 
-\item{template}{Template like "N=\\{n\\}" or "(N=\\{n\\})"}
+\item{template}{Template like "N=\\\\{n\\\\}" or "(N=\\\\{n\\\\})"}
 }
 \description{
 Add BIGN pseudo-pattern
 }
 \examples{
 # Add specific BIGN pattern
-add_bign_pseudo_pattern("my_bign", "(BIGN=\\\\{n\\\\})")
+add_bign_pseudo_pattern("my_bign", "(BIGN=\\\\\\\\{n\\\\\\\\})")
 }

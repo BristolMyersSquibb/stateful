@@ -29,7 +29,7 @@ position-aware parsing, and template-based statistical extraction.
 }
 
 \author{
-\strong{Maintainer}: Author Name \email{author@example.com}
+\strong{Maintainer}: Karma Tarap \email{karma.tarap@bms.com}
 
 }
 \keyword{internal}

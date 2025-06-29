@@ -27,7 +27,8 @@ ui <- dashboardPage(
       menuItem("Pattern Management", tabName = "patterns", icon = icon("cogs")),
       menuItem("Data Viewer", tabName = "viewer", icon = icon("table")),
       menuItem("LLM Query", tabName = "llm", icon = icon("robot")),
-      menuItem("Export", tabName = "export", icon = icon("download"))
+      menuItem("Export", tabName = "export", icon = icon("download")),
+      menuItem("Help & Support", tabName = "help", icon = icon("question-circle"))
     )
   ),
   
@@ -307,6 +308,82 @@ ui <- dashboardPage(
               tags$li("CSV: Tabular data export"),
               tags$li("Excel: Multi-sheet workbook"),
               tags$li("Summary: Processing report")
+            )
+          )
+        )
+      ),
+      
+      # Help & Support Tab
+      tabItem(tabName = "help",
+        fluidRow(
+          box(title = "Help & Support", status = "primary", solidHeader = TRUE, width = 12,
+            h3("Having Issues?"),
+            p("If you encounter problems parsing your RTF files or find bugs in the stateful package, we want to help!"),
+            
+            h4("Common Issues and Solutions:"),
+            tags$ul(
+              tags$li(tags$strong("RTF not parsing correctly:"), " Check that your RTF contains a table with clear row/cell delimiters (\\row, \\cell)"),
+              tags$li(tags$strong("Missing statistics:"), " Add custom patterns using the Pattern Management tab"),
+              tags$li(tags$strong("BIGN not extracted:"), " The default pattern covers most cases, but you can add specific patterns"),
+              tags$li(tags$strong("Wrong pattern matched:"), " Variable context helps, but you may need to reorder patterns")
+            ),
+            
+            h4("How to Report Issues:"),
+            div(style = "background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin: 20px 0;",
+              p("Please report bugs or request features on our GitHub Issues page:"),
+              tags$a(href = "https://github.com/your-org/stateful/issues", 
+                     target = "_blank",
+                     class = "btn btn-info",
+                     icon("github"), " Report an Issue on GitHub"),
+              br(), br(),
+              p("When reporting an issue, please include:"),
+              tags$ol(
+                tags$li("A description of the problem"),
+                tags$li("A sample RTF file (if possible) that demonstrates the issue"),
+                tags$li("The expected vs actual output"),
+                tags$li("Any error messages you received")
+              )
+            ),
+            
+            h4("Debug Information:"),
+            p("If requested by support, you can provide the following debug information:"),
+            verbatimTextOutput("debug_session_info"),
+            br(),
+            actionButton("copy_debug_info", "Copy Debug Info", class = "btn-secondary")
+          )
+        ),
+        
+        fluidRow(
+          box(title = "Quick Tips", status = "success", solidHeader = TRUE, width = 6,
+            h4("Pattern System Tips:"),
+            tags$ul(
+              tags$li("Use {placeholders} in templates, not regex"),
+              tags$li("Patterns match numbers/decimals only (no text)"),
+              tags$li("First matching pattern wins"),
+              tags$li("Context-aware: 'MEAN (SD)' favors mean_sd pattern")
+            ),
+            
+            h4("RTF Requirements:"),
+            tags$ul(
+              tags$li("Must contain RTF table markers (\\trowd, \\row, \\cell)"),
+              tags$li("Headers should be in first rows"),
+              tags$li("BIGN typically in treatment group headers"),
+              tags$li("Consistent cell structure across rows")
+            )
+          ),
+          
+          box(title = "Package Information", status = "info", solidHeader = TRUE, width = 6,
+            h4("Version Information:"),
+            verbatimTextOutput("package_version_info"),
+            br(),
+            h4("Documentation:"),
+            tags$ul(
+              tags$li(tags$a(href = "https://github.com/your-org/stateful", 
+                            target = "_blank", "Package Documentation")),
+              tags$li(tags$a(href = "https://github.com/your-org/stateful/blob/main/inst/PATTERN_GUIDE.md", 
+                            target = "_blank", "Pattern System Guide")),
+              tags$li(tags$a(href = "https://github.com/your-org/stateful/blob/main/README.md", 
+                            target = "_blank", "README"))
             )
           )
         )
@@ -864,6 +941,42 @@ server <- function(input, output, session) {
       setwd(old_wd)
     }
   )
+  
+  # Help & Support Tab Logic
+  output$debug_session_info <- renderText({
+    paste(
+      "Session Information:",
+      paste(capture.output(sessionInfo()), collapse = "\n"),
+      "\nParsed Files:",
+      if (length(values$parsed_data) > 0) {
+        paste(names(values$parsed_data), collapse = ", ")
+      } else {
+        "None"
+      },
+      "\nPatterns Loaded:",
+      paste("Statistical patterns:", length(stateful::get_stat_patterns())),
+      paste("BIGN patterns:", length(stateful::get_bign_pseudo_patterns())),
+      sep = "\n"
+    )
+  })
+  
+  output$package_version_info <- renderText({
+    paste(
+      "Package Version:",
+      paste("stateful:", packageVersion("stateful")),
+      "Dependencies:",
+      paste("R version:", R.version.string),
+      paste("shiny:", packageVersion("shiny")),
+      paste("DT:", packageVersion("DT")),
+      paste("jsonlite:", packageVersion("jsonlite")),
+      sep = "\n"
+    )
+  })
+  
+  observeEvent(input$copy_debug_info, {
+    showNotification("Debug information copied to clipboard! (Note: actual copying requires browser clipboard API)", 
+                     type = "success", duration = 3)
+  })
 }
 
 # Run the app
