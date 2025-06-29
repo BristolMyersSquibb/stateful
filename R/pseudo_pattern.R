@@ -431,7 +431,7 @@ add_pseudo_pattern <- function(name, template, labels = NULL, priority = NULL) {
 }
 
 #' Get BIGN patterns using pseudo-pattern system
-#' @keywords internal
+#' @export
 get_bign_pseudo_patterns <- function() {
   if (is.null(.stateful_patterns$BIGN_PSEUDO_PATTERNS)) {
     .stateful_patterns$BIGN_PSEUDO_PATTERNS <- .init_bign_pseudo_patterns()

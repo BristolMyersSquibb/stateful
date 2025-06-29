@@ -9,4 +9,3 @@ get_bign_pseudo_patterns()
 \description{
 Get BIGN patterns using pseudo-pattern system
 }
-\keyword{internal}

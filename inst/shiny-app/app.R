@@ -95,16 +95,18 @@ ui <- dashboardPage(
         fluidRow(
           box(title = "Current Patterns", status = "info", solidHeader = TRUE, width = 6,
             h4("BIGN Patterns:"),
+            p("Single maximal pattern covers most cases. Add specific patterns if needed."),
             verbatimTextOutput("current_bign_patterns"),
             br(),
             h4("Statistical Patterns:"),
+            p("Context-aware patterns automatically prioritize based on variable labels."),
             verbatimTextOutput("current_stat_patterns")
           ),
           
           box(title = "Pattern Management", status = "primary", solidHeader = TRUE, width = 6,
             h4("Add New BIGN Pattern:"),
-            textInput("new_bign_pattern", "Pattern:", placeholder = "e.g., (N = 123)"),
-            numericInput("bign_priority", "Priority (1 = highest):", value = 1, min = 1),
+            textInput("new_bign_name", "Pattern Name:", placeholder = "e.g., my_bign"),
+            textInput("new_bign_template", "Template:", placeholder = "e.g., (N={n})"),
             actionButton("add_bign_btn", "Add BIGN Pattern", class = "btn-primary"),
             br(), br(),
             
@@ -471,8 +473,16 @@ server <- function(input, output, session) {
   
   # Pattern Management Tab Logic - UPDATED
   output$current_bign_patterns <- renderText({
-    patterns <- stateful::get_bign_patterns()
-    paste(1:length(patterns), patterns, sep = ". ", collapse = "\n")
+    patterns <- stateful::get_bign_pseudo_patterns()
+    if (length(patterns) > 0) {
+      pattern_descriptions <- sapply(names(patterns), function(name) {
+        template <- patterns[[name]]$template
+        paste0(name, ": ", template)
+      })
+      paste(pattern_descriptions, collapse = "\n")
+    } else {
+      "No BIGN patterns defined"
+    }
   })
   
   output$current_stat_patterns <- renderText({
@@ -489,14 +499,15 @@ server <- function(input, output, session) {
     }
   })
   
-  # Add BIGN pattern
+  # Add BIGN pattern - UPDATED to use pseudo-patterns
   observeEvent(input$add_bign_btn, {
-    req(input$new_bign_pattern)
+    req(input$new_bign_name, input$new_bign_template)
     
     tryCatch({
-      add_bign_pattern(input$new_bign_pattern, position = input$bign_priority)
+      stateful::add_bign_pseudo_pattern(input$new_bign_name, input$new_bign_template)
       showNotification("BIGN pattern added successfully!", type = "success")
-      updateTextInput(session, "new_bign_pattern", value = "")
+      updateTextInput(session, "new_bign_name", value = "")
+      updateTextInput(session, "new_bign_template", value = "")
     }, error = function(e) {
       showNotification(paste("Error adding pattern:", e$message), type = "error")
     })
