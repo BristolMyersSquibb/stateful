@@ -100,15 +100,6 @@ build_sql_system_prompt <- function(table_schema, examples = NULL) {
     "- Only aggregate, filtering, and summary questions are possible\n",
     "- Data contains pre-calculated statistics, not raw patient records\n\n",
 
-    "The data follows CDISC ARD standard with these key columns:\n",
-    "- group1, group1_level: Primary grouping (usually treatment groups)\n",
-    "- group2, group2_level: Secondary grouping (if present)\n",
-    "- variable: The variable being measured\n",
-    "- variable_level: Specific level of the variable\n",
-    "- stat_name: Type of statistic (n, pct, mean, sd, etc.)\n",
-    "- stat_label: Human-readable label for the statistic\n",
-    "- stat: The numeric value (stored as text)\n\n",
-
     "Available data schema:\n",
     table_schema, "\n\n",
 
