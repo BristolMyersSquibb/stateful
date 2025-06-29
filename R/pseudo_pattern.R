@@ -50,13 +50,13 @@ pseudo_to_regex <- function(template) {
   }
 
   # Now replace placeholders with capture groups
-  # Use simple pattern: one or more non-whitespace characters
+  # Use pattern that matches numbers/decimals (positive or negative)
   for (i in seq_along(placeholder_matches)) {
     # Create named capture group
     group_name <- stat_names[i]
     regex_pattern <- gsub(
       paste0("<<<PLACEHOLDER", i, ">>>"),
-      paste0("(?<", group_name, ">[^\\s]+)"),
+      paste0("(?<", group_name, ">[+-]?\\d+(?:\\.\\d+)?)"),
       regex_pattern,
       fixed = TRUE
     )
@@ -122,12 +122,12 @@ pseudo_to_regex_simple <- function(template) {
   regex_pattern <- gsub("?", "\\?", regex_pattern, fixed = TRUE)
 
   # Replace markers with capture groups
-  # Use [^\\s()]+ to capture non-whitespace, non-parenthesis characters
+  # Use pattern that matches numbers/decimals (positive or negative)
   for (i in seq_along(placeholder_matches)) {
     regex_pattern <- sub(
       fixed = TRUE,
       pattern = paste0("<<<MARKER", i, ">>>"),
-      replacement = "([^\\s()]+)",
+      replacement = "([+-]?\\d+(?:\\.\\d+)?)",  # Matches: -123, 123, -12.34, 12.34
       x = regex_pattern
     )
   }
@@ -227,6 +227,81 @@ update_stat_patterns_to_pseudo <- function() {
   invisible(patterns)
 }
 
+#' Parse statistic value using pseudo-pattern system with context awareness
+#' @param stat_value Character string containing the statistic to parse
+#' @param variable_context Variable name/label for context-based pattern selection
+#' @param patterns Optional list of patterns to use (if NULL, uses global patterns)
+#' @return Data frame with parsed statistics
+#' @keywords internal
+parse_stat_value_pseudo_with_context <- function(stat_value, variable_context = NULL, patterns = NULL) {
+  stat_value <- trimws(as.character(stat_value))
+
+  # Skip if empty or NA
+  if (is.na(stat_value) || stat_value == "") {
+    return(data.frame(
+      stat = stat_value,
+      stat_name = "missing",
+      stat_label = "Missing",
+      stringsAsFactors = FALSE
+    ))
+  }
+
+  # Get patterns
+  if (is.null(patterns)) {
+    patterns <- get_stat_patterns()
+    # Initialize pseudo-patterns if not already done
+    if (length(patterns) <= 2) {
+      update_stat_patterns_to_pseudo()
+      patterns <- get_stat_patterns()
+    }
+  }
+
+  # Reorder patterns based on variable context for better matching
+  if (!is.null(variable_context)) {
+    patterns <- reorder_patterns_by_context(patterns, variable_context)
+  }
+
+  # Try each pattern (greedy - first match wins)
+  for (pattern_name in names(patterns)) {
+    pattern <- patterns[[pattern_name]]
+
+    if (grepl(pattern$regex, stat_value)) {
+      # Extract matches
+      matches <- regmatches(stat_value, regexec(pattern$regex, stat_value))[[1]]
+
+      if (length(matches) > 1) {
+        # matches[1] is full match, rest are capture groups
+        values <- matches[-1]
+
+        # Clean up values - remove trailing % from percentages
+        for (i in seq_along(values)) {
+          if (pattern$stats[i] == "pct" && grepl("%$", values[i])) {
+            values[i] <- sub("%$", "", values[i])
+          }
+        }
+
+        # Create result with one row per statistic
+        result <- data.frame(
+          stat = values,
+          stat_name = pattern$stats,
+          stat_label = pattern$labels,
+          stringsAsFactors = FALSE
+        )
+
+        return(result)
+      }
+    }
+  }
+
+  # No pattern matched - return as "other"
+  return(data.frame(
+    stat = stat_value,
+    stat_name = "other",
+    stat_label = "Other",
+    stringsAsFactors = FALSE
+  ))
+}
+
 #' Parse statistic value using pseudo-pattern system
 #' @param stat_value Character string containing the statistic to parse
 #' @param patterns Optional list of patterns to use (if NULL, uses global patterns)
@@ -248,6 +323,11 @@ parse_stat_value_pseudo <- function(stat_value, patterns = NULL) {
   # Get patterns
   if (is.null(patterns)) {
     patterns <- get_stat_patterns()
+    # Initialize pseudo-patterns if not already done
+    if (length(patterns) <= 2) {
+      update_stat_patterns_to_pseudo()
+      patterns <- get_stat_patterns()
+    }
   }
 
   # Try each pattern (greedy - first match wins)
@@ -335,22 +415,18 @@ add_pseudo_pattern <- function(name, template, labels = NULL, priority = NULL) {
 #' Initialize BIGN pseudo-patterns
 #' @keywords internal
 .init_bign_pseudo_patterns <- function() {
-  # Single flexible pattern that handles most BIGN formats
-  template <- "{n} = {value}"
-  pattern_info <- pseudo_to_regex_simple(template)
-
-  # Enhance regex to be more flexible with whitespace and optional parens
-  flexible_regex <- "(?:\\()?\\s*[NnBbIiGg]*\\s*[=:]?\\s*(\\d+)(?:\\s*\\)|\\s*;?|$)"
-
+  # Single maximal pattern that covers most BIGN cases
+  # This replaces 8+ hardcoded regex patterns with one flexible template
   bign_patterns <- list(
-    "flexible_n" = list(
-      template = template,
-      regex = flexible_regex,
-      stats = c("n", "value"),
-      labels = c("n", "value")
+    "maximal_n" = list(
+      template = "N={n}",
+      # Maximal regex: optional parens, optional N/n/BIGN indicators, optional =/:, number, optional trailing
+      regex = "(?:\\()?\\s*[NnBbIiGg]*\\s*[=:]?\\s*(\\d+)(?:\\s*\\)|\\s*[;,.]?|$)",
+      stats = c("n"),
+      labels = c("n")
     )
   )
-
+  
   bign_patterns
 }
 
@@ -403,11 +479,14 @@ parse_bign_value_pseudo <- function(bign_text) {
 }
 
 #' Add BIGN pseudo-pattern
-#' @param name Pattern name
-#' @param template Template like "(N = value)" with placeholders in braces
+#' @param name Pattern name  
+#' @param template Template like "N=\\{n\\}" or "(N=\\{n\\})"
 #' @export
+#' @examples
+#' # Add specific BIGN pattern
+#' add_bign_pseudo_pattern("my_bign", "(BIGN=\\{n\\})")
 add_bign_pseudo_pattern <- function(name, template) {
-  # Convert template to regex pattern
+  # For BIGN patterns, use standard pseudo-pattern approach
   pattern_info <- pseudo_to_regex_simple(template)
 
   # Get current patterns
@@ -426,3 +505,53 @@ add_bign_pseudo_pattern <- function(name, template) {
 
   invisible(current_patterns)
 }
+
+#' Reorder patterns based on variable context for better pattern matching
+#' @param patterns List of statistical patterns
+#' @param variable_context Variable name/label for context
+#' @return Reordered patterns list
+#' @keywords internal
+reorder_patterns_by_context <- function(patterns, variable_context) {
+  if (is.null(variable_context) || is.na(variable_context) || variable_context == "") {
+    return(patterns)
+  }
+  
+  variable_lower <- tolower(variable_context)
+  
+  # Define context indicators for different stat types
+  continuous_indicators <- c("mean", "median", "std", "sd", "se", "min", "max", "q1", "q3", 
+                           "average", "variance", "deviation", "quartile", "range",
+                           "cfb", "change from baseline", "baseline", "score")
+  
+  categorical_indicators <- c("n (%)", "count", "frequency", "number", "percent", 
+                            "proportion", "rate", "incidence", "events", "subjects",
+                            "patients", "responders", "response")
+  
+  ci_indicators <- c("confidence", "ci", "interval", "estimate", "hazard", "odds", 
+                    "risk", "ratio", "difference", "effect")
+  
+  # Check which type this variable likely represents
+  is_continuous <- any(sapply(continuous_indicators, function(x) grepl(x, variable_lower)))
+  is_categorical <- any(sapply(categorical_indicators, function(x) grepl(x, variable_lower)))
+  is_ci <- any(sapply(ci_indicators, function(x) grepl(x, variable_lower)))
+  
+  # Create ordered pattern preference
+  priority_patterns <- character(0)
+  
+  if (is_ci) {
+    priority_patterns <- c("ci_extra_spaces", "ci", "ci_dash", "hr_ci")
+  } else if (is_continuous) {
+    priority_patterns <- c("mean_sd", "mean_se", "median_range", "median_iqr", 
+                          "median_q1_q3", "range", "range_comma")
+  } else if (is_categorical) {
+    priority_patterns <- c("n_pct", "n_pct_tight", "n_pct_nopercent", "count_only", 
+                          "pct_only", "count_total")
+  }
+  
+  # Reorder: priority patterns first, then the rest
+  remaining_patterns <- names(patterns)[!names(patterns) %in% priority_patterns]
+  new_order <- c(priority_patterns[priority_patterns %in% names(patterns)], remaining_patterns)
+  
+  return(patterns[new_order])
+}
+

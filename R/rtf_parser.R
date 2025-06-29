@@ -1525,8 +1525,9 @@ expand_state_statistics <- function(ard_data, config, bign_patterns = NULL) {
       return(row)
     }
 
-    # Parse the statistic
-    parsed_stats <- parse_state_stat_value(stat_value, config)
+    # Parse the statistic with variable context for pattern disambiguation
+    variable_context <- if ("variable_level" %in% names(row)) row$variable_level else row$variable
+    parsed_stats <- parse_state_stat_value_with_context(stat_value, variable_context, config)
 
     # If parsing resulted in multiple rows, replicate the other columns
     if (nrow(parsed_stats) > 1) {
@@ -1634,6 +1635,15 @@ parse_state_stat_value <- function(stat_value, config = list()) {
   # Use the pseudo-pattern parser
   patterns <- if (!is.null(config$stat_patterns)) config$stat_patterns else NULL
   return(parse_stat_value_pseudo(stat_value, patterns))
+}
+
+#' Parse statistic values with variable context for pattern disambiguation
+#'
+#' @keywords internal
+parse_state_stat_value_with_context <- function(stat_value, variable_context, config = list()) {
+  # Use context-aware pseudo-pattern parser
+  patterns <- if (!is.null(config$stat_patterns)) config$stat_patterns else NULL
+  return(parse_stat_value_pseudo_with_context(stat_value, variable_context, patterns))
 }
 
 #' Convert RTF to ARD JSON using state-based parser

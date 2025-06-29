@@ -32,19 +32,10 @@ NULL
 #' Initialize patterns when package loads
 #' @keywords internal
 .onLoad <- function(libname, pkgname) {
-  # Initialize BIGN patterns
-  .stateful_patterns$BIGN_PATTERNS <- c(
-    "\\(N\\s*=\\s*\\d+\\)",           # (N = 123)
-    "N\\s*=\\s*\\d+",                # N = 123
-    "N\\s*:\\s*\\d+",                # N: 123
-    "N\\s+\\d+",                     # N 123
-    "\\(n\\s*=\\s*\\d+\\)",          # (n = 123)
-    "n\\s*=\\s*\\d+",                # n = 123
-    "\\(N\\d+\\)",                   # (N123)
-    "N\\d+"                          # N123
-  )
+  # Initialize with minimal BIGN patterns (will be replaced by pseudo patterns)
+  .stateful_patterns$BIGN_PATTERNS <- NULL  # Will use pseudo-pattern system
 
-  # Initialize with basic patterns (will be updated when pseudo_pattern.R loads)
+  # Initialize with basic patterns
   .stateful_patterns$STAT_PATTERNS <- list(
     "n_pct" = list(
       template = "{n} ({pct}%)",
@@ -59,6 +50,14 @@ NULL
       labels = c("n")
     )
   )
+  
+  # Initialize pseudo-patterns after loading
+  # This will be called after pseudo_pattern.R is loaded
+  setHook(packageEvent("stateful", "onLoad"), function(...) {
+    if (exists("update_stat_patterns_to_pseudo", mode = "function")) {
+      update_stat_patterns_to_pseudo()
+    }
+  })
 }
 
 #' Launch the Stateful Shiny Application
