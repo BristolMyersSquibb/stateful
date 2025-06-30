@@ -478,11 +478,11 @@ parse_bign_value_pseudo <- function(bign_text) {
 
 #' Add BIGN pseudo-pattern
 #' @param name Pattern name  
-#' @param template Template like "N=\\\\{n\\\\}" or "(N=\\\\{n\\\\})"
+#' @param template Template like "N=\\{n\\}" or "(N=\\{n\\})"
 #' @export
 #' @examples
 #' # Add specific BIGN pattern
-#' add_bign_pseudo_pattern("my_bign", "(BIGN=\\\\{n\\\\})")
+#' add_bign_pseudo_pattern("my_bign", "(BIGN=\\{n\\})")
 add_bign_pseudo_pattern <- function(name, template) {
   # For BIGN patterns, use standard pseudo-pattern approach
   pattern_info <- pseudo_to_regex_simple(template)

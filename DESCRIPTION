@@ -6,7 +6,7 @@ Authors@R:
 Description: A modern state-based parser for RTF tables that converts clinical 
     trial data into Analysis Results Data (ARD) format. Features global pattern 
     registries, position-aware parsing, and template-based statistical extraction.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
