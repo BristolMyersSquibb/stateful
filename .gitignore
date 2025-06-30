@@ -50,3 +50,10 @@ renv.lock
 # Debug and temporary development files
 debug_*.R
 test_package.R
+
+# Deployment scripts with credentials
+deploy.R
+
+# Environment files with sensitive information
+.Renviron
+.env
