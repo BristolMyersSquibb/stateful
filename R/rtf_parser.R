@@ -481,8 +481,16 @@ add_stat_pattern <- function(name, template, regex, stats, labels, priority = TR
 #' @return List with sections: pre_header, header, table, footnotes
 #' @export
 parse_rtf_table_states <- function(rtf_file) {
-  rtf_content <- readLines(rtf_file, warn = FALSE) |>
-    paste(collapse = "\n")
+  # Try to read RTF with different encodings
+  rtf_content <- tryCatch({
+    paste(readLines(rtf_file, warn = FALSE, encoding = "UTF-8"), collapse = "\n")
+  }, error = function(e) {
+    tryCatch({
+      paste(readLines(rtf_file, warn = FALSE, encoding = "latin1"), collapse = "\n")
+    }, error = function(e) {
+      paste(readLines(rtf_file, warn = FALSE), collapse = "\n")
+    })
+  })
 
   # Extract all rows with RTF structure info
   rows <- extract_rtf_rows_with_state(rtf_content)
@@ -500,7 +508,7 @@ parse_rtf_table_states <- function(rtf_file) {
 #'
 #' @keywords internal
 extract_rtf_rows_with_state <- function(rtf_content) {
-  lines <- str_split(rtf_content, "\n")[[1]]
+  lines <- strsplit(rtf_content, "\n")[[1]]
 
   # Find row markers
   trowd_lines <- which(grepl("\\\\trowd", lines))
@@ -604,8 +612,18 @@ identify_table_states <- function(rows) {
   # Group consecutive header rows to identify header blocks
   header_blocks <- identify_header_blocks(rows, header_rows)
 
+  # Check if we have any header blocks
+  if (length(header_blocks) == 0) {
+    return(identify_sections_without_headers(rows))
+  }
+
   # Use the FIRST header block only for state detection
   first_block <- header_blocks[[1]]
+  
+  # Validate first_block structure
+  if (is.null(first_block) || is.null(first_block$start) || is.null(first_block$end)) {
+    return(identify_sections_without_headers(rows))
+  }
 
   sections <- list()
   sections$pre_header_end <- if (first_block$start > 1) first_block$start - 1 else 0
@@ -767,6 +785,17 @@ determine_table_end_with_borders <- function(rows, table_start, header_blocks) {
     # Find where table structure breaks
     for (i in table_start:length(rows)) {
       row <- rows[[i]]
+      
+      # Check if this row contains footnote content
+      if (length(row$cells) > 0 && !is.null(row$cells[[1]]$text)) {
+        first_cell_text <- row$cells[[1]]$text
+        is_footnote <- is_footnote_content(first_cell_text)
+        
+        if (is_footnote) {
+          # This row is a footnote, table ends before it
+          break
+        }
+      }
 
       # Check if this row fits table pattern
       if (row$characteristics$spans_multiple_columns &&
@@ -782,6 +811,24 @@ determine_table_end_with_borders <- function(rows, table_start, header_blocks) {
   }
 
   return(last_data_row)
+}
+
+#' Check if content matches footnote patterns
+#' @keywords internal
+is_footnote_content <- function(text) {
+  if (is.null(text) || text == "") return(FALSE)
+  
+  # Get footnote patterns
+  footnote_patterns <- get_footnote_patterns()
+  
+  # Check against each pattern
+  for (pattern in footnote_patterns) {
+    if (grepl(pattern, text, ignore.case = TRUE)) {
+      return(TRUE)
+    }
+  }
+  
+  return(FALSE)
 }
 
 #' Identify table boundaries based on structure
@@ -994,6 +1041,32 @@ identify_sections_without_headers <- function(rows) {
 #'
 #' @keywords internal
 extract_table_sections <- function(rows, states) {
+  # Validate states parameter
+  if (is.null(states) || length(states) == 0 || 
+      is.null(states$pre_header_end) || length(states$pre_header_end) == 0) {
+    # Fallback: try to extract basic table data from all rows
+    warning("State detection failed, attempting basic extraction")
+    
+    # Find any rows that look like table data (have multiple cells)
+    table_rows <- list()
+    if (length(rows) > 0) {
+      for (i in seq_along(rows)) {
+        row <- rows[[i]]
+        if (!is.null(row) && !is.null(row$cells) && length(row$cells) > 1) {
+          table_rows[[length(table_rows) + 1]] <- row
+        }
+      }
+    }
+    
+    return(list(
+      pre_header = list(text = character(0)),
+      header = list(rows = list(), analysis = list(type = "fallback")),
+      table = list(rows = table_rows),
+      footnotes = list(text = character(0)),
+      states = list(type = "fallback")
+    ))
+  }
+  
   sections <- list()
 
   # Pre-header section (title, population, etc.)
@@ -1320,7 +1393,7 @@ convert_to_ard_with_state_hierarchy <- function(data_rows, header_analysis, conf
     ) |>
     filter(!is.na(stat) & trimws(stat) != "") |>
     mutate(
-      column_index = as.integer(str_extract(column_name, "\\d+"))
+      column_index = as.integer(regmatches(column_name, regexpr("\\d+", column_name)))
     )
 
   # Add hierarchy based on header structure
@@ -1491,9 +1564,9 @@ clean_treatment_name <- function(treatment_text) {
     }
 
     # Extract treatment name before (N = xxx) part
-    cleaned <- str_replace(x, "\\s*\\(N\\s*=\\s*\\d+\\).*$", "")
-    cleaned <- str_replace_all(cleaned, "\\{|\\}", "")
-    cleaned <- str_trim(cleaned)
+    cleaned <- gsub("\\s*\\(N\\s*=\\s*\\d+\\).*$", "", x)
+    cleaned <- gsub("\\{|\\}", "", cleaned)
+    cleaned <- trimws(cleaned)
 
     return(cleaned)
   }, USE.NAMES = FALSE)
@@ -1747,7 +1820,7 @@ source_if_exists <- function(file) {
 
 # Include the cell extraction functions
 extract_cells_from_row <- function(row_content) {
-  cell_parts <- str_split(row_content, "\\\\pard")[[1]]
+  cell_parts <- strsplit(row_content, "\\\\pard")[[1]]
 
   cells <- list()
 
@@ -1760,7 +1833,7 @@ extract_cells_from_row <- function(row_content) {
         text <- str_replace(text, "\\\\cell.*$", "")
         text <- str_replace_all(text, "\\\\line", " ")
         text <- str_replace_all(text, "\\\\[a-z]+[0-9]*\\s*", "")
-        text <- str_replace_all(text, "~", "")
+        text <- str_replace_all(text, "~", " ")  # Convert tildes to spaces to preserve indentation
         text <- str_trim(text)
 
         cells[[length(cells) + 1]] <- list(

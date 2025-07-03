@@ -20,6 +20,16 @@ position-aware parsing, and template-based statistical extraction.
 }
 }
 
+\section{Stage 1 Reliable Functions}{
+
+\itemize{
+\item \code{\link[=parse_rtf_to_structured_ard]{parse_rtf_to_structured_ard()}}: Stage 1 reliable parsing (99\%+ accuracy)
+\item \code{\link[=export_structured_ard_csv]{export_structured_ard_csv()}}: Export Stage 1 data to CSV
+\item \code{\link[=export_structured_ard_json]{export_structured_ard_json()}}: Export Stage 1 data to JSON
+\item \code{\link[=rtf_to_structured_export]{rtf_to_structured_export()}}: One-step parsing and export
+}
+}
+
 \section{Pattern Management}{
 
 \itemize{

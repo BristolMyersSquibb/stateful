@@ -1,11 +1,465 @@
 {
-  "data": [],
+  "data": [
+    {
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "variable_level": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "149 ( 42.5)",
+      "source_row": 8,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "variable_level": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "103 ( 29.3)",
+      "source_row": 8,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "variable_level": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "54 ( 47.0)",
+      "source_row": 8,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "122 ( 34.8)",
+      "source_row": 11,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "74 ( 21.0)",
+      "source_row": 11,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "37 ( 32.2)",
+      "source_row": 11,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "1 (  0.3)",
+      "source_row": 12,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "2 (  0.6)",
+      "source_row": 12,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "0",
+      "source_row": 12,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "7 (  2.0)",
+      "source_row": 13,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "10 (  2.8)",
+      "source_row": 13,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "5 (  4.3)",
+      "source_row": 13,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "19 (  5.4)",
+      "source_row": 14,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "17 (  4.8)",
+      "source_row": 14,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "12 ( 10.4)",
+      "source_row": 14,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "variable_level": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "14 (  4.0)",
+      "source_row": 16,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "variable_level": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "17 (  4.8)",
+      "source_row": 16,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "variable_level": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "9 (  7.8)",
+      "source_row": 16,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "6 (  1.7)",
+      "source_row": 19,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "8 (  2.3)",
+      "source_row": 19,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "3 (  2.6)",
+      "source_row": 19,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "0",
+      "source_row": 20,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "0",
+      "source_row": 20,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "0",
+      "source_row": 20,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "0",
+      "source_row": 21,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "3 (  0.9)",
+      "source_row": 21,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "1 (  0.9)",
+      "source_row": 21,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "(  2.3)",
+      "source_row": 22,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "6 (  1.7)",
+      "source_row": 22,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "5 (  4.3)",
+      "source_row": 22,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "variable_level": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "52 ( 14.8)",
+      "source_row": 24,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "variable_level": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "41 ( 11.6)",
+      "source_row": 24,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "variable_level": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "26 ( 22.6)",
+      "source_row": 24,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "35 ( 10.0)",
+      "source_row": 27,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "24 (  6.8)",
+      "source_row": 27,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ DISEASE",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ DISEASE",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "16 ( 13.9)",
+      "source_row": 27,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "1 (  0.3)",
+      "source_row": 28,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "1 (  0.3)",
+      "source_row": 28,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ STUDY DRUG TOXICITY",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ STUDY DRUG TOXICITY",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "0",
+      "source_row": 28,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "0",
+      "source_row": 29,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "3 (  0.9)",
+      "source_row": 29,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ UNKNOWN",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ UNKNOWN",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "1 (  0.9)",
+      "source_row": 29,
+      "source_col": 4,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo N = 351",
+      "raw_stat": "16 (  4.6)",
+      "source_row": 30,
+      "source_col": 2,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi N = 352",
+      "raw_stat": "13 (  3.7)",
+      "source_row": 30,
+      "source_col": 3,
+      "state_source": "table_body"
+    },
+    {
+      "variable": "\\ \\ OTHER",
+      "variable_level": "PRIMARY REASON FOR DEATH (%) - \\ \\ OTHER",
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo N = 115",
+      "raw_stat": "9 (  7.8)",
+      "source_row": 30,
+      "source_col": 4,
+      "state_source": "table_body"
+    }
+  ],
   "metadata": {
-    "processing_date": "2025-07-03 19:41:29",
+    "processing_date": "2025-07-03 19:50:43",
     "stage": "state_parser_stage1",
     "method": "rtf_state_machine",
-    "status": "error",
-    "error": "cannot open the connection"
+    "title1": "Protocol: AAZZZ-YYY | \\ | of {{\\*{ NUMPAGES }}}",
+    "title2": "Table 14.3.2.1.1.1",
+    "title3": "Death Summary",
+    "title4": "All Treated Subjects",
+    "footnotes": "Program Source: <path to program> | 17JUN2025 13:41"
   },
   "stage": "state_parser_stage1"
 }

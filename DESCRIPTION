@@ -16,7 +16,8 @@ Imports:
     tidyr,
     purrr,
     jsonlite,
-    tools
+    tools,
+    stringi
 Suggests: 
     shiny,
     DT,
