@@ -4,8 +4,22 @@ library(shinydashboard)
 library(DT)
 library(jsonlite)
 library(plotly)
-library(stateful)
+# library(stateful)  # Not needed - sourcing R files directly
 library(dplyr)
+library(stringr)
+library(tidyr)
+library(purrr)
+library(tools)
+
+# Source all stateful functions
+source_files <- list.files('R', pattern = '\\.R$', full.names = TRUE)
+for (file in source_files) {
+  source(file)
+}
+
+# Initialize stateful patterns
+if (exists('.onLoad')) .onLoad()
+
 
 # Load .Renviron if it exists
 if (file.exists(".Renviron")) {
@@ -23,8 +37,8 @@ ui <- dashboardPage(
   
   dashboardSidebar(
     sidebarMenu(
-      menuItem("Reliable Parsing", tabName = "reliable", icon = icon("check-circle")),
-      menuItem("Pattern Enhancement", tabName = "patterns", icon = icon("cogs")),
+      menuItem("Upload & Parse", tabName = "upload", icon = icon("upload")),
+      menuItem("Pattern Management", tabName = "patterns", icon = icon("cogs")),
       menuItem("Data Viewer", tabName = "viewer", icon = icon("table")),
       menuItem("LLM Query", tabName = "llm", icon = icon("robot")),
       menuItem("Export", tabName = "export", icon = icon("download")),
@@ -46,112 +60,53 @@ ui <- dashboardPage(
     ),
     
     tabItems(
-      # Reliable Parsing Tab (Stage 1 - NEW)
-      tabItem(tabName = "reliable",
+      # Upload & Parse Tab
+      tabItem(tabName = "upload",
         fluidRow(
-          box(title = "Stage 1: Reliable RTF Parsing", status = "success", solidHeader = TRUE, width = 12,
-            div(class = "alert alert-success",
-              icon("check-circle"),
-              HTML("<strong>99%+ Reliable Parsing:</strong> Extracts table structure using only RTF markers. No pattern matching - raw values preserved exactly.")
-            ),
-            fileInput("reliable_rtf_files", "Choose RTF files:", 
+          box(title = "Upload RTF Files", status = "primary", solidHeader = TRUE, width = 12,
+            fileInput("rtf_files", "Choose RTF files:", 
                      accept = c(".rtf"), multiple = TRUE),
             br(),
-            fluidRow(
-              column(6,
-                checkboxInput("use_nested_logic", "Apply nested row logic", value = TRUE),
-                helpText("If checked: No stats + indent = shared label; Has stats + indent = new variable")
-              ),
-              column(6,
-                checkboxInput("fallback_position", "Use position-based fallback", value = TRUE),
-                helpText("If RTF markers fail, try position-based detection")
-              )
-            ),
-            br(),
-            actionButton("reliable_parse_btn", "Parse Files (Stage 1)", class = "btn-success btn-lg"),
+            actionButton("parse_btn", "Parse Files", class = "btn-success btn-lg"),
             br(), br(),
-            textOutput("reliable_parse_status")
+            textOutput("parse_status"),
+            br(),
+            # Debug info
+            div(style = "background-color: #f8f9fa; padding: 10px; border-radius: 5px; margin-top: 10px;",
+              h5("Debug Information:"),
+              textOutput("debug_info")
+            ),
+            
+            # Sample files section
+            br(),
+            div(style = "background-color: #e3f2fd; padding: 10px; border-radius: 5px;",
+              h5("Sample Files:"),
+              p("Sample RTF files are included in the package. Click below to test with a sample file:"),
+              actionButton("load_sample_btn", "Load Sample RTF File", class = "btn-info")
+            )
           )
         ),
         
         fluidRow(
-          box(title = "Parsed Files Summary", status = "info", solidHeader = TRUE, width = 6,
-            tableOutput("reliable_files_table")
+          box(title = "Parsed Files", status = "info", solidHeader = TRUE, width = 6,
+            tableOutput("parsed_files_table")
           ),
           
-          box(title = "Quality Metrics", status = "primary", solidHeader = TRUE, width = 6,
-            tableOutput("reliable_quality_metrics")
+          box(title = "Summary Statistics", status = "success", solidHeader = TRUE, width = 6,
+            tableOutput("summary_stats")
           )
         ),
         
         fluidRow(
-          box(title = "Stage 1 Data Preview", status = "warning", solidHeader = TRUE, width = 12,
-            h4("Reliable Structured ARD (First 100 rows):"),
-            DTOutput("reliable_preview_table"),
-            br(),
-            div(class = "btn-group",
-              downloadButton("download_reliable_csv", "Download CSV", class = "btn-primary"),
-              downloadButton("download_reliable_json", "Download JSON", class = "btn-info")
-            ),
-            br(), br(),
-            div(class = "alert alert-info",
-              icon("info-circle"),
-              "This data is ready for double programming and SAS import. No pattern matching applied - all statistical values preserved as raw text."
-            )
+          box(title = "Sample Data Preview", status = "warning", solidHeader = TRUE, width = 12,
+            h4("First 100 rows of ARD data:"),
+            DTOutput("sample_data_table")
           )
         )
       ),
       
-      # Pattern Enhancement Tab (Stage 2)
+      # Pattern Management Tab - UPDATED
       tabItem(tabName = "patterns",
-        fluidRow(
-          box(title = "Stage 2: Pattern Enhancement", status = "warning", solidHeader = TRUE, width = 12,
-            div(class = "alert alert-warning",
-              icon("cogs"),
-              HTML("<strong>Optional Enhancement:</strong> Load Stage 1 data and apply pattern matching to split combined statistics.")
-            ),
-            fileInput("load_structured_file", "Load Structured ARD (JSON from Stage 1):", 
-                     accept = c(".json")),
-            br(),
-            actionButton("load_structured_btn", "Load Structured Data", class = "btn-info"),
-            br(), br(),
-            textOutput("enhancement_status")
-          )
-        ),
-        
-        fluidRow(
-          box(title = "Column Header Mapping", status = "info", solidHeader = TRUE, width = 6,
-            h4("Map Column Headers to Variables:"),
-            p("Define what each column header represents:"),
-            DTOutput("column_mapping_table"),
-            br(),
-            actionButton("update_column_mapping", "Update Mapping", class = "btn-primary")
-          ),
-          
-          box(title = "Group Pattern Assignment", status = "success", solidHeader = TRUE, width = 6,
-            h4("Assign Patterns by Group:"),
-            p("Choose which pattern to use for each treatment group:"),
-            DTOutput("group_pattern_table"),
-            br(),
-            actionButton("update_group_patterns", "Update Patterns", class = "btn-primary")
-          )
-        ),
-        
-        fluidRow(
-          box(title = "Enhanced Data Preview", status = "warning", solidHeader = TRUE, width = 12,
-            h4("Pattern-Enhanced ARD (First 100 rows):"),
-            DTOutput("enhanced_preview_table"),
-            br(),
-            div(class = "btn-group",
-              downloadButton("download_enhanced_csv", "Download Enhanced CSV", class = "btn-success"),
-              downloadButton("download_enhanced_json", "Download Enhanced JSON", class = "btn-success")
-            )
-          )
-        )
-      ),
-      
-      # Data Viewer Tab
-      tabItem(tabName = "viewer",
         fluidRow(
           box(title = "Pattern System Features", status = "success", solidHeader = TRUE, width = 12,
             h4("New Enhancements:"),
@@ -397,7 +352,7 @@ ui <- dashboardPage(
             h4("How to Report Issues:"),
             div(style = "background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin: 20px 0;",
               p("Please report bugs or request features on our GitHub Issues page:"),
-              tags$a(href = "https://github.com/your-org/stateful/issues", 
+              tags$a(href = "https://github.web.bms.com/GBDS-SP/stateful/issues", 
                      target = "_blank",
                      class = "btn btn-info",
                      icon("github"), " Report an Issue on GitHub"),
@@ -411,45 +366,15 @@ ui <- dashboardPage(
               )
             ),
             
-            h4("Debug Information:"),
-            p("If requested by support, you can provide the following debug information:"),
-            verbatimTextOutput("debug_session_info"),
-            br(),
-            actionButton("copy_debug_info", "Copy Debug Info", class = "btn-secondary")
-          )
-        ),
-        
-        fluidRow(
-          box(title = "Quick Tips", status = "success", solidHeader = TRUE, width = 6,
-            h4("Pattern System Tips:"),
+            h4("Quick Tips:"),
             tags$ul(
               tags$li("Use {placeholders} in templates, not regex"),
               tags$li("Patterns match numbers/decimals only (no text)"),
               tags$li("First matching pattern wins"),
-              tags$li("Context-aware: 'MEAN (SD)' favors mean_sd pattern")
-            ),
-            
-            h4("RTF Requirements:"),
-            tags$ul(
-              tags$li("Must contain RTF table markers (\\trowd, \\row, \\cell)"),
+              tags$li("Context-aware: 'MEAN (SD)' favors mean_sd pattern"),
+              tags$li("RTF must contain table markers (\\trowd, \\row, \\cell)"),
               tags$li("Headers should be in first rows"),
-              tags$li("BIGN typically in treatment group headers"),
-              tags$li("Consistent cell structure across rows")
-            )
-          ),
-          
-          box(title = "Package Information", status = "info", solidHeader = TRUE, width = 6,
-            h4("Version Information:"),
-            verbatimTextOutput("package_version_info"),
-            br(),
-            h4("Documentation:"),
-            tags$ul(
-              tags$li(tags$a(href = "https://github.com/your-org/stateful", 
-                            target = "_blank", "Package Documentation")),
-              tags$li(tags$a(href = "https://github.com/your-org/stateful/blob/main/inst/PATTERN_GUIDE.md", 
-                            target = "_blank", "Pattern System Guide")),
-              tags$li(tags$a(href = "https://github.com/your-org/stateful/blob/main/README.md", 
-                            target = "_blank", "README"))
+              tags$li("BIGN typically in treatment group headers")
             )
           )
         )
@@ -465,11 +390,7 @@ server <- function(input, output, session) {
     parsed_data = list(),
     file_info = data.frame(),
     pattern_test_result = NULL,
-    llm_query_results = NULL,
-    # New for reliable parsing
-    reliable_data = list(),
-    reliable_file_info = data.frame(),
-    enhanced_data = list()
+    llm_query_results = NULL
   )
   
   # Debug information output
@@ -565,8 +486,7 @@ server <- function(input, output, session) {
   
   # Load sample file button
   observeEvent(input$load_sample_btn, {
-    extdata_dir <- system.file("extdata", package = "stateful")
-    sample_file <- file.path(extdata_dir, "rt-dm-sum.rtf")
+    sample_file <- "data/rt-dm-sum.rtf"
     
     if (file.exists(sample_file)) {
       output$parse_status <- renderText({
@@ -614,159 +534,6 @@ server <- function(input, output, session) {
     }
   })
   
-  # ===== RELIABLE PARSING TAB LOGIC (Stage 1) =====
-  
-  # Reliable parsing button logic
-  observeEvent(input$reliable_parse_btn, {
-    if (is.null(input$reliable_rtf_files)) {
-      output$reliable_parse_status <- renderText({
-        "No files selected. Please upload RTF files first."
-      })
-      return()
-    }
-    
-    output$reliable_parse_status <- renderText({
-      paste("Stage 1: Processing", nrow(input$reliable_rtf_files), "RTF files (reliable parsing only)...")
-    })
-    
-    # Process each uploaded file using reliable parser
-    results <- list()
-    file_info <- data.frame()
-    
-    for (i in seq_len(nrow(input$reliable_rtf_files))) {
-      file_path <- input$reliable_rtf_files$datapath[i]
-      file_name <- input$reliable_rtf_files$name[i]
-      
-      tryCatch({
-        output$reliable_parse_status <- renderText({
-          paste("Processing file:", file_name, "(Stage 1 - Reliable parsing)...")
-        })
-        
-        # Use the new reliable parser
-        structured_ard <- parse_rtf_to_structured_ard(
-          rtf_file = file_path,
-          use_nested_logic = input$use_nested_logic,
-          fallback_to_position = input$fallback_position
-        )
-        
-        if (is.null(structured_ard) || is.null(structured_ard$data)) {
-          stop("Reliable parsing returned NULL or invalid result")
-        }
-        
-        results[[file_name]] <- structured_ard
-        
-        # Collect file info
-        file_info <- rbind(file_info, data.frame(
-          File = file_name,
-          Status = "Success",
-          Rows = nrow(structured_ard$data),
-          Variables = length(unique(structured_ard$data$variable_level_1)),
-          Groups = length(unique(structured_ard$data$group1_level)),
-          Confidence = paste0(round(structured_ard$confidence_score * 100, 1), "%"),
-          stringsAsFactors = FALSE
-        ))
-        
-      }, error = function(e) {
-        error_msg <- paste("Error:", e$message)
-        
-        file_info <<- rbind(file_info, data.frame(
-          File = file_name,
-          Status = error_msg,
-          Rows = NA,
-          Variables = NA,
-          Groups = NA,
-          Confidence = "0%",
-          stringsAsFactors = FALSE
-        ))
-      })
-    }
-    
-    values$reliable_data <- results
-    values$reliable_file_info <- file_info
-    
-    # Final status update
-    success_count <- sum(file_info$Status == "Success", na.rm = TRUE)
-    output$reliable_parse_status <- renderText({
-      paste("Stage 1 complete:", success_count, "of", nrow(input$reliable_rtf_files), 
-            "files parsed successfully. Average confidence:", 
-            if (success_count > 0) {
-              success_files <- file_info[file_info$Status == "Success", ]
-              paste0(round(mean(as.numeric(gsub("%", "", success_files$Confidence))), 1), "%")
-            } else {
-              "N/A"
-            }
-      )
-    })
-  })
-  
-  # Reliable parsing output displays
-  output$reliable_files_table <- renderTable({
-    values$reliable_file_info
-  })
-  
-  output$reliable_quality_metrics <- renderTable({
-    if (nrow(values$reliable_file_info) > 0) {
-      success_files <- values$reliable_file_info[values$reliable_file_info$Status == "Success", ]
-      if (nrow(success_files) > 0) {
-        data.frame(
-          Metric = c("Total Files", "Successful", "Total Rows", "Avg Variables", "Avg Confidence"),
-          Value = c(
-            nrow(values$reliable_file_info),
-            nrow(success_files),
-            sum(success_files$Rows, na.rm = TRUE),
-            round(mean(success_files$Variables, na.rm = TRUE), 1),
-            paste0(round(mean(as.numeric(gsub("%", "", success_files$Confidence))), 1), "%")
-          )
-        )
-      }
-    }
-  })
-  
-  output$reliable_preview_table <- renderDT({
-    if (length(values$reliable_data) > 0) {
-      first_file <- values$reliable_data[[1]]
-      if (!is.null(first_file$data)) {
-        datatable(head(first_file$data, 100), 
-                 options = list(scrollX = TRUE, pageLength = 25))
-      }
-    }
-  })
-  
-  # Download handlers for reliable parsing
-  output$download_reliable_csv <- downloadHandler(
-    filename = function() {
-      if (length(values$reliable_data) > 0) {
-        first_name <- names(values$reliable_data)[1]
-        paste0(tools::file_path_sans_ext(first_name), "_reliable_ard.csv")
-      } else {
-        "reliable_ard.csv"
-      }
-    },
-    content = function(file) {
-      if (length(values$reliable_data) > 0) {
-        first_file <- values$reliable_data[[1]]
-        export_structured_ard_csv(first_file, file)
-      }
-    }
-  )
-  
-  output$download_reliable_json <- downloadHandler(
-    filename = function() {
-      if (length(values$reliable_data) > 0) {
-        first_name <- names(values$reliable_data)[1]
-        paste0(tools::file_path_sans_ext(first_name), "_reliable_ard.json")
-      } else {
-        "reliable_ard.json"
-      }
-    },
-    content = function(file) {
-      if (length(values$reliable_data) > 0) {
-        first_file <- values$reliable_data[[1]]
-        export_structured_ard_json(first_file, file)
-      }
-    }
-  )
-  
   # Display parsed files table
   output$parsed_files_table <- renderTable({
     values$file_info
@@ -802,7 +569,7 @@ server <- function(input, output, session) {
   
   # Pattern Management Tab Logic - UPDATED
   output$current_bign_patterns <- renderText({
-    patterns <- stateful::get_bign_pseudo_patterns()
+    patterns <- get_bign_pseudo_patterns()
     if (length(patterns) > 0) {
       pattern_descriptions <- sapply(names(patterns), function(name) {
         template <- patterns[[name]]$template
@@ -815,7 +582,7 @@ server <- function(input, output, session) {
   })
   
   output$current_stat_patterns <- renderText({
-    patterns <- stateful::get_stat_patterns()
+    patterns <- get_stat_patterns()
     pattern_names <- names(patterns)
     if (length(pattern_names) > 0) {
       pattern_descriptions <- sapply(pattern_names, function(name) {
@@ -833,7 +600,7 @@ server <- function(input, output, session) {
     req(input$new_bign_name, input$new_bign_template)
     
     tryCatch({
-      stateful::add_bign_pseudo_pattern(input$new_bign_name, input$new_bign_template)
+      add_bign_pseudo_pattern(input$new_bign_name, input$new_bign_template)
       showNotification("BIGN pattern added successfully!", type = "success")
       updateTextInput(session, "new_bign_name", value = "")
       updateTextInput(session, "new_bign_template", value = "")
@@ -882,11 +649,11 @@ server <- function(input, output, session) {
     req(input$test_value)
     
     tryCatch({
-      result <- stateful::parse_stat_value_pseudo(input$test_value)
+      result <- parse_stat_value_pseudo(input$test_value)
       values$pattern_test_result <- result
       
       # Show debug info
-      patterns <- stateful::get_stat_patterns()
+      patterns <- get_stat_patterns()
       debug_info <- paste0(
         "Testing value: '", input$test_value, "'\n",
         "Number of patterns: ", length(patterns), "\n",
@@ -997,8 +764,8 @@ server <- function(input, output, session) {
   output$data_structure_info <- renderText({
     if (length(values$parsed_data) > 0) {
       ard_data <- values$parsed_data[[1]]$ard_data
-      structure_info <- stateful::inspect_ard_structure(ard_data)
-      stateful::format_ard_structure_for_llm(structure_info)
+      structure_info <- inspect_ard_structure(ard_data)
+      format_ard_structure_for_llm(structure_info)
     } else {
       "No data loaded. Please parse RTF files first."
     }
@@ -1024,10 +791,10 @@ server <- function(input, output, session) {
     }
     
     # Get example queries
-    examples <- stateful::get_example_queries()
+    examples <- get_example_queries()
     
     # Call Azure OpenAI to generate SQL (updated function signature)
-    llm_result <- stateful::generate_sql_from_question(
+    llm_result <- generate_sql_from_question(
       question = input$llm_query,
       ard_data = ard_data,
       examples = examples
@@ -1049,7 +816,7 @@ server <- function(input, output, session) {
       
       # Try to execute the SQL query
       if (nrow(ard_data) > 0 && !is.na(llm_result$sql)) {
-        exec_result <- stateful::execute_ard_sql(ard_data, llm_result$sql)
+        exec_result <- execute_ard_sql(ard_data, llm_result$sql)
         
         if (exec_result$success) {
           output$llm_response <- renderText({
@@ -1176,41 +943,6 @@ server <- function(input, output, session) {
     }
   )
   
-  # Help & Support Tab Logic
-  output$debug_session_info <- renderText({
-    paste(
-      "Session Information:",
-      paste(capture.output(sessionInfo()), collapse = "\n"),
-      "\nParsed Files:",
-      if (length(values$parsed_data) > 0) {
-        paste(names(values$parsed_data), collapse = ", ")
-      } else {
-        "None"
-      },
-      "\nPatterns Loaded:",
-      paste("Statistical patterns:", length(stateful::get_stat_patterns())),
-      paste("BIGN patterns:", length(stateful::get_bign_pseudo_patterns())),
-      sep = "\n"
-    )
-  })
-  
-  output$package_version_info <- renderText({
-    paste(
-      "Package Version:",
-      paste("stateful:", packageVersion("stateful")),
-      "Dependencies:",
-      paste("R version:", R.version.string),
-      paste("shiny:", packageVersion("shiny")),
-      paste("DT:", packageVersion("DT")),
-      paste("jsonlite:", packageVersion("jsonlite")),
-      sep = "\n"
-    )
-  })
-  
-  observeEvent(input$copy_debug_info, {
-    showNotification("Debug information copied to clipboard! (Note: actual copying requires browser clipboard API)", 
-                     type = "success", duration = 3)
-  })
 }
 
 # Run the app

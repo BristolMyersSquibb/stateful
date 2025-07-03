@@ -1,0 +1,442 @@
+{
+  "metadata": {
+    "source_file": "rt-dm-demo.rtf",
+    "conversion_date": "2025-07-01 12:21:44",
+    "conversion_method": "rtf_state_parser",
+    "footnotes": ["Table 14.1.3.1{ }Demographic and Baseline Characteristics Summary{ }Randomized Population{ }", "DEUC 6 mg { }N = 336 | PBO{ }N = 334 | Total{ }N = 670", "RACE n(%)", "WHITE | 263 ( 78.3) | 279 ( 83.5) | 542 ( 80.9)", "BLACK OR AFRICAN AMERICAN | 4 (  1.2) | 1 (  0.3) | 5 (  0.7)", "AMERICAN INDIAN OR ALASKA NATIVE | 17 (  5.1) | 19 (  5.7) | 36 (  5.4)", "OTHER | 27 (  8.0) | 21 (  6.3) | 48 (  7.2)", "ASIAN | 25 (  7.4) | 14 (  4.2) | 39 (  5.8)", "CHINESE | 24 (  7.1) | 14 (  4.2) | 38 (  5.7)", "ASIAN OTHER | 1 (  0.3) | 0 | 1 (  0.1)", "ETHNICITY n(%)", "HISPANIC OR LATINO | 101 ( 30.1) | 94 ( 28.1) | 195 ( 29.1)", "NOT HISPANIC OR LATINO | 165 ( 49.1) | 165 ( 49.4) | 330 ( 49.3)", "NOT REPORTED | 70 ( 20.8) | 75 ( 22.5) | 145 ( 21.6)", "COUNTRY BY GEOGRAPHIC REGION n(%)", "NORTH AMERICA | 51 ( 15.2) | 50 ( 15.0) | 101 ( 15.1)", "MEXICO | 32 (  9.5) | 26 (  7.8) | 58 (  8.7)", "UNITED STATES OF AMERICA | 19 (  5.7) | 24 (  7.2) | 43 (  6.4)", "SOUTH/LATIN AMERICA | 88 ( 26.2) | 97 ( 29.0) | 185 ( 27.6)", "ARGENTINA | 36 ( 10.7) | 38 ( 11.4) | 74 ( 11.0)", "BRAZIL | 15 (  4.5) | 9 (  2.7) | 24 (  3.6)", "CHILE | 26 (  7.7) | 38 ( 11.4) | 64 (  9.6)", "COLOMBIA | 11 (  3.3) | 12 (  3.6) | 23 (  3.4)", "BMI = Body Mass Index.Age presented is age at date of informed consent.Program Path: BMS_GBS\\\\IM011\\\\HAB31370\\\\Biostatistics\\\\Production\\\\Tables\\\\CSRProgram Name: rt-dm-demo.sas                                                                                         12DEC2024:06:43:38", "Protocol: IM011054 | of {{\\*{ NUMPAGES }}}", "EUROPE | 171 ( 50.9) | 172 ( 51.5) | 343 ( 51.2)", "BULGARIA | 12 (  3.6) | 14 (  4.2) | 26 (  3.9)", "CZECHIA | 6 (  1.8) | 7 (  2.1) | 13 (  1.9)", "FINLAND | 4 (  1.2) | 1 (  0.3) | 5 (  0.7)", "FRANCE | 2 (  0.6) | 1 (  0.3) | 3 (  0.4)", "HUNGARY | 13 (  3.9) | 10 (  3.0) | 23 (  3.4)", "IRELAND | 1 (  0.3) | 0 | 1 (  0.1)", "ITALY | 1 (  0.3) | 4 (  1.2) | 5 (  0.7)", "POLAND | 103 ( 30.7) | 99 ( 29.6) | 202 ( 30.1)", "ROMANIA | 13 (  3.9) | 20 (  6.0) | 33 (  4.9)", "RUSSIAN FEDERATION | 6 (  1.8) | 6 (  1.8) | 12 (  1.8)", "SPAIN | 6 (  1.8) | 9 (  2.7) | 15 (  2.2)", "4 (  1.2) | 1 (  0.3) | 5 (  0.7)", "ASIA | 25 (  7.4) | 13 (  3.9) | 38 (  5.7)", "CHINA | 15 (  4.5) | 7 (  2.1) | 22 (  3.3)", "TAIWAN, PROVINCE OF CHINA | 10 (  3.0) | 6 (  1.8) | 16 (  2.4)", "REST OF THE WORLD | 1 (  0.3) | 2 (  0.6) | 3 (  0.4)", "AUSTRALIA | 1 (  0.3) | 2 (  0.6) | 3 (  0.4)", "BASELINE WEIGHT (KG)", "N | 334 | 334 | 668", "MEAN | 84.22 | 82.41 | 83.31", "SD | 18.571 | 17.108 | 17.864", "MEDIAN | 83.00 | 80.40 | 82.05", "Q1, Q3 | 70.80, 95.60 | 70.00, 94.00 | 70.00, 95.25", "MIN, MAX | 38.5, 138.5 | 43.0, 133.6 | 38.5, 138.5", "WEIGHT CATEGORIZATION n (%)", "< 90 KG | 220 ( 65.5) | 227 ( 68.0) | 447 ( 66.7)", ">= 90 KG | 114 ( 33.9) | 107 ( 32.0) | 221 ( 33.0)", "NOT REPORTED | 2 (  0.6) | 0 | 2 (  0.3)", "BASELINE BMI (KG/M^2)", "N | 332 | 334 | 666", "MEAN | 30.26 | 29.61 | 29.94", "SD | 6.391 | 5.617 | 6.019", "MEDIAN | 29.40 | 29.19 | 29.30", "Q1, Q3 | 26.10, 33.94 | 25.78, 32.58 | 25.95, 33.15", "MIN, MAX | 15.6, 57.2 | 17.0, 46.2 | 15.6, 57.2"]
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "336"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "334"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "N",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "670"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "51.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "52.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "52.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "SD",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "12.52"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "SD",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "12.32"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "SD",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "12.41"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "52.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "52.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MEDIAN",
+      "stat_name": "value",
+      "stat_label": "Value",
+      "stat": "52.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Q1, Q3",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "43.0, 60.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Q1, Q3",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "45.0, 61.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Q1, Q3",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "44.0, 61.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "23, 86"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "21, 83"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MIN, MAX",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "21, 86"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "<45",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "98"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "<45",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "29.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "<45",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "83"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "<45",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "24.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "<45",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "181"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "<45",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "27.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "45 - 65",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "187"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "45 - 65",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "55.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "45 - 65",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "194"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "45 - 65",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "58.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "45 - 65",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "381"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "45 - 65",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "56.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">=65",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "51"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">=65",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "15.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">=65",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "57"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">=65",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "17.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">=65",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "108"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">=65",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "16.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MALE",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "172"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MALE",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "51.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MALE",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "164"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MALE",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "49.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MALE",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "336"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "MALE",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "50.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "FEMALE",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "164"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "FEMALE",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "48.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "FEMALE",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "170"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "FEMALE",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "50.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "FEMALE",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "334"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "FEMALE",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "49.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    }
+  ],
+  "summary": {
+    "total_rows": 53,
+    "unique_groups": 1,
+    "unique_variables": 13,
+    "stat_types": ["N", "n", "value", "other", "pct"],
+    "hierarchical_variables": 6,
+    "group_levels": 0
+  }
+}

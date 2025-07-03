@@ -10,12 +10,6 @@
 #' - [state_table_to_ard()]: Convert parsed data to ARD format
 #' - [launch_stateful_app()]: Launch interactive Shiny application
 #'
-#' @section Stage 1 Reliable Functions:
-#' - [parse_rtf_to_structured_ard()]: Stage 1 reliable parsing (99%+ accuracy)
-#' - [export_structured_ard_csv()]: Export Stage 1 data to CSV
-#' - [export_structured_ard_json()]: Export Stage 1 data to JSON
-#' - [rtf_to_structured_export()]: One-step parsing and export
-#'
 #' @section Pattern Management:
 #' - [get_bign_patterns()], [set_bign_patterns()], [add_bign_pattern()]: Manage BIGN extraction patterns
 #' - [get_stat_patterns()], [set_stat_patterns()], [add_stat_pattern()]: Manage statistical parsing patterns
@@ -59,11 +53,12 @@ NULL
   
   # Initialize pseudo-patterns after loading
   # This will be called after pseudo_pattern.R is loaded
-  setHook(packageEvent("stateful", "onLoad"), function(...) {
-    if (exists("update_stat_patterns_to_pseudo", mode = "function")) {
-      update_stat_patterns_to_pseudo()
-    }
-  })
+  # Modified for standalone - no package hook needed
+  # setHook(packageEvent("stateful", "onLoad"), function(...) {
+  if (exists("update_stat_patterns_to_pseudo", mode = "function")) {
+    update_stat_patterns_to_pseudo()
+  }
+  # })
 }
 
 #' Launch the Stateful Shiny Application
@@ -85,7 +80,7 @@ NULL
 #' launch_stateful_app(port = 3838)
 #' }
 launch_stateful_app <- function(port = NULL, host = "127.0.0.1", launch.browser = TRUE) {
-  app_dir <- system.file("shiny-app", package = "stateful")
+  app_dir <- "."  # Modified for standalone deployment
   if (app_dir == "") {
     stop("Could not find Shiny app directory. Please reinstall the package.")
   }

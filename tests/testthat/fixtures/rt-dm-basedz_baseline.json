@@ -1,0 +1,602 @@
+{
+  "metadata": {
+    "source_file": "rt-dm-basedz.rtf",
+    "conversion_date": "2025-07-01 12:21:43",
+    "conversion_method": "rtf_state_parser",
+    "footnotes": ["Table 14.1.4.1{ }Baseline Disease Characteristics Summary{ }Randomized Population{ }", "DEUC 6 mg{ } N=336 | PBO{ } N=334 | Total{ } N=670", "DURATION OF DISEASE (YEARS)", "N | 333 | 334 | 667", "MEAN | 7.27 | 8.03 | 7.65", "SD | 8.287 | 7.604 | 7.955", "MEDIAN | 4.59 | 5.42 | 4.96", "Q1, Q3 | 1.70, 9.52 | 1.71, 12.22 | 1.70, 10.68", "MIN, MAX | -0.1, 60.2 | 0.3, 41.8 | -0.1, 60.2", "DURATION OF DISEASE n (%)", "< MEDIAN (4.96 YEARS) | 176 ( 52.4) | 157 ( 47.0) | 333 ( 49.7)", ">= MEDIAN (4.96 YEARS) | 157 ( 46.7) | 177 ( 53.0) | 334 ( 49.9)", "NOT REPORTED | 3 (  0.9) | 0 | 3 (  0.4)", "PSA SUB-TYPE n (%)", "POLYARTHRITIS | 262 ( 78.0) | 261 ( 78.1) | 523 ( 78.1)", "OLIGOARTHRITIS | 36 ( 10.7) | 33 (  9.9) | 69 ( 10.3)", "PREDOMINANT DISTAL INTERPHALANGEAL JOINT INVOLVEMENT | 29 (  8.6) | 27 (  8.1) | 56 (  8.4)", "PREDOMINANT AXIAL INVOLVEMENT | 1 (  0.3) | 5 (  1.5) | 6 (  0.9)", "ARTHRITIS MUTILANS | 5 (  1.5) | 8 (  2.4) | 13 (  1.9)", "PSA PHENOTYPE n (%)", "PERIPHERAL ARTHRITIS | 278 ( 82.7) | 285 ( 85.3) | 563 ( 84.0)", "PERIPHERAL PLUS PSORIATIC SPONDYLOARTHRITIS | 55 ( 16.4) | 49 ( 14.7) | 104 ( 15.5)", "IRT = Interactive Response Technology; CRF = Case Report Form;hsCRP = High sensitivity C-Reactive Protein; csDMARD = conventional synthetic disease-modifying antirheumatic drug; PsA Phenotype =Psoriatic Arthritis phenotype.Program Path: BMS_GBS\\\\IM011\\\\HAB31370\\\\Biostatistics\\\\Production\\\\Tables\\\\CSRProgram Name: rt-dm-basedz.sas                                                                                       12DEC2024:06:44:30", "Protocol: IM011054 | of {{\\*{ NUMPAGES }}}", "BASELINE ACR COMPONENTS:", "BASELINE TENDER (68) JOINT COUNT", "N | 334 | 333 | 667", "MEAN | 19.0 | 19.0 | 19.0", "SD | 12.79 | 13.74 | 13.26", "MEDIAN | 16.0 | 15.0 | 15.0", "Q1, Q3 | 9.0, 26.0 | 9.0, 24.0 | 9.0, 25.0", "MIN, MAX | 1, 66 | 3, 68 | 1, 68", "BASELINE SWOLLEN (66) JOINT COUNT", "MEAN | 10.7 | 10.3 | 10.5", "SD | 6.86 | 7.47 | 7.17", "MEDIAN | 9.0 | 8.0 | 9.0", "Q1, Q3 | 6.0, 15.0 | 6.0, 13.0 | 6.0, 14.0", "MIN, MAX | 3, 53 | 0, 66 | 0, 66", "BASELINE SUBJECT GLOBAL ASSESSMENT OF DISEASE ACTIVITY", "N | 330 | 331 | 661", "MEAN | 63.6 | 63.4 | 63.5", "SD | 22.55 | 20.12 | 21.35", "MEDIAN | 66.0 | 63.0 | 65.0", "Q1, Q3 | 50.0, 80.0 | 51.0, 77.0 | 51.0, 78.0", "MIN, MAX | 0, 100 | 2, 100 | 0, 100", "BASELINE PHYSICIAN GLOBAL ASSESSMENT OF PSORIATIC ARTHRITIS", "N | 329 | 331 | 660", "MEAN | 62.3 | 62.5 | 62.4", "SD | 15.63 | 16.09 | 15.85", "MEDIAN | 64.0 | 63.0 | 63.0", "Q1, Q3 | 53.0, 73.0 | 53.0, 74.0 | 53.0, 73.0", "MIN, MAX | 13, 100 | 9, 100 | 9, 100", "BASELINE SUBJECT GLOBAL ASSESSMENT OF PAIN", "MEAN | 64.5 | 62.6 | 63.6", "SD | 20.03 | 20.07 | 20.06", "MEDIAN | 66.0 | 64.0 | 65.0", "Q1, Q3 | 52.0, 79.0 | 52.0, 77.0 | 52.0, 78.0", "MIN, MAX | 0, 100 | 10, 100 | 0, 100", "BASELINE HAQ-DI SCORE", "MEAN | 1.4061 | 1.3308 | 1.3684", "SD | 0.62753 | 0.61844 | 0.62366", "MEDIAN | 1.5000 | 1.3750 | 1.5000", "Q1, Q3 | 1.0000, 1.8750 | 1.0000, 1.7500 | 1.0000, 1.7500", "MIN, MAX | 0.000, 3.000 | 0.000, 3.000 | 0.000, 3.000", "BASELINE HSCRP (MG/L)", "N | 336 | 334 | 670", "MEAN | 12.909 | 14.180 | 13.543", "SD | 16.0611 | 19.3990 | 17.8015", "MEDIAN | 7.390 | 7.825 | 7.605", "Q1, Q3 | 4.140, 14.215 | 3.860, 14.780 | 3.980, 14.410", "MIN, MAX | 0.36, 112.50 | 0.36, 181.54 | 0.36, 181.54", "BASELINE MDA RESPONSE n (%)", "YES | 1 (  0.3) | 0 | 1 (  0.1)", "NO | 329 ( 97.9) | 331 ( 99.1) | 660 ( 98.5)", "NOT REPORTED | 6 (  1.8) | 3 (  0.9) | 9 (  1.3)", "BASELINE MDA COMPONENTS:", "BASELINE TENDER (68) JOINT COUNT n (%)", "<= 1 | 1 (  0.3) | 0 | 1 (  0.1)", "> 1 | 333 ( 99.1) | 333 ( 99.7) | 666 ( 99.4)", "NOT REPORTED | 2 (  0.6) | 1 (  0.3) | 3 (  0.4)", "BASELINE SWOLLEN (66) JOINT COUNT n (%)", "<= 1 | 0 | 2 (  0.6) | 2 (  0.3)", "> 1 | 334 ( 99.4) | 331 ( 99.1) | 665 ( 99.3)", "BASELINE PASI SCORE n (%)", "<= 1 | 69 ( 20.5) | 71 ( 21.3) | 140 ( 20.9)", "> 1 | 262 ( 78.0) | 261 ( 78.1) | 523 ( 78.1)", "NOT REPORTED | 5 (  1.5) | 2 (  0.6) | 7 (  1.0)", "BASELINE BSA n(%)", "<= 3% | 153 ( 45.5) | 139 ( 41.6) | 292 ( 43.6)", "> 3% | 178 ( 53.0) | 193 ( 57.8) | 371 ( 55.4)", "BASELINE SUBJECT GLOBAL ASSESSMENT OF PAIN n (%)", "<= 15 | 8 (  2.4) | 5 (  1.5) | 13 (  1.9)", "> 15 | 322 ( 95.8) | 326 ( 97.6) | 648 ( 96.7)", "BASELINE SUBJECT GLOBAL ASSESSMENT OF DISEASE ACTIVITY n (%)", "<= 20 | 18 (  5.4) | 6 (  1.8) | 24 (  3.6)", "> 20 | 312 ( 92.9) | 325 ( 97.3) | 637 ( 95.1)", "BASELINE HAQ-DI SCORE n (%)", "<= 0.5 | 36 ( 10.7) | 47 ( 14.1) | 83 ( 12.4)", "> 0.5 | 294 ( 87.5) | 284 ( 85.0) | 578 ( 86.3)", "BASELINE TENDER ENTHESIAL POINTS (LEI) n(%)", "<= 1 | 205 ( 61.0) | 225 ( 67.4) | 430 ( 64.2)", "> 1 | 127 ( 37.8) | 107 ( 32.0) | 234 ( 34.9)", "NOT REPORTED | 4 (  1.2) | 2 (  0.6) | 6 (  0.9)", "BASELINE PASI SCORE", "N | 331 | 332 | 663", "MEAN | 5.25 | 5.75 | 5.50", "SD | 5.737 | 6.944 | 6.370", "MEDIAN | 3.40 | 3.60 | 3.60", "Q1, Q3 | 1.40, 7.80 | 1.20, 7.70 | 1.20, 7.80", "MIN, MAX | 0.0, 39.6 | 0.0, 57.7 | 0.0, 57.7", "BASELINE LEEDS ENTHESITIS INDEX (LEI)", "N | 332 | 332 | 664", "MEAN | 1.4 | 1.1 | 1.3", "SD | 1.70 | 1.53 | 1.62", "MEDIAN | 1.0 | 1.0 | 1.0", "Q1, Q3 | 0.0, 2.0 | 0.0, 2.0 | 0.0, 2.0", "MIN, MAX | 0, 6 | 0, 6 | 0, 6", "BASELINE SPARCC ENTHESITIS INDEX", "MEAN | 3.3 | 2.7 | 3.0", "SD | 3.87 | 3.40 | 3.65", "MEDIAN | 2.0 | 1.0 | 2.0", "Q1, Q3 | 0.0, 5.0 | 0.0, 4.0 | 0.0, 5.0", "MIN, MAX | 0, 16 | 0, 16 | 0, 16", "BASELINE TENDER DACTYLITIS COUNT", "MEAN | 1.4 | 1.0 | 1.2", "SD | 2.93 | 2.43 | 2.70", "MEDIAN | 0.0 | 0.0 | 0.0", "Q1, Q3 | 0.0, 2.0 | 0.0, 1.0 | 0.0, 1.0", "MIN, MAX | 0, 19 | 0, 20 | 0, 20", "BASELINE TENDER DACTYLITIS COUNT n (%)", "<1 | 199 ( 59.2) | 224 ( 67.1) | 423 ( 63.1)", ">= 1 | 132 ( 39.3) | 108 ( 32.3) | 240 ( 35.8)", "BASELINE DACTYLITIS INDEX (LDI)", "N | 137 | 112 | 249", "MEAN | 67.328 | 53.543 | 61.128", "SD | 122.9399 | 78.2663 | 105.2491", "MEDIAN | 31.952 | 25.113 | 29.508", "Q1, Q3 | 14.815, 70.403 | 12.554, 59.697 | 13.559, 62.656", "MIN, MAX | -125.00, 907.16 | 0.00, 506.78 | -125.00, 907.16", "BASELINE DAS28-CRP SCORE", "N | 328 | 330 | 658", "MEAN | 4.985 | 5.018 | 5.002", "SD | 0.9356 | 0.9432 | 0.9389", "MEDIAN | 4.984 | 4.928 | 4.966", "Q1, Q3 | 4.392, 5.610 | 4.349, 5.695 | 4.378, 5.643", "MIN, MAX | 1.91, 7.18 | 2.48, 7.62 | 1.91, 7.62", "BASELINE DAS28-CRP COMPONENTS:", "BASELINE TENDER (28) JOINT COUNT", "MEAN | 10.0 | 10.2 | 10.1", "SD | 6.39 | 6.63 | 6.50", "MEDIAN | 9.0 | 9.0 | 9.0", "Q1, Q3 | 5.0, 13.0 | 5.0, 14.0 | 5.0, 14.0", "MIN, MAX | 0, 28 | 0, 28 | 0, 28", "BASELINE SWOLLEN (28) JOINT COUNT", "MEAN | 6.4 | 6.5 | 6.5", "SD | 4.18 | 4.44 | 4.31", "MEDIAN | 5.0 | 6.0 | 6.0", "Q1, Q3 | 4.0, 9.0 | 3.0, 9.0 | 3.0, 9.0", "MIN, MAX | 0, 24 | 0, 28 | 0, 28", "BASELINE FACIT-FATIGUE SCORE", "MEAN | 28.9 | 29.4 | 29.2", "SD | 11.11 | 10.77 | 10.94", "MEDIAN | 29.0 | 30.0 | 29.0", "Q1, Q3 | 21.0, 38.0 | 23.0, 37.0 | 22.0, 38.0", "MIN, MAX | 3, 51 | 5, 52 | 3, 52", "BASELINE SF-36 PCS SCORE", "MEAN | 34.802 | 35.175 | 34.989", "SD | 7.6539 | 7.9406 | 7.7951", "MEDIAN | 34.255 | 34.390 | 34.340", "Q1, Q3 | 30.110, 39.290 | 29.750, 40.060 | 29.970, 39.700", "MIN, MAX | 16.04, 61.67 | 15.74, 56.92 | 15.74, 61.67", "BASELINE PSA-MODIFIED SVDH SCORE", "N | 303 | 308 | 611", "MEAN | 18.400 | 25.564 | 22.011", "SD | 31.8434 | 38.0108 | 35.2422", "MEDIAN | 7.000 | 8.500 | 8.000", "Q1, Q3 | 2.500, 20.000 | 3.500, 32.000 | 3.000, 25.500", "MIN, MAX | 0.00, 299.00 | 0.50, 259.50 | 0.00, 299.00"]
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "183"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "54.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "182"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "54.5"
+    },
+    {
+      "group1": "TRT",
+      "variable": "< 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "365"
+    },
+    {
+      "group1": "TRT",
+      "variable": "< 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "54.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "153"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "45.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "152"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "45.5"
+    },
+    {
+      "group1": "TRT",
+      "variable": ">= 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "305"
+    },
+    {
+      "group1": "TRT",
+      "variable": ">= 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "45.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "212"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "63.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "200"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "59.9"
+    },
+    {
+      "group1": "TRT",
+      "variable": "< 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "412"
+    },
+    {
+      "group1": "TRT",
+      "variable": "< 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "61.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "124"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "36.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "134"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "40.1"
+    },
+    {
+      "group1": "TRT",
+      "variable": ">= 10",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "258"
+    },
+    {
+      "group1": "TRT",
+      "variable": ">= 10",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "38.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "YES",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "244"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "YES",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "72.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "YES",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "242"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "YES",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "72.5"
+    },
+    {
+      "group1": "TRT",
+      "variable": "YES",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "486"
+    },
+    {
+      "group1": "TRT",
+      "variable": "YES",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "72.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NO",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "92"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NO",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "27.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NO",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "92"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NO",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "27.5"
+    },
+    {
+      "group1": "TRT",
+      "variable": "NO",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "184"
+    },
+    {
+      "group1": "TRT",
+      "variable": "NO",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "27.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "YES",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "237"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "YES",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "70.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "YES",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "231"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "YES",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "69.2"
+    },
+    {
+      "group1": "TRT",
+      "variable": "YES",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "468"
+    },
+    {
+      "group1": "TRT",
+      "variable": "YES",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "69.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NO",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "99"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NO",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "29.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NO",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "103"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NO",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "30.8"
+    },
+    {
+      "group1": "TRT",
+      "variable": "NO",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "202"
+    },
+    {
+      "group1": "TRT",
+      "variable": "NO",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "30.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 18",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 18",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 18",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "< 18",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "variable": "< 18",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "9"
+    },
+    {
+      "group1": "TRT",
+      "variable": "< 18",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "18 - 39",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "124"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "18 - 39",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "36.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "18 - 39",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "127"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "18 - 39",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "38.0"
+    },
+    {
+      "group1": "TRT",
+      "variable": "18 - 39",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "251"
+    },
+    {
+      "group1": "TRT",
+      "variable": "18 - 39",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "37.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 40",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "202"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 40",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "60.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 40",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "205"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": ">= 40",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "61.4"
+    },
+    {
+      "group1": "TRT",
+      "variable": ">= 40",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "407"
+    },
+    {
+      "group1": "TRT",
+      "variable": ">= 40",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "60.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NOT REPORTED",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NOT REPORTED",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "NOT REPORTED",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "variable": "NOT REPORTED",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "variable": "NOT REPORTED",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    }
+  ],
+  "summary": {
+    "total_rows": 76,
+    "unique_groups": 2,
+    "unique_variables": 10,
+    "stat_types": ["N", "n", "pct", "other"],
+    "hierarchical_variables": 6,
+    "group_levels": 0
+  }
+}

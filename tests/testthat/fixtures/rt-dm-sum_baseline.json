@@ -1,0 +1,700 @@
+{
+  "metadata": {
+    "source_file": "rt-dm-sum.rtf",
+    "conversion_date": "2025-07-01 12:21:44",
+    "conversion_method": "rtf_state_parser",
+    "title": "Table 14.3.2.1.1.1",
+    "population": "All Treated Subjects",
+    "footnotes": "Program Source: <path to program> | 17JUN2025 13:41"
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "351"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "352"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "115"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "149"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "42.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "103"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "29.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "54"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "NUMBER OF SUBJECTS WHO DIED (%)",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "47.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "122"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "34.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "74"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "21.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "37"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "32.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "10"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "4.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\OTHER",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "19"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\OTHER",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "5.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\OTHER",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "17"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\OTHER",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "4.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\OTHER",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "12"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\OTHER",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "10.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "4.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "17"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "4.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "NUMBER OF SUBJECTS WHO DIED WITHIN 30 DAYS OF LAST DOSE (%)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "7.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "1.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "2.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "2.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\OTHER",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "(  2.3)"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\OTHER",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\OTHER",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\OTHER",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\OTHER",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "4.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "52"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "14.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "41"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "11.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "26"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "NUMBER OF SUBJECT WHO DIED WITHIN 100 DAYS OF LAST DOSE (%)",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "22.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "35"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "10.0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "24"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "6.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "mean",
+      "stat_label": "Mean",
+      "stat": "16"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\DISEASE",
+      "stat_name": "sd",
+      "stat_label": "SD",
+      "stat": "13.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\STUDY DRUG TOXICITY",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\UNKNOWN",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\OTHER",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "16"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm A: Nivo",
+      "variable": "\\\\OTHER",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "4.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\OTHER",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "13"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm B: Nivo + Ipi",
+      "variable": "\\\\OTHER",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "3.7"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\OTHER",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Arm C: Chemo",
+      "variable": "\\\\OTHER",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "7.8"
+    }
+  ],
+  "summary": {
+    "total_rows": 85,
+    "unique_groups": 3,
+    "unique_variables": 8,
+    "stat_types": ["N", "n", "pct", "mean", "sd", "other"],
+    "hierarchical_variables": 0,
+    "group_levels": 0
+  }
+}

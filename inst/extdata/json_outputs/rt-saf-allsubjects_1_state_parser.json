@@ -1,0 +1,11 @@
+{
+  "data": [],
+  "metadata": {
+    "processing_date": "2025-07-03 19:41:29",
+    "stage": "state_parser_stage1",
+    "method": "rtf_state_machine",
+    "status": "error",
+    "error": "cannot open the connection"
+  },
+  "stage": "state_parser_stage1"
+}

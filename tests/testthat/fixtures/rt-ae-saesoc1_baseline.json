@@ -1,0 +1,890 @@
+{
+  "metadata": {
+    "source_file": "rt-ae-saesoc1.rtf",
+    "conversion_date": "2025-07-01 12:21:41",
+    "conversion_method": "rtf_state_parser",
+    "footnotes": ["Table 14.3.2.2.1.1{ }Serious Adverse Event Summary by SOC and PT (Rate Difference){ }Placebo-Controlled Period{ }Treated Population{ }", "System Organ Class n(%) Preferred Term n(%) | DEUC 6 mg { }N = 332 | PBO { }N = 333 | Total { }N = 665", "Nervous system disorders", "Transient ischaemic attack | 0 | 1 (0.3) | 1 (0.2)", "Psychiatric disorders | 0 | 1 (0.3) | 1 (0.2)", "Major depression | 0 | 1 (0.3) | 1 (0.2)", "Reproductive system and breast disorders | 0 | 1 (0.3) | 1 (0.2)", "Vaginal haematoma | 0 | 1 (0.3) | 1 (0.2)", "Skin and subcutaneous tissue disorders | 0 | 1 (0.3) | 1 (0.2)", "Psoriasis | 0 | 1 (0.3) | 1 (0.2)", "MedDRA: 27.1N.A. denotes the reference category for rate difference contrast in the relevant study period.Adverse events are treatment emergent AEs with an onset date on or after the first dose date of study treatment up to 30 days afterthe last dose date of treatment in the study.For rate difference, the 95{} CI is calculated using Wald method.Program Path: BMS_GBS\\\\IM011\\\\HAB31370\\\\Biostatistics\\\\Production\\\\Tables\\\\CSRProgram Name: rt-ae-saesoc1.sas                                                                                      13DEC2024:00:53:22"]
+  },
+  "ard_data": [
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "BIGN",
+      "stat_name": "N",
+      "stat_label": "N",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "8"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.4"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "14"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "2.1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "RATE DIFFERENCE VS PLACEBO (95% CI)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "-0.6  ( -2.8, 1.6)"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "RATE DIFFERENCE VS PLACEBO (95% CI)",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "N.A."
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "1.5"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Infections and infestations",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.9"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cellulitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Erysipelas",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Respiratory tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Urinary tract infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Vulval cellulitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Vulval cellulitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Vulval cellulitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Vulval cellulitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Vulval cellulitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Soft tissue infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Soft tissue infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Soft tissue infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Soft tissue infection",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Soft tissue infection",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Injury, poisoning and procedural complications",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Injury, poisoning and procedural complications",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Injury, poisoning and procedural complications",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Injury, poisoning and procedural complications",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Injury, poisoning and procedural complications",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Wrist fracture",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Wrist fracture",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Wrist fracture",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Wrist fracture",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Wrist fracture",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cardiac disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cardiac disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cardiac disorders",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cardiac disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Cardiac disorders",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Atrial fibrillation",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Atrial fibrillation",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Atrial fibrillation",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Atrial fibrillation",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Atrial fibrillation",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Myocardial infarction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Myocardial infarction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Myocardial infarction",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Myocardial infarction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Myocardial infarction",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinus node dysfunction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinus node dysfunction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinus node dysfunction",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinus node dysfunction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Sinus node dysfunction",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Eye disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Eye disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Eye disorders",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Eye disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Eye disorders",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Iridocyclitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Iridocyclitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Iridocyclitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Iridocyclitis",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Iridocyclitis",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastrointestinal disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastrointestinal disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastrointestinal disorders",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastrointestinal disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Gastrointestinal disorders",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Small intestinal obstruction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Small intestinal obstruction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Small intestinal obstruction",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Small intestinal obstruction",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Small intestinal obstruction",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nervous system disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nervous system disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nervous system disorders",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.6"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nervous system disorders",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Nervous system disorders",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Migraine",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "0"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Migraine",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Migraine",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.3"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Migraine",
+      "stat_name": "n",
+      "stat_label": "n",
+      "stat": "1"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "Migraine",
+      "stat_name": "pct",
+      "stat_label": "pct",
+      "stat": "0.2"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "Protocol: IM011054"
+    },
+    {
+      "group1": "TRT",
+      "group1_level": "Table",
+      "variable": "",
+      "stat_name": "other",
+      "stat_label": "Other",
+      "stat": "of {{\\*{ NUMPAGES }}}"
+    }
+  ],
+  "summary": {
+    "total_rows": 109,
+    "unique_groups": 1,
+    "unique_variables": 23,
+    "stat_types": ["N", "n", "pct", "other"],
+    "hierarchical_variables": 0,
+    "group_levels": 0
+  }
+}

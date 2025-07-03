@@ -2160,23 +2160,7 @@ apply_hierarchical_structure_to_ard <- function(ard_data, hierarchical_structure
         ard_data$variable_level <- ard_data$variable
         ard_data$variable_level[ard_data$variable_level == original_variable] <- hierarchical_path
       }
-      
-      # Clean the variable field by removing \\ prefixes for hierarchical variables
-      # Only clean variables that have a hierarchical path (parent-child relationship)
-      if (grepl(" - ", hierarchical_path, fixed = TRUE)) {
-        cleaned_variable <- stringr::str_replace(original_variable, "^\\\\+", "")
-        ard_data$variable[ard_data$variable == original_variable] <- cleaned_variable
-      }
     }
-  }
-  
-  # Ensure all rows have variable_level field for consistency
-  if (!"variable_level" %in% names(ard_data)) {
-    ard_data$variable_level <- ard_data$variable
-  } else {
-    # For rows that don't have hierarchical paths, set variable_level = variable
-    missing_variable_level <- is.na(ard_data$variable_level) | ard_data$variable_level == ""
-    ard_data$variable_level[missing_variable_level] <- ard_data$variable[missing_variable_level]
   }
 
   # Apply group hierarchy
