@@ -4,7 +4,7 @@
 \alias{process_table_rows}
 \title{Process table rows to create flat ARD structure}
 \usage{
-process_table_rows(table_rows, header_groups)
+process_table_rows(table_rows, header_groups, raw_hierarchy = NULL)
 }
 \description{
 Process table rows to create flat ARD structure

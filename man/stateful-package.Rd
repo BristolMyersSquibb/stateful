@@ -10,23 +10,22 @@ A modern state-based parser for RTF tables that converts clinical trial data
 into Analysis Results Data (ARD) format. Features global pattern registries,
 position-aware parsing, and template-based statistical extraction.
 }
-\section{Main Functions}{
+\section{Main API Functions}{
 
 \itemize{
+\item \code{\link[=rtf_to_ard]{rtf_to_ard()}}: Convert RTF file to ARD data frame
 \item \code{\link[=rtf_to_ard_json]{rtf_to_ard_json()}}: Convert RTF file to ARD JSON format
-\item \code{\link[=parse_rtf_table_states]{parse_rtf_table_states()}}: Parse RTF into table sections
-\item \code{\link[=state_table_to_ard]{state_table_to_ard()}}: Convert parsed data to ARD format
+\item \code{\link[=rtf_to_ard_stage1]{rtf_to_ard_stage1()}}: Extract raw structural data only
 \item \code{\link[=launch_stateful_app]{launch_stateful_app()}}: Launch interactive Shiny application
 }
 }
 
-\section{Stage 1 Reliable Functions}{
+\section{Export Functions}{
 
 \itemize{
-\item \code{\link[=parse_rtf_to_structured_ard]{parse_rtf_to_structured_ard()}}: Stage 1 reliable parsing (99\%+ accuracy)
-\item \code{\link[=export_structured_ard_csv]{export_structured_ard_csv()}}: Export Stage 1 data to CSV
-\item \code{\link[=export_structured_ard_json]{export_structured_ard_json()}}: Export Stage 1 data to JSON
-\item \code{\link[=rtf_to_structured_export]{rtf_to_structured_export()}}: One-step parsing and export
+\item \code{\link[=export_ard_csv]{export_ard_csv()}}: Export ARD data to CSV format
+\item \code{\link[=export_ard_json]{export_ard_json()}}: Export ARD data to JSON format
+\item \code{\link[=batch_convert_rtf]{batch_convert_rtf()}}: Batch convert multiple RTF files
 }
 }
 
@@ -35,6 +34,7 @@ position-aware parsing, and template-based statistical extraction.
 \itemize{
 \item \code{\link[=get_bign_patterns]{get_bign_patterns()}}, \code{\link[=set_bign_patterns]{set_bign_patterns()}}, \code{\link[=add_bign_pattern]{add_bign_pattern()}}: Manage BIGN extraction patterns
 \item \code{\link[=get_stat_patterns]{get_stat_patterns()}}, \code{\link[=set_stat_patterns]{set_stat_patterns()}}, \code{\link[=add_stat_pattern]{add_stat_pattern()}}: Manage statistical parsing patterns
+\item \code{\link[=add_pseudo_pattern]{add_pseudo_pattern()}}: Add new statistical patterns using templates
 }
 }
 

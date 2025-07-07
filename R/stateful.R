@@ -4,21 +4,21 @@
 #' into Analysis Results Data (ARD) format. Features global pattern registries,
 #' position-aware parsing, and template-based statistical extraction.
 #'
-#' @section Main Functions:
+#' @section Main API Functions:
+#' - [rtf_to_ard()]: Convert RTF file to ARD data frame
 #' - [rtf_to_ard_json()]: Convert RTF file to ARD JSON format
-#' - [parse_rtf_table_states()]: Parse RTF into table sections
-#' - [state_table_to_ard()]: Convert parsed data to ARD format
+#' - [rtf_to_ard_stage1()]: Extract raw structural data only
 #' - [launch_stateful_app()]: Launch interactive Shiny application
 #'
-#' @section Stage 1 Reliable Functions:
-#' - [parse_rtf_to_structured_ard()]: Stage 1 reliable parsing (99%+ accuracy)
-#' - [export_structured_ard_csv()]: Export Stage 1 data to CSV
-#' - [export_structured_ard_json()]: Export Stage 1 data to JSON
-#' - [rtf_to_structured_export()]: One-step parsing and export
+#' @section Export Functions:
+#' - [export_ard_csv()]: Export ARD data to CSV format
+#' - [export_ard_json()]: Export ARD data to JSON format
+#' - [batch_convert_rtf()]: Batch convert multiple RTF files
 #'
 #' @section Pattern Management:
 #' - [get_bign_patterns()], [set_bign_patterns()], [add_bign_pattern()]: Manage BIGN extraction patterns
 #' - [get_stat_patterns()], [set_stat_patterns()], [add_stat_pattern()]: Manage statistical parsing patterns
+#' - [add_pseudo_pattern()]: Add new statistical patterns using templates
 #'
 #' @keywords internal
 "_PACKAGE"

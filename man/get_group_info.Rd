@@ -4,7 +4,7 @@
 \alias{get_group_info}
 \title{Get group information for column index}
 \usage{
-get_group_info(column_index, header_groups)
+get_group_info(column_index, header_groups, raw_hierarchy = NULL)
 }
 \description{
 Get group information for column index
