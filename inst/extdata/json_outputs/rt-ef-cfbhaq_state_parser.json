@@ -1,0 +1,227 @@
+{
+  "data": [
+    {
+      "variable": "N1",
+      "stat": "330",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "N1",
+      "stat": "331",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MEAN (SD)",
+      "stat": "1.4061 (0.62753)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MEAN (SD)",
+      "stat": "1.3308 (0.61844)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MEDIAN",
+      "stat": "1.5000",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MEDIAN",
+      "stat": "1.3750",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MIN, MAX",
+      "stat": "0.000, 3.000",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MIN, MAX",
+      "stat": "0.000, 3.000",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "N1",
+      "stat": "327",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "N1",
+      "stat": "327",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MEAN (SD)",
+      "stat": "0.9973 (0.64800)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MEAN (SD)",
+      "stat": "1.1170 (0.68841)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MEDIAN",
+      "stat": "1.0000",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MEDIAN",
+      "stat": "1.2500",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MIN, MAX",
+      "stat": "0.000, 3.000",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MIN, MAX",
+      "stat": "0.000, 2.875",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "N1",
+      "stat": "326",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "N1",
+      "stat": "327",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MEAN (SD)",
+      "stat": "-0.4103 (0.52303)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MEAN (SD)",
+      "stat": "-0.2118 (0.51583)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MEDIAN",
+      "stat": "-0.2500",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MEDIAN",
+      "stat": "-0.1250",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "MIN, MAX",
+      "stat": "-2.125, 1.500",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "MIN, MAX",
+      "stat": "-2.250, 1.250",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "ADJUSTED MEAN CHANGES(SE)",
+      "stat": "-0.3850 (0.02897)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "ADJUSTED MEAN CHANGES(SE)",
+      "stat": "-0.2163 (0.02888)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "95% CONFIDENCE INTERVAL FOR MEAN",
+      "stat": "(-0.4418, -0.3282)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "95% CONFIDENCE INTERVAL FOR MEAN",
+      "stat": "(-0.2729, -0.1597)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "ADJUSTED MEAN DIFFERENCE (SE)",
+      "stat": "-0.1688 (0.03850)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "ADJUSTED MEAN DIFFERENCE (SE)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "95% CONFIDENCE INTERVAL FOR DIFFERENCE",
+      "stat": "(-0.2442, -0.0933)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "95% CONFIDENCE INTERVAL FOR DIFFERENCE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "P VALUE",
+      "stat": "<0.0001",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 336"
+    },
+    {
+      "variable": "P VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ef-cfbhaq.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:53",
+    "title": "Table 14.2.2.3.1 Change from Baseline in HAQ-DI Score at Week 16 - Main Estimand Randomized Population",
+    "footnotes": "Analysis of Covariance presents change from baseline as the dependent variable with treatment, randomization stratification variables, and baseline value of the key secondary measure as independent variables. Composite variable estimand strategy is used for treatment discontinuation prior to week 16 which sets change from baseline to zero. Treatment policy strategy used for use of rescue therapy prior to week 16. Missing data are imputed by control-based pattern multiple imputation. Observed data after adjusting for ICE are used for descriptive statistics. Imputed data after considering ICE and multiple imputation are used in ANCOVA model. N1 represents the total number of subjects at the visit timepoint. N.A. = Not Applicable. ICE: Intercurrent event. Program Path: BMS_GBS Program Name: rt-ef-cfbhaq.sas 12DEC2024:06:48:30"
+  }
+}

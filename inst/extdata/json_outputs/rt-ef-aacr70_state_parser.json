@@ -1,0 +1,971 @@
+{
+  "data": [
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "336",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "334",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "335 ( 99.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "334 (100.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "13 ( 3.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "14 ( 4.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "0.3",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "0.0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 0.0, 1.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 0.0, 1.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "0.3",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( -0.3, 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "0.3194",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "336",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "334",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "330 ( 98.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "334 (100.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "1.8",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "0.0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 0.7, 3.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 0.0, 1.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "1.8",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 0.4, 3.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "0.0142",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "336",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "334",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "19 ( 5.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "10 ( 3.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "317 ( 94.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "324 ( 97.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "13 ( 3.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "9 ( 2.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "12 ( 3.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "5.7",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "3.0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 3.4, 8.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 1.4, 5.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "2.7",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( -0.4, 5.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "0.0916",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "1.94",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 0.89, 4.23)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "336",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "334",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "25 ( 7.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "12 ( 3.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "311 ( 92.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "322 ( 96.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "16 ( 4.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "20 ( 6.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "10 ( 3.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "12 ( 3.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "7.4",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "3.6",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 4.9, 10.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 1.9, 6.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "3.8",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 0.4, 7.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "0.0293",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "2.16",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 1.07, 4.39)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "336",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "334",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "39 ( 11.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "18 ( 5.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "297 ( 88.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "316 ( 94.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "19 ( 5.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "23 ( 6.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "9 ( 2.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "11.6",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "5.4",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 8.4, 15.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 3.2, 8.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "6.2",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 2.0, 10.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "0.0039",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "2.33",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 1.30, 4.17)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ef-aacr70.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:53",
+    "title": "Table 14.2.2.7.24 Proportion of Subjects Meeting ACR70 Response up to Week 16 Randomized Population",
+    "footnotes": "Total number of subjects is the number of subjects in the Randomized Population. Composite variable strategy is used for treatment discontinuation prior to Week 16. Treatment policy strategy is used for rescue medication therapy prior to Week 16. The 95 CI is calculated using Clopper-Pearson exact method. Risk difference and odds ratio are obtained from stratified contingency tables. P-value is obtained using a Cochran Mantel Haenszel (CMH) test stratified by screening hsCRP concentration and csDMARD use at baseline Missing ACR70 response is treated with non-responder imputation. N.A.: Not Applicable. ICE: Intercurrent event. N.E.: Not Estimable. Program Path: BMS_GBS Program Name: rt-ef-aacr70.sas 12DEC2024:06:52:12"
+  }
+}

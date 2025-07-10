@@ -1,0 +1,155 @@
+{
+  "data": [
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "162",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "170",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "84 ( 51.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "12 ( 7.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "78 ( 48.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "158 ( 92.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "9 ( 5.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "14 ( 8.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "7 ( 4.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "2 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "51.9",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "7.1",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 43.9, 59.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 3.7, 12.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "44.1",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 35.4, 52.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "<0.0001",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "14.08",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 7.19, 27.59)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ef-pasi.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:53",
+    "title": "Table 14.2.2.1.5 PASI 75 Response at Week 16 - Main Estimand Randomized Population",
+    "footnotes": "Total number of subjects is the number of subjects in the Randomized Population with at least 3 BSA and at least sPGA 2 at baseline. ICE: Intercurrent event. Responders are subjects with >= 75 PASI improvement from baseline. Composite variable strategy is used for treatment discontinuation prior to Week 16. Treatment policy strategy is used for rescue medication therapy prior to Week 16. The 95 CI is calculated using Clopper-Pearson exact method. N.A.: Not Applicable. Risk difference and odds ratio are obtained from stratified contingency tables. P-value is obtained using a Cochran Mantel Haenszel (CMH) test stratified by screening hsCRP concentration (< 10 mg/L, >= 10 mg/L) and csDMARD use at baseline (yes/no). Missing PASI 75 Response is treated with non-responder imputation. Program Path: BMS_GBS Program Name: rt-ef-pasi.sas 12DEC2024:08:54:31"
+  }
+}

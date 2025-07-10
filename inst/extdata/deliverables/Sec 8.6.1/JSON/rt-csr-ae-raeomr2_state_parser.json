@@ -1,0 +1,263 @@
+{
+  "data": [
+    {
+      "variable": "Endocrine;",
+      "stat": "127 (36.1)/ 22 (6.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "N (%) Treated Subj. with Any Grade/ Grade3- 4 Drug-related Select AE"
+    },
+    {
+      "variable": "Endocrine;",
+      "stat": "12.57 (2.4 - 102.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time to Onset of Drug- related Select AE (range), wks"
+    },
+    {
+      "variable": "Endocrine;",
+      "stat": "2.6",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Treated Subj. with Drug-related Select AE Leading to DC"
+    },
+    {
+      "variable": "Endocrine;",
+      "stat": "38.6 / 14.2",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug- Related Select AE Treated with IMM / High-dose Corticosteroids a"
+    },
+    {
+      "variable": "Endocrine;",
+      "stat": "N.A. (0.3 - 246.6+)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time b to Resolution of Drug -related Select AE (range), wks c,d,e"
+    },
+    {
+      "variable": "Endocrine;",
+      "stat": "41.7",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug-related Select AE that Resolved d,e"
+    },
+    {
+      "variable": "Gastrointestinal;",
+      "stat": "77 (21.9/ 12 (3.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "N (%) Treated Subj. with Any Grade/ Grade3- 4 Drug-related Select AE"
+    },
+    {
+      "variable": "Gastrointestinal;",
+      "stat": "11.14 (0.3 - 80.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time to Onset of Drug- related Select AE (range), wks"
+    },
+    {
+      "variable": "Gastrointestinal;",
+      "stat": "2.6",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Treated Subj. with Drug-related Select AE Leading to DC"
+    },
+    {
+      "variable": "Gastrointestinal;",
+      "stat": "23.4 / 22.1",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug- Related Select AE Treated with IMM / High-dose Corticosteroids a"
+    },
+    {
+      "variable": "Gastrointestinal;",
+      "stat": "5.36 (0.1 - 202.9+)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time b to Resolution of Drug -related Select AE (range), wks c,d,e"
+    },
+    {
+      "variable": "Gastrointestinal;",
+      "stat": "89.5",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug-related Select AE that Resolved d,e"
+    },
+    {
+      "variable": "Hepatic;",
+      "stat": "59 (16.8)/ 13 (3.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "N (%) Treated Subj. with Any Grade/ Grade3- 4 Drug-related Select AE"
+    },
+    {
+      "variable": "Hepatic;",
+      "stat": "10.86 (1.9 - 68.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time to Onset of Drug- related Select AE (range), wks"
+    },
+    {
+      "variable": "Hepatic;",
+      "stat": "2.0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Treated Subj. with Drug-related Select AE Leading to DC"
+    },
+    {
+      "variable": "Hepatic;",
+      "stat": "23.7 / 18.6",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug- Related Select AE Treated with IMM / High-dose Corticosteroids a"
+    },
+    {
+      "variable": "Hepatic;",
+      "stat": "7.14 (0.3 - 208.3+)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time b to Resolution of Drug -related Select AE (range), wks c,d,e"
+    },
+    {
+      "variable": "Hepatic;",
+      "stat": "91.5",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug-related Select AE that Resolved d,e"
+    },
+    {
+      "variable": "Pulmonary;",
+      "stat": "12 (3.4)/ 3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "N (%) Treated Subj. with Any Grade/ Grade3- 4 Drug-related Select AE"
+    },
+    {
+      "variable": "Pulmonary;",
+      "stat": "9.07 (4.1 - 87.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time to Onset of Drug- related Select AE (range), wks"
+    },
+    {
+      "variable": "Pulmonary;",
+      "stat": "1.1",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Treated Subj. with Drug-related Select AE Leading to DC"
+    },
+    {
+      "variable": "Pulmonary;",
+      "stat": "50.0 / 50.0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug- Related Select AE Treated with IMM / High-dose Corticosteroids a"
+    },
+    {
+      "variable": "Pulmonary;",
+      "stat": "7.50 (1.7 - 34.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time b to Resolution of Drug -related Select AE (range), wks c,d,e"
+    },
+    {
+      "variable": "Pulmonary;",
+      "stat": "91.7",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug-related Select AE that Resolved d,e"
+    },
+    {
+      "variable": "Renal;",
+      "stat": "9 (2.6)/ 2 (0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "N (%) Treated Subj. with Any Grade/ Grade3- 4 Drug-related Select AE"
+    },
+    {
+      "variable": "Renal;",
+      "stat": "13.86 (2.6 - 76.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time to Onset of Drug- related Select AE (range), wks"
+    },
+    {
+      "variable": "Renal;",
+      "stat": "0.6",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Treated Subj. with Drug-related Select AE Leading to DC"
+    },
+    {
+      "variable": "Renal;",
+      "stat": "55.6 / 44.4",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug- Related Select AE Treated with IMM / High-dose Corticosteroids a"
+    },
+    {
+      "variable": "Renal;",
+      "stat": "4.14 (0.3 - 145.4+)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time b to Resolution of Drug -related Select AE (range), wks c,d,e"
+    },
+    {
+      "variable": "Renal;",
+      "stat": "77.8",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug-related Select AE that Resolved d,e"
+    },
+    {
+      "variable": "Skin;",
+      "stat": "136 (38.6)/ 7 (2.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "N (%) Treated Subj. with Any Grade/ Grade3- 4 Drug-related Select AE"
+    },
+    {
+      "variable": "Skin;",
+      "stat": "5.36 (0.1 - 92.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time to Onset of Drug- related Select AE (range), wks"
+    },
+    {
+      "variable": "Skin;",
+      "stat": "0.9",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Treated Subj. with Drug-related Select AE Leading to DC"
+    },
+    {
+      "variable": "Skin;",
+      "stat": "27.9 / 8.8",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug- Related Select AE Treated with IMM / High-dose Corticosteroids a"
+    },
+    {
+      "variable": "Skin;",
+      "stat": "14.29 (0.1 - 228.3+)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time b to Resolution of Drug -related Select AE (range), wks c,d,e"
+    },
+    {
+      "variable": "Skin;",
+      "stat": "75.6",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug-related Select AE that Resolved d,e"
+    },
+    {
+      "variable": "Hypersensitivity/ Infusion Reaction;",
+      "stat": "16 (4.5)/ 0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "N (%) Treated Subj. with Any Grade/ Grade3- 4 Drug-related Select AE"
+    },
+    {
+      "variable": "Hypersensitivity/ Infusion Reaction;",
+      "stat": "3.29 (0.1 - 26.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time to Onset of Drug- related Select AE (range), wks"
+    },
+    {
+      "variable": "Hypersensitivity/ Infusion Reaction;",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Treated Subj. with Drug-related Select AE Leading to DC"
+    },
+    {
+      "variable": "Hypersensitivity/ Infusion Reaction;",
+      "stat": "18.8 / 12.5",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug- Related Select AE Treated with IMM / High-dose Corticosteroids a"
+    },
+    {
+      "variable": "Hypersensitivity/ Infusion Reaction;",
+      "stat": "0.14 (0.1 - 231.0+)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Median Time b to Resolution of Drug -related Select AE (range), wks c,d,e"
+    },
+    {
+      "variable": "Hypersensitivity/ Infusion Reaction;",
+      "stat": "87.5",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "% Subj. with Drug-related Select AE that Resolved d,e"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-csr-ae-raeomr2.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 12:51:30",
+    "title": "Table 8.6.1-2\nOnset, Management, and Resolution of Drug-Related Select AEs- All Treated Subjects in the Nivo Arm (N = 352)",
+    "footnotes": "a Denominator is based on the number of subjects who experienced the event b From Kaplan-Meier estimation. c Symbol + indicates a censored value. d Subjects who experienced select adverse event without worsening from baseline grade were excluded from time to resolution analysis. e Events without a stop date or with a stop date equal to the death as well as Grade 5 events are considered unresolved. MedDRA Version: 27.0, CTC Version 5.0 Includes events reported between first treatment and 30 days after last treatment of study therapy. Source: Table 14.3.2.3.4.2 (select AEs), Table 14.3.2.3.6.7 (select endocrine AEs), Table 14.3.2.3.8.1 (time to onset), Table 14.3.2.3.6.15 (select AEs leading to DC), Table 14.3.2.3.6.19 (select endocrine AEs leading to DC), Table 14.1.5.10.1 (duration of IMM for select AEs), Table 14.3.2.3.9.1 (time to resolution). These outputs also include Grade 3-5 and chemo results."
+  }
+}

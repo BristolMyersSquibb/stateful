@@ -1,0 +1,155 @@
+{
+  "data": [
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "336",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "334",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "182 ( 54.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "114 ( 34.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "154 ( 45.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "220 ( 65.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "19 ( 5.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "23 ( 6.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "9 ( 2.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "54.2",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "34.1",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 48.7, 59.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 29.1, 39.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "20.0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 12.7, 27.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "<0.0001",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "2.29",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 1.67, 3.13)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ef-acr20.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:53",
+    "title": "Table 14.2.1.1.1 ACR 20 Response at Week 16 - Main Estimand Randomized Population",
+    "footnotes": "Total number of subjects is the number of subjects in the Randomized Population. Responders are subjects with >=20 improvement from baseline, with respect to main estimand strategy. Composite variable strategy is used for treatment discontinuation prior to Week 16. Treatment policy strategy is used for rescue medication therapy prior to Week 16. The 95 CI is calculated using Clopper-Pearson exact method. Risk difference and odds ratio are obtained from stratified contingency tables. P-value is obtained using a Cochran Mantel Haenszel (CMH) test stratified by Screening hsCRP concentration (< 10 mg/L, >= 10 mg/L) and csDMARD use at baseline (yes/no). Missing ACR20 composite response is treated with non-responder imputation. N.A. = Not Applicable. ICE: Intercurrent event. Program Path: BMS_GBS Program Name: rt-ef-acr20.sas 12DEC2024:06:45:33"
+  }
+}

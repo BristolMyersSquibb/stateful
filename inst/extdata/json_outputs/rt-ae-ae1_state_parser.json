@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "variable": "DEATHs",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "DEATHs",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "DEATHs",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "AEs",
+      "stat": "200 ( 60.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "AEs",
+      "stat": "160 ( 48.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "AEs",
+      "stat": "360 ( 54.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "TREATMENT RELATED AEs",
+      "stat": "64 ( 19.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "TREATMENT RELATED AEs",
+      "stat": "39 ( 11.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "TREATMENT RELATED AEs",
+      "stat": "103 ( 15.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "SAEs",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "SAEs",
+      "stat": "8 ( 2.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "SAEs",
+      "stat": "14 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "TREATMENT RELATED SAEs",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "TREATMENT RELATED SAEs",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "TREATMENT RELATED SAEs",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "AEs LEADING TO DC",
+      "stat": "8 ( 2.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "AEs LEADING TO DC",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "AEs LEADING TO DC",
+      "stat": "14 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ae-ae1.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:48",
+    "title": "Table 14.3.1.1.1 Overall Safety Summary Placebo-Controlled Period Treated Population",
+    "footnotes": "AEs are treatment emergent AEs with an onset date on or after the first dose date of study treatment up to 30 days after the last dose date of treatment in the study. SAE = Serious Adverse Event; AE = Adverse Event (Treatment Emergent) DC = Discontinuation of treatment. MedDRA: 27.1 Program Path: BMS_GBS Program Name: rt-ae-ae1.sas 12DEC2024:06:33:34"
+  }
+}

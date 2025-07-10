@@ -1,0 +1,1075 @@
+{
+  "data": [
+    {
+      "variable": "HEMOGOLOBIN decreased (A)",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HEMOGOLOBIN decreased (A)",
+      "stat": "151 (43.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HEMOGOLOBIN decreased (A)",
+      "stat": "18 (5.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "HEMOGOLOBIN decreased (A)",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HEMOGOLOBIN decreased (A)",
+      "stat": "343",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HEMOGOLOBIN decreased (A)",
+      "stat": "137 (39.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "HEMOGOLOBIN decreased (A)",
+      "stat": "14 (4.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "PLATELET COUNT decreased",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "PLATELET COUNT decreased",
+      "stat": "41 (11.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "PLATELET COUNT decreased",
+      "stat": "28 (0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "PLATELET COUNT decreased",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "PLATELET COUNT decreased",
+      "stat": "343",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "PLATELET COUNT decreased",
+      "stat": "50 (14.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "PLATELET COUNT decreased",
+      "stat": "4 (1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "LEUKOCYTES decreased, LOCAL LAB",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "LEUKOCYTES decreased, LOCAL LAB",
+      "stat": "44 (12.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "LEUKOCYTES decreased, LOCAL LAB",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "LEUKOCYTES decreased, LOCAL LAB",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "LEUKOCYTES decreased, LOCAL LAB",
+      "stat": "343",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "LEUKOCYTES decreased, LOCAL LAB",
+      "stat": "50 (14.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "LEUKOCYTES decreased, LOCAL LAB",
+      "stat": "2 (0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "LYMPHOCYTES (ABSOLUTE), TOTAL decreased",
+      "stat": "346",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "LYMPHOCYTES (ABSOLUTE), TOTAL decreased",
+      "stat": "129 (37.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "LYMPHOCYTES (ABSOLUTE), TOTAL decreased",
+      "stat": "14 (4.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "LYMPHOCYTES (ABSOLUTE), TOTAL decreased",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "LYMPHOCYTES (ABSOLUTE), TOTAL decreased",
+      "stat": "343",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "LYMPHOCYTES (ABSOLUTE), TOTAL decreased",
+      "stat": "104 (30.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "LYMPHOCYTES (ABSOLUTE), TOTAL decreased",
+      "stat": "16 (4.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "ABSOLUTE NEUTROPHIL COUNT decreased",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "ABSOLUTE NEUTROPHIL COUNT decreased",
+      "stat": "43 (12.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "ABSOLUTE NEUTROPHIL COUNT decreased",
+      "stat": "2 (0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "ABSOLUTE NEUTROPHIL COUNT decreased",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "ABSOLUTE NEUTROPHIL COUNT decreased",
+      "stat": "343",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "ABSOLUTE NEUTROPHIL COUNT decreased",
+      "stat": "71 (20.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "ABSOLUTE NEUTROPHIL COUNT decreased",
+      "stat": "6 (1.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "ALKALINE PHOSPHATASE increased, LOCAL LAB",
+      "stat": "346",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "ALKALINE PHOSPHATASE increased, LOCAL LAB",
+      "stat": "83 (24.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "ALKALINE PHOSPHATASE increased, LOCAL LAB",
+      "stat": "4 (1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "ALKALINE PHOSPHATASE increased, LOCAL LAB",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "ALKALINE PHOSPHATASE increased, LOCAL LAB",
+      "stat": "343",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "ALKALINE PHOSPHATASE increased, LOCAL LAB",
+      "stat": "78 (22.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "ALKALINE PHOSPHATASE increased, LOCAL LAB",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "ASPARTATE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "ASPARTATE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "100 (28.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "ASPARTATE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "5 (1.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "ASPARTATE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "ASPARTATE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "342",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "ASPARTATE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "129 (37.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "ASPARTATE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "11 (3.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "ALANINE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "ALANINE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "112 (32.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "ALANINE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "5 (1.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "ALANINE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "ALANINE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "343",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "ALANINE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "134 (39.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "ALANINE AMINOTRANSFERASE increased, LOCAL LAB",
+      "stat": "12 (3.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "BILIRUBIN, TOTAL increased, LOCAL LAB",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "BILIRUBIN, TOTAL increased, LOCAL LAB",
+      "stat": "52 (15.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "BILIRUBIN, TOTAL increased, LOCAL LAB",
+      "stat": "9 (2.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "BILIRUBIN, TOTAL increased, LOCAL LAB",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "BILIRUBIN, TOTAL increased, LOCAL LAB",
+      "stat": "342",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "BILIRUBIN, TOTAL increased, LOCAL LAB",
+      "stat": "56 (16.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "BILIRUBIN, TOTAL increased, LOCAL LAB",
+      "stat": "5 (1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "CREATININE increased, LOCAL LAB",
+      "stat": "348",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "CREATININE increased, LOCAL LAB",
+      "stat": "86 (24.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "CREATININE increased, LOCAL LAB",
+      "stat": "5 (1.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "CREATININE increased, LOCAL LAB",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "CREATININE increased, LOCAL LAB",
+      "stat": "343",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "CREATININE increased, LOCAL LAB",
+      "stat": "111 (32.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "CREATININE increased, LOCAL LAB",
+      "stat": "7 (2.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "AMYLASE increased, LOCAL LAB",
+      "stat": "102",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "AMYLASE increased, LOCAL LAB",
+      "stat": "34 (33.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "AMYLASE increased, LOCAL LAB",
+      "stat": "5 (4.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "AMYLASE increased, LOCAL LAB",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "AMYLASE increased, LOCAL LAB",
+      "stat": "108",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "AMYLASE increased, LOCAL LAB",
+      "stat": "44 (40.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "AMYLASE increased, LOCAL LAB",
+      "stat": "5 (4.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "LIPASE, TOTAL increased",
+      "stat": "111",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "LIPASE, TOTAL increased",
+      "stat": "36 (32.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "LIPASE, TOTAL increased",
+      "stat": "12 (10.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "LIPASE, TOTAL increased",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "LIPASE, TOTAL increased",
+      "stat": "115",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "LIPASE, TOTAL increased",
+      "stat": "50 (43.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "LIPASE, TOTAL increased",
+      "stat": "12 (10.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "HYPERNATREMIA",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPERNATREMIA",
+      "stat": "23 (6.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPERNATREMIA",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "HYPERNATREMIA",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPERNATREMIA",
+      "stat": "342",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPERNATREMIA",
+      "stat": "28 (8.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "HYPERNATREMIA",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "HYPONATREMIA",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPONATREMIA",
+      "stat": "104 (30.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPONATREMIA",
+      "stat": "8 (2.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "HYPONATREMIA",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPONATREMIA",
+      "stat": "342",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPONATREMIA",
+      "stat": "123 (36.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "HYPONATREMIA",
+      "stat": "11 (3.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "HYPERKALEMIA",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPERKALEMIA",
+      "stat": "120 (34.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPERKALEMIA",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "HYPERKALEMIA",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPERKALEMIA",
+      "stat": "342",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPERKALEMIA",
+      "stat": "99 (28.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "HYPERKALEMIA",
+      "stat": "4 (1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "HYPOKALEMIA",
+      "stat": "347",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPOKALEMIA",
+      "stat": "45 (13.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPOKALEMIA",
+      "stat": "6 (1.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "HYPOKALEMIA",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPOKALEMIA",
+      "stat": "342",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPOKALEMIA",
+      "stat": "49 (14.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "HYPOKALEMIA",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "HYPERCALCEMIA",
+      "stat": "346",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPERCALCEMIA",
+      "stat": "40 (11.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPERCALCEMIA",
+      "stat": "1 (0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "HYPERCALCEMIA",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPERCALCEMIA",
+      "stat": "341",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPERCALCEMIA",
+      "stat": "54 (15.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "HYPERCALCEMIA",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "HYPOCALCEMIA",
+      "stat": "346",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPOCALCEMIA",
+      "stat": "84 (24.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPOCALCEMIA",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "HYPOCALCEMIA",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPOCALCEMIA",
+      "stat": "341",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPOCALCEMIA",
+      "stat": "87 (25.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "HYPOCALCEMIA",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    },
+    {
+      "variable": "HYPOGLYCEMIA",
+      "stat": "342",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPOGLYCEMIA",
+      "stat": "42 (12.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPOGLYCEMIA",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "HYPOGLYCEMIA",
+      "stat": "~~~",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "N"
+    },
+    {
+      "variable": "HYPOGLYCEMIA",
+      "stat": "331",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 1-4"
+    },
+    {
+      "variable": "HYPOGLYCEMIA",
+      "stat": "55 (16.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 4-5"
+    },
+    {
+      "variable": "HYPOGLYCEMIA",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": ""
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-csr-lb-wosi.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 12:51:30",
+    "title": "Table 8.7-1\nOn-Treatment Laboratory Results, Worst Toxicity Grade Relative to Baseline, within 30 Days of Last Dose of Study Drug (SI Units)-\nAll Treated Subjects in the Nivo+Ipi and Nivo Arms",
+    "footnotes": ["(A) Per Anemia criteria in CTC version 5.0 there is no Grade 4 for hemoglobin. Toxicity Scale: CTC Version 5.0. Percentages are based on subjects with on-treatment laboratory results and CTC grade criteria available. Source: Table 14.3.4.1.1.3", "On-Treatment Laboratory Results, Worst Toxicity Grade Relative to Baseline, within 30 Days of Last Dose of Study Drug (SI Units)-"]
+  }
+}

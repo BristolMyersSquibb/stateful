@@ -386,7 +386,7 @@
     },
     {
       "variable": "ALL-CAUSALITY AES (1)",
-      "stat": "249 ( 99.1)",
+      "stat": "349 ( 99.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
@@ -4756,8 +4756,8 @@
   "metadata": {
     "source_file": "rt-ae-overallaecat.rtf",
     "parser": "RTF row-based parser with hierarchical support",
-    "timestamp": "2025-07-10 11:51:52",
+    "timestamp": "2025-07-10 12:51:27",
     "title": "Table 14.3.2.3.17.1\nOverall AE Summary by Worst CTC Grade (Any Grade, Grade 3-4, Grade 5)\nAll Treated Subjects",
-    "footnotes": ["MedDRA Version: 27.0; CTC Version 5.0 (1) Includes events reported between first dose and 30 days after last done of study therapy. (2) Includes events reported between first dose and 100 days after last done of study therapy. Excludes data collected on or after first crossover dose date.", "Program Source: <path to program> 17JUN2025 13:41"]
+    "footnotes": ["MedDRA Version: 27.0; CTC Version 5.0 (1) Includes events reported between first dose and 30 days after last done of study therapy. (2) Includes events reported between first dose and 100 days after last done of study therapy. Excludes data collected on or after first crossover dose date.", "Program Source: <path to program> 08JUL2025 12:30"]
   }
 }

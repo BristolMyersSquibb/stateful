@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "variable": "ENROLLED",
+      "stat": "1840 (100.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "SCREENING FAILURE",
+      "stat": "1168 ( 63.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "RANDOMIZED",
+      "stat": "670 ( 36.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "DEUC 6 MG",
+      "stat": "336 ( 18.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "PBO",
+      "stat": "334 ( 18.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "NOT RANDOMIZED",
+      "stat": "1170 ( 63.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "~~ADVERSE EVENT",
+      "stat": "2 ( 0.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "~~SUBJECT WITHDREW CONSENT",
+      "stat": "14 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "~~LOST TO FOLLOW-UP",
+      "stat": "1 ( 0.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "~~SUBJECT NO LONGER MEETS STUDY CRITERIA",
+      "stat": "1118 ( 60.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "~~ADMINISTRATIVE REASONS BY SPONSOR",
+      "stat": "1 ( 0.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "~~OTHER",
+      "stat": "34 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    },
+    {
+      "variable": "NOT RANDOMIZED DUE TO COVID-19",
+      "stat": "2 ( 0.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 1840"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ds-pretrt.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:53",
+    "title": "Table 14.1.1.2 Pre-treatment Subject Status Summary Enrolled Population",
+    "footnotes": "Percentages are based on a denominator of all enrolled subjects. Program Path: BMS_GBS Program Name: rt-ds-pretrt.sas 12DEC2024:06:43:04"
+  }
+}

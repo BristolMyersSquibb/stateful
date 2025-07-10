@@ -1,23 +1,31 @@
 {
   "data": [
     {
-      "variable": "All-Causality AEs;",
-      "stat": "336 (95.7);",
+      "variable": "TOTAL SUBJ. WITH EVENT",
+      "stat": "336 (95.7)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality AEs;",
-      "stat": "151 (43.0);",
+      "variable": "TOTAL SUBJ. WITH EVENT",
+      "stat": "151 (43.0)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality AEs;",
+      "variable": "TOTAL SUBJ. WITH EVENT",
+      "stat": "10 (2.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "TOTAL SUBJ. WITH EVENT",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -25,39 +33,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality AEs;",
-      "stat": "349 (99.1);",
+      "variable": "TOTAL SUBJ. WITH EVENT",
+      "stat": "349 (99.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality AEs;",
-      "stat": "168 (47.7);",
+      "variable": "TOTAL SUBJ. WITH EVENT",
+      "stat": "168 (47.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "TOTAL SUBJ. WITH EVENT",
+      "stat": "16 (4.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "Drug-Related AEs;",
-      "stat": "249 (70.9);",
+      "variable": "Gastrointestinal disorders",
+      "stat": "222 (63.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related AEs;",
-      "stat": "50 (14.2);",
+      "variable": "Gastrointestinal disorders",
+      "stat": "44 (12.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related AEs;",
+      "variable": "Gastrointestinal disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Gastrointestinal disorders",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -65,39 +89,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related AEs;",
-      "stat": "285 (81.0);",
+      "variable": "Gastrointestinal disorders",
+      "stat": "232 (65.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related AEs;",
-      "stat": "78 (22.2);",
+      "variable": "Gastrointestinal disorders",
+      "stat": "57 (16.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Gastrointestinal disorders",
+      "stat": "1 (0.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Pruritus;",
-      "stat": "63 (17.9);",
+      "variable": "Diarrhoea",
+      "stat": "102 (29.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Pruritus;",
-      "stat": "0;",
+      "variable": "Diarrhoea",
+      "stat": "8 (2.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Pruritus;",
+      "variable": "Diarrhoea",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Diarrhoea",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -105,39 +145,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Pruritus;",
-      "stat": "91 (25.9);",
+      "variable": "Diarrhoea",
+      "stat": "116 (33.0)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Pruritus;",
-      "stat": "0;",
+      "variable": "Diarrhoea",
+      "stat": "7 (2.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Diarrhoea",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Diarrhea;",
-      "stat": "59 (16.8);",
+      "variable": "Abdominal pain",
+      "stat": "68 (19.4)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Diarrhea;",
-      "stat": "2 (0.6);",
+      "variable": "Abdominal pain",
+      "stat": "6 (1.7)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Diarrhea;",
+      "variable": "Abdominal pain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Abdominal pain",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -145,39 +201,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Diarrhea;",
-      "stat": "71 (20.2);",
+      "variable": "Abdominal pain",
+      "stat": "68 (19.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Diarrhea;",
-      "stat": "3 (0.9);",
+      "variable": "Abdominal pain",
+      "stat": "10 (2.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Abdominal pain",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Hypothyroidism;",
-      "stat": "31 (8.8);",
+      "variable": "Nausea",
+      "stat": "58 (16.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Hypothyroidism;",
-      "stat": "0;",
+      "variable": "Nausea",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Hypothyroidism;",
+      "variable": "Nausea",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Nausea",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -185,39 +257,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Hypothyroidism;",
-      "stat": "61 (17.3);",
+      "variable": "Nausea",
+      "stat": "69 (19.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Hypothyroidism;",
-      "stat": "2 (0.6);",
+      "variable": "Nausea",
+      "stat": "5 (1.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Nausea",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Asthenia;",
-      "stat": "44 (12.5);",
+      "variable": "Constipation",
+      "stat": "29 (11.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Asthenia;",
-      "stat": "2 (0.6);",
+      "variable": "Constipation",
+      "stat": "2 (0.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Asthenia;",
+      "variable": "Constipation",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Constipation",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -225,39 +313,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Asthenia;",
-      "stat": "58 (16.5);",
+      "variable": "Constipation",
+      "stat": "54 (15.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": ">= 15% of Subjects in Any Arm, by PT;\n Asthenia;",
-      "stat": "2 (0.6);",
+      "variable": "Constipation",
+      "stat": "1 (0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Constipation",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Endocrine;",
-      "stat": "62 (17.7);",
+      "variable": "Vomiting",
+      "stat": "38 (10.8)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Endocrine;",
-      "stat": "8 (2.3);",
+      "variable": "Vomiting",
+      "stat": "1 (0.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Endocrine;",
+      "variable": "Vomiting",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Vomiting",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -265,39 +369,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Endocrine;",
-      "stat": "131 (37.2);",
+      "variable": "Vomiting",
+      "stat": "42 (11.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Endocrine;",
-      "stat": "22 (6.3);",
+      "variable": "Vomiting",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Vomiting",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Gastrointestinal;",
-      "stat": "106 (30.2);",
+      "variable": "General disorders and adiminstration site conditions",
+      "stat": "209 (59.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Gastrointestinal;",
-      "stat": "12 (3.4);",
+      "variable": "General disorders and adiminstration site conditions",
+      "stat": "17 (4.8)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Gastrointestinal;",
+      "variable": "General disorders and adiminstration site conditions",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "General disorders and adiminstration site conditions",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -305,39 +425,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Gastrointestinal;",
-      "stat": "122 (34.7);",
+      "variable": "General disorders and adiminstration site conditions",
+      "stat": "200 (56.8)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Gastrointestinal;",
-      "stat": "16 (4.5);",
+      "variable": "General disorders and adiminstration site conditions",
+      "stat": "16 (4.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "General disorders and adiminstration site conditions",
+      "stat": "3 (0.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hepatic;",
-      "stat": "74 (21.1);",
+      "variable": "Asthenia",
+      "stat": "86 (24.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hepatic;",
-      "stat": "26 (7.4);",
+      "variable": "Asthenia",
+      "stat": "4 (1.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hepatic;",
+      "variable": "Asthenia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Asthenia",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -345,39 +481,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hepatic;",
-      "stat": "86 (24.4);",
+      "variable": "Asthenia",
+      "stat": "90 (25.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hepatic;",
-      "stat": "20 (5.7);",
+      "variable": "Asthenia",
+      "stat": "8 (2.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Asthenia",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Pulmonary;",
-      "stat": "14 (4.0);",
+      "variable": "Fatigue",
+      "stat": "69 (19.7)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Pulmonary;",
-      "stat": "3 (0.9);",
+      "variable": "Fatigue",
+      "stat": "2 (0.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Pulmonary;",
+      "variable": "Fatigue",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Fatigue",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -385,39 +537,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Pulmonary;",
-      "stat": "13 (3.7);",
+      "variable": "Fatigue",
+      "stat": "65 (18.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Pulmonary;",
-      "stat": "3 (0.9);",
+      "variable": "Fatigue",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Fatigue",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Renal;",
-      "stat": "24 (6.8);",
+      "variable": "Pyrexia",
+      "stat": "50 (14.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Renal;",
-      "stat": "6 (1.7);",
+      "variable": "Pyrexia",
+      "stat": "1 (0.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Renal;",
+      "variable": "Pyrexia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Pyrexia",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -425,39 +593,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Renal;",
-      "stat": "32 (9.1);",
+      "variable": "Pyrexia",
+      "stat": "46 (13.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Renal;",
-      "stat": "10 (2.8);",
+      "variable": "Pyrexia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Pyrexia",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Skin;",
-      "stat": "131 (37.3);",
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "152 (43.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Skin;",
-      "stat": "3 (0.9);",
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "4 (1.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Skin;",
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Skin and subcutaneous tissue disorders",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -465,39 +649,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Skin;",
-      "stat": "155 (44.0);",
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "185 (52.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Skin;",
-      "stat": "8 (2.3);",
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "9 (2.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
-      "stat": "11 (3.1);",
+      "variable": "Pruritus",
+      "stat": "80 (22.8)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
-      "stat": "0;",
+      "variable": "Pruritus",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
+      "variable": "Pruritus",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Pruritus",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -505,39 +705,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
-      "stat": "19 (5.4);",
+      "variable": "Pruritus",
+      "stat": "105 (29.8)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
-      "stat": "0;",
+      "variable": "Pruritus",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Pruritus",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Endocrine;",
-      "stat": "58 (16.5);",
+      "variable": "Rash",
+      "stat": "40 (11.4)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Endocrine;",
-      "stat": "8 (2.3);",
+      "variable": "Rash",
+      "stat": "1 (0.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Endocrine;",
+      "variable": "Rash",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Rash",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -545,39 +761,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Endocrine;",
-      "stat": "127 (36.1);",
+      "variable": "Rash",
+      "stat": "44 (12.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Endocrine;",
-      "stat": "22 (6.3);",
+      "variable": "Rash",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Rash",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Gastrointestinal;",
-      "stat": "62 (17.7);",
+      "variable": "Infections and infestations",
+      "stat": "130 (37.0)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Gastrointestinal;",
-      "stat": "6 (1.7);",
+      "variable": "Infections and infestations",
+      "stat": "28 (8.0)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Gastrointestinal;",
+      "variable": "Infections and infestations",
+      "stat": "1 (0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Infections and infestations",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -585,39 +817,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Gastrointestinal;",
-      "stat": "77 (21.9);",
+      "variable": "Infections and infestations",
+      "stat": "182 (51.7)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Gastrointestinal;",
-      "stat": "12 (3.4);",
+      "variable": "Infections and infestations",
+      "stat": "33 (9.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Infections and infestations",
+      "stat": "2 (0.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hepatic;",
-      "stat": "39 (11.1);",
+      "variable": "COVID-19",
+      "stat": "32 (9.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hepatic;",
-      "stat": "8 (2.3);",
+      "variable": "COVID-19",
+      "stat": "4 (1.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hepatic;",
+      "variable": "COVID-19",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "COVID-19",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -625,39 +873,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hepatic;",
-      "stat": "59 (16.8);",
+      "variable": "COVID-19",
+      "stat": "43 (12.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hepatic;",
-      "stat": "13 (3.7);",
+      "variable": "COVID-19",
+      "stat": "2 (0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "COVID-19",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Pulmonary;",
-      "stat": "7 (2.0);",
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "123 (35.0)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Pulmonary;",
-      "stat": "2 (0.6);",
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "3 (0.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Pulmonary;",
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Musculoskeletal and connective tissue disorders",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -665,39 +929,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Pulmonary;",
-      "stat": "12 (3.4);",
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "132 (37.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Pulmonary;",
-      "stat": "3 (0.9);",
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "3 (0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Renal;",
-      "stat": "4 (1.1);",
+      "variable": "Arthralgia",
+      "stat": "53 (15.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Renal;",
-      "stat": "0;",
+      "variable": "Arthralgia",
+      "stat": "2 (0.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Renal;",
+      "variable": "Arthralgia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Arthralgia",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -705,39 +985,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Renal;",
-      "stat": "9 (2.6);",
+      "variable": "Arthralgia",
+      "stat": "70 (19.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Renal;",
-      "stat": "2 (0.6);",
+      "variable": "Arthralgia",
+      "stat": "2 (0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Arthralgia",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Skin;",
-      "stat": "100 (28.5);",
+      "variable": "Back Pain",
+      "stat": "39 (11.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Skin;",
-      "stat": "3 (0.9);",
+      "variable": "Back Pain",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Skin;",
+      "variable": "Back Pain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Back Pain",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -745,39 +1041,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Skin;",
-      "stat": "136 (38.6);",
+      "variable": "Back Pain",
+      "stat": "41 (11.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Skin;",
-      "stat": "7 (2.0);",
+      "variable": "Back Pain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Back Pain",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
-      "stat": "8 (2.3);",
+      "variable": "Investigations",
+      "stat": "120 (34.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
-      "stat": "0;",
+      "variable": "Investigations",
+      "stat": "36 (10.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
+      "variable": "Investigations",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Investigations",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -785,23 +1097,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
-      "stat": "16 (4.5);",
+      "variable": "Investigations",
+      "stat": "131 (37.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "Drug-Related Select AEs, by Category;\n Hypersensitivity/Infusion Reactions;",
-      "stat": "0;",
+      "variable": "Investigations",
+      "stat": "37 (10.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Investigations",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Treated with Immune Modulating Medication, by Category;",
+      "variable": "Alanine aminotransferase increased",
+      "stat": "32 (9.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Any Grade"
+    },
+    {
+      "variable": "Alanine aminotransferase increased",
+      "stat": "7 (2.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "Alanine aminotransferase increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Alanine aminotransferase increased",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -809,63 +1153,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Diarrhea/Colitis;",
-      "stat": "13 (3.7);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Diarrhea/Colitis;",
-      "stat": "8 (2.3);",
+      "variable": "Alanine aminotransferase increased",
+      "stat": "42 (11.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Diarrhea/Colitis;",
-      "stat": "~~~",
+      "variable": "Alanine aminotransferase increased",
+      "stat": "7 (2.0)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
+      "colgroup2_level": "Grade 5"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Diarrhea/Colitis;",
-      "stat": "21 (6.0);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Diarrhea/Colitis;",
-      "stat": "12 (3.4);",
+      "variable": "Alanine aminotransferase increased",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hepatitis;",
-      "stat": "4 (1.1);",
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "32 (9.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hepatitis;",
-      "stat": "3 (0.9);",
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "5 (1.4)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hepatitis;",
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Aspartate aminotransferase increased",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -873,39 +1209,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hepatitis;",
-      "stat": "13 (3.7);",
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "38 (10.8)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hepatitis;",
-      "stat": "6 (1.7);",
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "6 (1.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Pneumonitis;",
-      "stat": "7 (2.0);",
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "101 (28.8)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Pneumonitis;",
-      "stat": "4 (1.1);",
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "22 (6.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Pneumonitis;",
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Metabolism and nutrition disorders",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -913,39 +1265,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Pneumonitis;",
-      "stat": "7 (2.0);",
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "132 (37.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Pneumonitis;",
-      "stat": "4 (1.1);",
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "22 (6.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Nephritis/Renal Dysfunction;",
-      "stat": "1 (0.3);",
+      "variable": "Decreased appetite",
+      "stat": "46 (13.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Nephritis/Renal Dysfunction;",
-      "stat": "1 (0.3);",
+      "variable": "Decreased appetite",
+      "stat": "6 (1.7)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Nephritis/Renal Dysfunction;",
+      "variable": "Decreased appetite",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Decreased appetite",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -953,39 +1321,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Nephritis/Renal Dysfunction;",
-      "stat": "6 (1.7);",
+      "variable": "Decreased appetite",
+      "stat": "50 (14.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Nephritis/Renal Dysfunction;",
-      "stat": "2 (0.6);",
+      "variable": "Decreased appetite",
+      "stat": "4 (1.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Decreased appetite",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Rash;",
-      "stat": "20 (5.7);",
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "91 (25.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Rash;",
-      "stat": "3 (0.9);",
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "23 (6.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Rash;",
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Blood and lymphatic system disorders",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -993,39 +1377,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Rash;",
-      "stat": "23 (6.5);",
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "75 (21.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Rash;",
-      "stat": "5 (1.4);",
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "22 (6.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hypersensitivity/ Infusion Reactions;",
-      "stat": "3 (0.9);",
+      "variable": "Anemia",
+      "stat": "68 (19.4)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hypersensitivity/ Infusion Reactions;",
-      "stat": "0;",
+      "variable": "Anemia",
+      "stat": "19 (5.4)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hypersensitivity/ Infusion Reactions;",
+      "variable": "Anemia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Anemia",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -1033,23 +1433,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hypersensitivity/ Infusion Reactions;",
-      "stat": "0;",
+      "variable": "Anemia",
+      "stat": "55 (15.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality IMAEs Within 100 days of Last Dose;;\n Hypersensitivity/ Infusion Reactions;",
-      "stat": "0;",
+      "variable": "Anemia",
+      "stat": "27 (4.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Anemia",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n With or Without Immune Modulating Medication, by Category;",
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "91 (25.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Any Grade"
+    },
+    {
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "10 (2.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "1 (0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Respiratory, thoracic and mediastinal disorders",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -1057,63 +1489,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Adrenal Insufficiency;",
-      "stat": "12 (3.4);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Adrenal Insufficiency;",
-      "stat": "3 (0.9);",
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "99 (28.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Adrenal Insufficiency;",
-      "stat": "~~~",
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "11 (3.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
+      "colgroup2_level": "Grade 5"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Adrenal Insufficiency;",
-      "stat": "35 (9.9);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Adrenal Insufficiency;",
-      "stat": "10 (2.8);",
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypophysitis;",
-      "stat": "4 (1.1);",
+      "variable": "Dyspnoea",
+      "stat": "36 (10.3)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypophysitis;",
-      "stat": "4 (1.1);",
+      "variable": "Dyspnoea",
+      "stat": "2 (0.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypophysitis;",
+      "variable": "Dyspnoea",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Dyspnoea",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -1121,39 +1545,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypophysitis;",
-      "stat": "23 (6.5);",
+      "variable": "Dyspnoea",
+      "stat": "23 (6.5)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypophysitis;",
-      "stat": "11 (3.1);",
+      "variable": "Dyspnoea",
+      "stat": "2 (0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Dyspnoea",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypothyroidism/Thyroiditis;",
-      "stat": "33 (9.4);",
+      "variable": "Nervous system disorders",
+      "stat": "84 (23.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypothyroidism/Thyroiditis;",
-      "stat": "0;",
+      "variable": "Nervous system disorders",
+      "stat": "10 (2.8)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypothyroidism/Thyroiditis;",
+      "variable": "Nervous system disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Nervous system disorders",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -1161,39 +1601,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypothyroidism/Thyroiditis;",
-      "stat": "62 (17.6);",
+      "variable": "Nervous system disorders",
+      "stat": "102 (29.0)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hypothyroidism/Thyroiditis;",
-      "stat": "3 (0.9);",
+      "variable": "Nervous system disorders",
+      "stat": "11 (3.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Nervous system disorders",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hyperthyroidism;",
-      "stat": "16 (4.6);",
+      "variable": "Headache",
+      "stat": "32 (9.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hyperthyroidism;",
-      "stat": "0;",
+      "variable": "Headache",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hyperthyroidism;",
+      "variable": "Headache",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Headache",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -1201,39 +1657,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hyperthyroidism;",
-      "stat": "42 (11.9);",
+      "variable": "Headache",
+      "stat": "43 (12.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Hyperthyroidism;",
-      "stat": "0;",
+      "variable": "Headache",
+      "stat": "2 (0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Headache",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Diabetes Mellitus;",
-      "stat": "2 (0.6);",
+      "variable": "Endocrine disorders",
+      "stat": "57 (16.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Diabetes Mellitus;",
-      "stat": "1 (0.3);",
+      "variable": "Endocrine disorders",
+      "stat": "7 (2.0)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Diabetes Mellitus;",
+      "variable": "Endocrine disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Endocrine disorders",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -1241,23 +1713,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Diabetes Mellitus;",
-      "stat": "4 (1.1);",
+      "variable": "Endocrine disorders",
+      "stat": "130 (36.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality Endocrine IMAEs Within 100 days of Last Dose;;\n Diabetes Mellitus;",
-      "stat": "2 (0.6);",
+      "variable": "Endocrine disorders",
+      "stat": "22 (6.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Endocrine disorders",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n With or Without Immune Modulating Medication, by Category;",
+      "variable": "Hypothyroidism",
+      "stat": "34 (9.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Any Grade"
+    },
+    {
+      "variable": "Hypothyroidism",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 3-4"
+    },
+    {
+      "variable": "Hypothyroidism",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Hypothyroidism",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -1265,63 +1769,55 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Pancreatitis;",
-      "stat": "2 (0.6);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Pancreatitis;",
-      "stat": "0;",
+      "variable": "Hypothyroidism",
+      "stat": "63 (17.9)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Pancreatitis;",
-      "stat": "~~~",
+      "variable": "Hypothyroidism",
+      "stat": "2 (0.6)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
+      "colgroup2_level": "Grade 5"
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Pancreatitis;",
-      "stat": "3 (0.9);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Pancreatitis;",
-      "stat": "1 (0.3);",
+      "variable": "Hypothyroidism",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": ""
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Encephalitis;",
-      "stat": "0;",
+      "variable": "Hyperthyroidism",
+      "stat": "18 (5.1)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Encephalitis;",
-      "stat": "0;",
+      "variable": "Hyperthyroidism",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Encephalitis;",
+      "variable": "Hyperthyroidism",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
+      "colgroup2": "colgroup2",
+      "colgroup2_level": "Grade 5"
+    },
+    {
+      "variable": "Hyperthyroidism",
       "stat": "~~~",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
@@ -1329,216 +1825,24 @@
       "colgroup2_level": "Any Grade"
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Encephalitis;",
-      "stat": "3 (0.9);",
+      "variable": "Hyperthyroidism",
+      "stat": "43 (12.2)",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
       "colgroup2_level": "Grade 3-4"
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Encephalitis;",
-      "stat": "3 (0.9);",
+      "variable": "Hyperthyroidism",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
-      "colgroup2_level": ""
+      "colgroup2_level": "Grade 5"
     },
     {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myositis/Rhabdomyolysis;",
-      "stat": "0;",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myositis/Rhabdomyolysis;",
-      "stat": "0;",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myositis/Rhabdomyolysis;",
-      "stat": "~~~",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myositis/Rhabdomyolysis;",
-      "stat": "2 (0.6);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myositis/Rhabdomyolysis;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": ""
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myasthenic Syndrome;;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myasthenic Syndrome;;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myasthenic Syndrome;;",
-      "stat": "~~~",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myasthenic Syndrome;;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myasthenic Syndrome;;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": ""
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Uveitis;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Uveitis;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Uveitis;",
-      "stat": "~~~",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Uveitis;",
-      "stat": "0;",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Uveitis;",
-      "stat": "0;",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": ""
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myocarditis;",
-      "stat": "0;",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myocarditis;",
-      "stat": "0;",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myocarditis;",
-      "stat": "~~~",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myocarditis;",
-      "stat": "3 (0.9);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Myocarditis;",
-      "stat": "3 (0.9);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": ""
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Autoimmune Cytopenia;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Autoimmune Cytopenia;",
-      "stat": "1 (0.3);",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Autoimmune Cytopenia;",
-      "stat": "~~~",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Any Grade"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Autoimmune Cytopenia;",
-      "stat": "0;",
-      "colgroup1": "colgroup1",
-      "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
-      "colgroup2": "colgroup2",
-      "colgroup2_level": "Grade 3-4"
-    },
-    {
-      "variable": "All-Causality OESIs Within 100 days of Last Dose d\n Autoimmune Cytopenia;",
-      "stat": "0;",
+      "variable": "Hyperthyroidism",
+      "stat": "0",
       "colgroup1": "colgroup1",
       "colgroup1_level": "Arm B: Nivo + Ipi N = 352",
       "colgroup2": "colgroup2",
@@ -1546,10 +1850,10 @@
     }
   ],
   "metadata": {
-    "source_file": "rt-saf-allsubjects_3.rtf",
+    "source_file": "rt-csr-ae-aegr10.rtf",
     "parser": "RTF row-based parser with hierarchical support",
-    "timestamp": "2025-07-10 11:51:53",
-    "title": "Table 8.1-1\nSafety Results - All Treated Subjects in the Nivo+Ipi and Nivo Arms",
-    "footnotes": "aDeaths considered related to study drug (ie, attributed to study drug toxicity) per investigator: nivo+ipi arm (myocarditis and pneumonitis, 1 case each) and nivo arm (pneumonitis). The 2 deaths in the nivo+ipi arm were previously reported and described in the interim CSR; there were no additional deaths due to study drug toxicity reported in the nivo+ipi arm. b The verbatim terms reported for the ;other; reasons for death were consistent with events anticipated in the study population. None were considered related to study drug (per the investigator). c Discontinuation of any drug in the regimen. d No OESIs were reported in the following categories: demyelination, Guillain-Barre syndrome, graft vs host disease, autoimmune eye disorder, and immune mediated arthritis. MedDRA version 27.0; CTC version 5.0. All events are within 30 days of the last dose of study drug, unless otherwise indicated Source: Table 14.3.2.3.17.1, Table 14.3.2.1.1.1 (death summary), Appendix 16.2.7.4.1 (death listing)"
+    "timestamp": "2025-07-10 12:51:29",
+    "title": "Table 8.2-1\nAdverse Events by Worst CTC Grade in >= 10% of Subjects:\nAll Treated Subjects in the Nivo+Ipi and Nivo Arms",
+    "footnotes": "MedDRA Version: 27.0, CTC Version 5.0 Includes events reported between first dose and 30 days after last done of study therapy. PTs will be displayed if >= 10% cutoff Source: Table 14.3.1.1.3.1"
   }
 }

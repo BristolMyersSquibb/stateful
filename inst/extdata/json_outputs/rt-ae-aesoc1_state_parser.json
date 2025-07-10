@@ -1,0 +1,6257 @@
+{
+  "data": [
+    {
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat": "200 ( 60.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat": "160 ( 48.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat": "360 ( 54.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Infections and infestations",
+      "stat": "102 ( 30.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Infections and infestations",
+      "stat": "63 ( 18.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Infections and infestations",
+      "stat": "165 ( 24.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Upper respiratory tract infection",
+      "stat": "17 ( 5.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Upper respiratory tract infection",
+      "stat": "10 ( 3.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Upper respiratory tract infection",
+      "stat": "27 ( 4.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Nasopharyngitis",
+      "stat": "13 ( 3.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Nasopharyngitis",
+      "stat": "12 ( 3.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Nasopharyngitis",
+      "stat": "25 ( 3.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "COVID-19",
+      "stat": "9 ( 2.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "COVID-19",
+      "stat": "7 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "COVID-19",
+      "stat": "16 ( 2.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pharyngitis",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pharyngitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pharyngitis",
+      "stat": "6 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Urinary tract infection",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Urinary tract infection",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Urinary tract infection",
+      "stat": "11 ( 1.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gastroenteritis",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gastroenteritis",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gastroenteritis",
+      "stat": "9 ( 1.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Respiratory tract infection",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Respiratory tract infection",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Respiratory tract infection",
+      "stat": "8 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Sinusitis",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Sinusitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Sinusitis",
+      "stat": "6 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Bronchitis",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Bronchitis",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Bronchitis",
+      "stat": "8 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Oral herpes",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Oral herpes",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Oral herpes",
+      "stat": "7 ( 1.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pulpitis dental",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pulpitis dental",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pulpitis dental",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Tonsillitis",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Tonsillitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Tonsillitis",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cellulitis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cellulitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cellulitis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Erysipelas",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Erysipelas",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Erysipelas",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Folliculitis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Folliculitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Folliculitis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gastroenteritis viral",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gastroenteritis viral",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gastroenteritis viral",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Influenza",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Influenza",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Influenza",
+      "stat": "5 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Laryngitis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Laryngitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Laryngitis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Oral candidiasis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Oral candidiasis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Oral candidiasis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pharyngotonsillitis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pharyngotonsillitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pharyngotonsillitis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Tinea pedis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Tinea pedis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Tinea pedis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Tracheobronchitis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Tracheobronchitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Tracheobronchitis",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Acute sinusitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Acute sinusitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Acute sinusitis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Conjunctivitis viral",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Conjunctivitis viral",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Conjunctivitis viral",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Ear infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Ear infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Ear infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Fungal foot infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Fungal foot infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Fungal foot infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Fungal skin infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Fungal skin infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Fungal skin infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Furuncle",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Furuncle",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Furuncle",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Genital infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Genital infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Genital infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gingivitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gingivitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gingivitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Groin abscess",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Groin abscess",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Groin abscess",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Herpes simplex",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Herpes simplex",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Herpes simplex",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Herpes zoster",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Herpes zoster",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Herpes zoster",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Lyme disease",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Lyme disease",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Lyme disease",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Lymphangitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Lymphangitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Lymphangitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Onychomycosis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Onychomycosis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Onychomycosis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Oral infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Oral infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Oral infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Otitis media",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Otitis media",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Otitis media",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Paronychia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Paronychia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Paronychia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Periodontitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Periodontitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Periodontitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pharyngitis bacterial",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pharyngitis bacterial",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pharyngitis bacterial",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pneumonia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pneumonia",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pneumonia",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pustule",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pustule",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pustule",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rhinitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rhinitis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rhinitis",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Skin bacterial infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Skin bacterial infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Skin bacterial infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Tooth abscess",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Tooth abscess",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Tooth abscess",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Tooth infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Tooth infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Tooth infection",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vaginal infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vaginal infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vaginal infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Viral pharyngitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Viral pharyngitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Viral pharyngitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Viral skin infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Viral skin infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Viral skin infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vulval cellulitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vulval cellulitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vulval cellulitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vulvovaginal candidiasis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vulvovaginal candidiasis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vulvovaginal candidiasis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Asymptomatic bacteriuria",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Asymptomatic bacteriuria",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Asymptomatic bacteriuria",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Body tinea",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Body tinea",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Body tinea",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cystitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cystitis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cystitis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cystitis escherichia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cystitis escherichia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cystitis escherichia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gastroenteritis bacterial",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gastroenteritis bacterial",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gastroenteritis bacterial",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pharyngitis streptococcal",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pharyngitis streptococcal",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pharyngitis streptococcal",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Respiratory tract infection viral",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Respiratory tract infection viral",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Respiratory tract infection viral",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Soft tissue infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Soft tissue infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Soft tissue infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Subcutaneous abscess",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Subcutaneous abscess",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Subcutaneous abscess",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vaginitis gardnerella",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vaginitis gardnerella",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vaginitis gardnerella",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Viral infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Viral infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Viral infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gastrointestinal disorders",
+      "stat": "47 ( 14.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gastrointestinal disorders",
+      "stat": "24 ( 7.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gastrointestinal disorders",
+      "stat": "71 ( 10.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Diarrhoea",
+      "stat": "7 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Diarrhoea",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Diarrhoea",
+      "stat": "9 ( 1.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Mouth ulceration",
+      "stat": "7 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Mouth ulceration",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Mouth ulceration",
+      "stat": "7 ( 1.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Nausea",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Nausea",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Nausea",
+      "stat": "8 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Stomatitis",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Stomatitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Stomatitis",
+      "stat": "5 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Aphthous ulcer",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Aphthous ulcer",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Aphthous ulcer",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dyspepsia",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dyspepsia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dyspepsia",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Abdominal pain",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Abdominal pain",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Abdominal pain",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Abdominal pain upper",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Abdominal pain upper",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Abdominal pain upper",
+      "stat": "6 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gastritis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gastritis",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gastritis",
+      "stat": "5 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gastrooesophageal reflux disease",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gastrooesophageal reflux disease",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gastrooesophageal reflux disease",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Haemorrhoids",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Haemorrhoids",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Haemorrhoids",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rectal haemorrhage",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rectal haemorrhage",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rectal haemorrhage",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vomiting",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vomiting",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vomiting",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Abdominal tenderness",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Abdominal tenderness",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Abdominal tenderness",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cheilitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cheilitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cheilitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Constipation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Constipation",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Constipation",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dental caries",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dental caries",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dental caries",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Diverticulum intestinal",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Diverticulum intestinal",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Diverticulum intestinal",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Food poisoning",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Food poisoning",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Food poisoning",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hiatus hernia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hiatus hernia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hiatus hernia",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Inguinal hernia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Inguinal hernia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Inguinal hernia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Large intestine polyp",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Large intestine polyp",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Large intestine polyp",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Odynophagia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Odynophagia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Odynophagia",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Tooth disorder",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Tooth disorder",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Tooth disorder",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Abdominal discomfort",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Abdominal discomfort",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Abdominal discomfort",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Anal fissure",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Anal fissure",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Anal fissure",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Anorectal varices",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Anorectal varices",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Anorectal varices",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Flatulence",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Flatulence",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Flatulence",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gastrointestinal pain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gastrointestinal pain",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gastrointestinal pain",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Lip exfoliation",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Lip exfoliation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Lip exfoliation",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Lip oedema",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Lip oedema",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Lip oedema",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Small intestinal obstruction",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Small intestinal obstruction",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Small intestinal obstruction",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Toothache",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Toothache",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Toothache",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "33 ( 9.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "20 ( 6.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "53 ( 8.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rash",
+      "stat": "7 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rash",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rash",
+      "stat": "8 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Acne",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Acne",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Acne",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Alopecia",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Alopecia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Alopecia",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dermatitis acneiform",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dermatitis acneiform",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dermatitis acneiform",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dermatitis allergic",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dermatitis allergic",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dermatitis allergic",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dermatitis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dermatitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dermatitis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pruritus",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pruritus",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pruritus",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rash papular",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rash papular",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rash papular",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rosacea",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rosacea",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rosacea",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cellulite",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cellulite",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cellulite",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dermatitis atopic",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dermatitis atopic",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dermatitis atopic",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dermatitis psoriasiform",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dermatitis psoriasiform",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dermatitis psoriasiform",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Erythema",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Erythema",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Erythema",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Ingrowing nail",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Ingrowing nail",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Ingrowing nail",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Nail disorder",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Nail disorder",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Nail disorder",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Prurigo",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Prurigo",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Prurigo",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rash maculo-papular",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rash maculo-papular",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rash maculo-papular",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Urticaria",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Urticaria",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Urticaria",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dermal cyst",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dermal cyst",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dermal cyst",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dermatitis contact",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dermatitis contact",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dermatitis contact",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Guttate psoriasis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Guttate psoriasis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Guttate psoriasis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hyperhidrosis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hyperhidrosis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hyperhidrosis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Nail dystrophy",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Nail dystrophy",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Nail dystrophy",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Neurodermatitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Neurodermatitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Neurodermatitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Psoriasis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Psoriasis",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Psoriasis",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rash pruritic",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rash pruritic",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rash pruritic",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Skin discolouration",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Skin discolouration",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Skin discolouration",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Investigations",
+      "stat": "20 ( 6.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Investigations",
+      "stat": "16 ( 4.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Investigations",
+      "stat": "36 ( 5.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Alanine aminotransferase increased",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Alanine aminotransferase increased",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Alanine aminotransferase increased",
+      "stat": "7 ( 1.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Blood creatine phosphokinase increased",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Blood creatine phosphokinase increased",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Blood creatine phosphokinase increased",
+      "stat": "5 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Aspartate aminotransferase increased",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Haemoglobin decreased",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Haemoglobin decreased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Haemoglobin decreased",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Influenza A virus test positive",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Influenza A virus test positive",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Influenza A virus test positive",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Weight increased",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Weight increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Weight increased",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Blood creatinine increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Blood creatinine increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Blood creatinine increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Blood lactate dehydrogenase increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Blood lactate dehydrogenase increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Blood lactate dehydrogenase increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Blood pressure increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Blood pressure increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Blood pressure increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Glomerular filtration rate abnormal",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Glomerular filtration rate abnormal",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Glomerular filtration rate abnormal",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Glomerular filtration rate decreased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Glomerular filtration rate decreased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Glomerular filtration rate decreased",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hepatic enzyme increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hepatic enzyme increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hepatic enzyme increased",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Lymphocyte count decreased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Lymphocyte count decreased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Lymphocyte count decreased",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Platelet count decreased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Platelet count decreased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Platelet count decreased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Blood cholesterol increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Blood cholesterol increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Blood cholesterol increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Blood glucose increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Blood glucose increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Blood glucose increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Blood immunoglobulin E increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Blood immunoglobulin E increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Blood immunoglobulin E increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Heart rate increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Heart rate increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Heart rate increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Liver function test increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Liver function test increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Liver function test increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Transaminases increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Transaminases increased",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Transaminases increased",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Weight decreased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Weight decreased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Weight decreased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "19 ( 5.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "17 ( 5.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Metabolism and nutrition disorders",
+      "stat": "36 ( 5.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hyperuricaemia",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hyperuricaemia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hyperuricaemia",
+      "stat": "8 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hyperlipidaemia",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hyperlipidaemia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hyperlipidaemia",
+      "stat": "5 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypertriglyceridaemia",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypertriglyceridaemia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypertriglyceridaemia",
+      "stat": "5 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hyperglycaemia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hyperglycaemia",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hyperglycaemia",
+      "stat": "5 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Obesity",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Obesity",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Obesity",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Abnormal weight gain",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Abnormal weight gain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Abnormal weight gain",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dyslipidaemia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dyslipidaemia",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dyslipidaemia",
+      "stat": "7 ( 1.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypercholesterolaemia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypercholesterolaemia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypercholesterolaemia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hyperkalaemia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hyperkalaemia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hyperkalaemia",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypoglycaemia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypoglycaemia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypoglycaemia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vitamin D deficiency",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vitamin D deficiency",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vitamin D deficiency",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Diabetes mellitus inadequate control",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Diabetes mellitus inadequate control",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Diabetes mellitus inadequate control",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Type 2 diabetes mellitus",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Type 2 diabetes mellitus",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Type 2 diabetes mellitus",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "17 ( 5.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "24 ( 7.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "41 ( 6.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Arthralgia",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Arthralgia",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Arthralgia",
+      "stat": "8 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Back pain",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Back pain",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Back pain",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Psoriatic arthropathy",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Psoriatic arthropathy",
+      "stat": "7 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Psoriatic arthropathy",
+      "stat": "9 ( 1.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Groin pain",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Groin pain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Groin pain",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Intervertebral disc disorder",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Intervertebral disc disorder",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Intervertebral disc disorder",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Joint swelling",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Joint swelling",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Joint swelling",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Musculoskeletal chest pain",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Musculoskeletal chest pain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Musculoskeletal chest pain",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Musculoskeletal discomfort",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Musculoskeletal discomfort",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Musculoskeletal discomfort",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Osteonecrosis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Osteonecrosis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Osteonecrosis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Osteoporosis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Osteoporosis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Osteoporosis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Osteoporotic fracture",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Osteoporotic fracture",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Osteoporotic fracture",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pain in extremity",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pain in extremity",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pain in extremity",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Patellofemoral pain syndrome",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Patellofemoral pain syndrome",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Patellofemoral pain syndrome",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Spinal osteoarthritis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Spinal osteoarthritis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Spinal osteoarthritis",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Arthritis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Arthritis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Arthritis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Bursitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Bursitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Bursitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Chondropathy",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Chondropathy",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Chondropathy",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Enthesopathy",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Enthesopathy",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Enthesopathy",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Muscle spasms",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Muscle spasms",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Muscle spasms",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Neck pain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Neck pain",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Neck pain",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Periarthritis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Periarthritis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Periarthritis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rotator cuff syndrome",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rotator cuff syndrome",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rotator cuff syndrome",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Synovitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Synovitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Synovitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vascular disorders",
+      "stat": "16 ( 4.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vascular disorders",
+      "stat": "12 ( 3.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vascular disorders",
+      "stat": "28 ( 4.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypertension",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypertension",
+      "stat": "10 ( 3.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypertension",
+      "stat": "21 ( 3.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypotension",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypotension",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypotension",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Peripheral venous disease",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Peripheral venous disease",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Peripheral venous disease",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Varicose vein",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Varicose vein",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Varicose vein",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "White coat hypertension",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "White coat hypertension",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "White coat hypertension",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Haematoma",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Haematoma",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Haematoma",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypertensive crisis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypertensive crisis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypertensive crisis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypovolaemic shock",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypovolaemic shock",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypovolaemic shock",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "General disorders and administration site conditions",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "General disorders and administration site conditions",
+      "stat": "10 ( 3.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "General disorders and administration site conditions",
+      "stat": "21 ( 3.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Fatigue",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Fatigue",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Fatigue",
+      "stat": "8 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pyrexia",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pyrexia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pyrexia",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Asthenia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Asthenia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Asthenia",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Influenza like illness",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Influenza like illness",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Influenza like illness",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Malaise",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Malaise",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Malaise",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Oedema peripheral",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Oedema peripheral",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Oedema peripheral",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Feeling cold",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Feeling cold",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Feeling cold",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Peripheral swelling",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Peripheral swelling",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Peripheral swelling",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Injury, poisoning and procedural complications",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Injury, poisoning and procedural complications",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Injury, poisoning and procedural complications",
+      "stat": "17 ( 2.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Contusion",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Contusion",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Contusion",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Fall",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Fall",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Fall",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Arthropod bite",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Arthropod bite",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Arthropod bite",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Chest injury",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Chest injury",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Chest injury",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Foreign body in eye",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Foreign body in eye",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Foreign body in eye",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Joint dislocation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Joint dislocation",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Joint dislocation",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Ligament sprain",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Ligament sprain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Ligament sprain",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Limb injury",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Limb injury",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Limb injury",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Road traffic accident",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Road traffic accident",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Road traffic accident",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Spinal fracture",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Spinal fracture",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Spinal fracture",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Wound",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Wound",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Wound",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Wrist fracture",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Wrist fracture",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Wrist fracture",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Animal bite",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Animal bite",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Animal bite",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pelvic fracture",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pelvic fracture",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pelvic fracture",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rib fracture",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rib fracture",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rib fracture",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Skin laceration",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Skin laceration",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Skin laceration",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Soft tissue injury",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Soft tissue injury",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Soft tissue injury",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Nervous system disorders",
+      "stat": "11 ( 3.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Nervous system disorders",
+      "stat": "16 ( 4.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Nervous system disorders",
+      "stat": "27 ( 4.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Headache",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Headache",
+      "stat": "7 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Headache",
+      "stat": "13 ( 2.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Bell's palsy",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Bell's palsy",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Bell's palsy",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Carpal tunnel syndrome",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Carpal tunnel syndrome",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Carpal tunnel syndrome",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dizziness",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dizziness",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dizziness",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Head discomfort",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Head discomfort",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Head discomfort",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Somnolence",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Somnolence",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Somnolence",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Syncope",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Syncope",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Syncope",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Migraine",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Migraine",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Migraine",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Muscle contractions involuntary",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Muscle contractions involuntary",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Muscle contractions involuntary",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Neuralgia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Neuralgia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Neuralgia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Sciatica",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Sciatica",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Sciatica",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Transient ischaemic attack",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Transient ischaemic attack",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Transient ischaemic attack",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Tremor",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Tremor",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Tremor",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "10 ( 3.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "18 ( 5.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Respiratory, thoracic and mediastinal disorders",
+      "stat": "28 ( 4.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Oropharyngeal pain",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Oropharyngeal pain",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Oropharyngeal pain",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cough",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cough",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cough",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dyspnoea",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dyspnoea",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dyspnoea",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Nasal congestion",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Nasal congestion",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Nasal congestion",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Paranasal sinus inflammation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Paranasal sinus inflammation",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Paranasal sinus inflammation",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pharyngeal ulceration",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pharyngeal ulceration",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pharyngeal ulceration",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Reflux laryngitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Reflux laryngitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Reflux laryngitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Rhinorrhoea",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Rhinorrhoea",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Rhinorrhoea",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Upper respiratory tract inflammation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Upper respiratory tract inflammation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Upper respiratory tract inflammation",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Allergic sinusitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Allergic sinusitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Allergic sinusitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Asthma",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Asthma",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Asthma",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Catarrh",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Catarrh",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Catarrh",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Chronic obstructive pulmonary disease",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Chronic obstructive pulmonary disease",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Chronic obstructive pulmonary disease",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dysphonia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dysphonia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dysphonia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Epistaxis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Epistaxis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Epistaxis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Nasal obstruction",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Nasal obstruction",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Nasal obstruction",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pulmonary embolism",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pulmonary embolism",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pulmonary embolism",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pulmonary mass",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pulmonary mass",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pulmonary mass",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Upper respiratory tract congestion",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Upper respiratory tract congestion",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Upper respiratory tract congestion",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "9 ( 2.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "7 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Blood and lymphatic system disorders",
+      "stat": "16 ( 2.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Anaemia",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Anaemia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Anaemia",
+      "stat": "6 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Leukopenia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Leukopenia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Leukopenia",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Neutropenia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Neutropenia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Neutropenia",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Lymphadenopathy",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Lymphadenopathy",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Lymphadenopathy",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Lymphopenia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Lymphopenia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Lymphopenia",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Anaemia of chronic disease",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Anaemia of chronic disease",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Anaemia of chronic disease",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Iron deficiency anaemia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Iron deficiency anaemia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Iron deficiency anaemia",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Leukocytosis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Leukocytosis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Leukocytosis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Thrombocytopenia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Thrombocytopenia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Thrombocytopenia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Renal and urinary disorders",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Renal and urinary disorders",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Renal and urinary disorders",
+      "stat": "9 ( 1.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Renal impairment",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Renal impairment",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Renal impairment",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dysuria",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dysuria",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dysuria",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Haematuria",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Haematuria",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Haematuria",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Pollakiuria",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Pollakiuria",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Pollakiuria",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Urinary incontinence",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Urinary incontinence",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Urinary incontinence",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Calculus urinary",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Calculus urinary",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Calculus urinary",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Renal colic",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Renal colic",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Renal colic",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Psychiatric disorders",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Psychiatric disorders",
+      "stat": "8 ( 2.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Psychiatric disorders",
+      "stat": "13 ( 2.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Insomnia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Insomnia",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Insomnia",
+      "stat": "5 ( 0.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Grief reaction",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Grief reaction",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Grief reaction",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Premature ejaculation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Premature ejaculation",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Premature ejaculation",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Sleep disorder",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Sleep disorder",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Sleep disorder",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Adjustment disorder with depressed mood",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Adjustment disorder with depressed mood",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Adjustment disorder with depressed mood",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Anxiety",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Anxiety",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Anxiety",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Depressed mood",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Depressed mood",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Depressed mood",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Major depression",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Major depression",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Major depression",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Eye disorders",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Eye disorders",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Eye disorders",
+      "stat": "6 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cataract",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cataract",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cataract",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Conjunctival haemorrhage",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Conjunctival haemorrhage",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Conjunctival haemorrhage",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Glaucoma",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Glaucoma",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Glaucoma",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vitreous detachment",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vitreous detachment",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vitreous detachment",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Iridocyclitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Iridocyclitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Iridocyclitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Iritis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Iritis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Iritis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Photophobia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Photophobia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Photophobia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Presbyopia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Presbyopia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Presbyopia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Reproductive system and breast disorders",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Reproductive system and breast disorders",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Reproductive system and breast disorders",
+      "stat": "8 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Benign prostatic hyperplasia",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Benign prostatic hyperplasia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Benign prostatic hyperplasia",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Menstruation irregular",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Menstruation irregular",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Menstruation irregular",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Bartholin's cyst",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Bartholin's cyst",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Bartholin's cyst",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Breast mass",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Breast mass",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Breast mass",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Menstrual disorder",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Menstrual disorder",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Menstrual disorder",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Uterine haemorrhage",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Uterine haemorrhage",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Uterine haemorrhage",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vaginal discharge",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vaginal discharge",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vaginal discharge",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vaginal haematoma",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vaginal haematoma",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vaginal haematoma",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cardiac disorders",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cardiac disorders",
+      "stat": "5 ( 1.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cardiac disorders",
+      "stat": "6 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Sinus bradycardia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Sinus bradycardia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Sinus bradycardia",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Angina pectoris",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Angina pectoris",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Angina pectoris",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Atrial fibrillation",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Atrial fibrillation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Atrial fibrillation",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cardiac failure",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cardiac failure",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cardiac failure",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Coronary artery disease",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Coronary artery disease",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Coronary artery disease",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Myocardial infarction",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Myocardial infarction",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Myocardial infarction",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Palpitations",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Palpitations",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Palpitations",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Sinus node dysfunction",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Sinus node dysfunction",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Sinus node dysfunction",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Ear and labyrinth disorders",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Ear and labyrinth disorders",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Ear and labyrinth disorders",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "External ear inflammation",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "External ear inflammation",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "External ear inflammation",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Inner ear disorder",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Inner ear disorder",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Inner ear disorder",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Vertigo",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Vertigo",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Vertigo",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Endocrine disorders",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Endocrine disorders",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Endocrine disorders",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hyperparathyroidism primary",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hyperparathyroidism primary",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hyperparathyroidism primary",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Autoimmune thyroiditis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Autoimmune thyroiditis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Autoimmune thyroiditis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Thyroid mass",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Thyroid mass",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Thyroid mass",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hepatobiliary disorders",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hepatobiliary disorders",
+      "stat": "3 ( 0.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hepatobiliary disorders",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypertransaminasaemia",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypertransaminasaemia",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypertransaminasaemia",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Biliary colic",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Biliary colic",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Biliary colic",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hepatic steatosis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hepatic steatosis",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hepatic steatosis",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Immune system disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Immune system disorders",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Immune system disorders",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Drug hypersensitivity",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Drug hypersensitivity",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Drug hypersensitivity",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Hypersensitivity",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Hypersensitivity",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Hypersensitivity",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+      "stat": "4 ( 1.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Acrochordon",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Acrochordon",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Acrochordon",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Basal cell carcinoma",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Basal cell carcinoma",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Basal cell carcinoma",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Bowen's disease",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Bowen's disease",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Bowen's disease",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Prostatic adenoma",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Prostatic adenoma",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Prostatic adenoma",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Skin papilloma",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Skin papilloma",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Skin papilloma",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Surgical and medical procedures",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Surgical and medical procedures",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Surgical and medical procedures",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Tooth extraction",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Tooth extraction",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Tooth extraction",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ae-aesoc1.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:49",
+    "title": "Table 14.3.1.1.3.1 Adverse Event Summary by SOC and PT Placebo-Controlled Period Treated Population",
+    "footnotes": "MedDRA: 27.1 Adverse events are treatment emergent AEs with an onset date on or after the first dose date of study treatment up to 30 days after the last dose date of treatment in the study. Program Path: BMS_GBS Program Name: rt-ae-aesoc1.sas 13DEC2024:00:23:35"
+  }
+}

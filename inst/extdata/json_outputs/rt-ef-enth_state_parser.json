@@ -1,0 +1,155 @@
+{
+  "data": [
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "178",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "TOTAL NUMBER OF SUBJECTS",
+      "stat": "167",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "86 ( 48.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONDERS n (%)",
+      "stat": "77 ( 46.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "92 ( 51.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS n (%)",
+      "stat": "90 ( 53.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "12 ( 6.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO ICE n (%)",
+      "stat": "16 ( 9.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "3 ( 1.7)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "NON RESPONDERS DUE TO MISSING DATA n (%)",
+      "stat": "3 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "48.3",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "RESPONSE RATE (%)",
+      "stat": "46.1",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 40.8, 55.9)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 38.4, 54.0)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "3.0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "DIFFERENCE VS PLACEBO (%)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( -7.3, 13.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "0.5699",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "P-VALUE",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "1.13",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "ODDS RATIO VS PLACEBO",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "( 0.74, 1.75)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    },
+    {
+      "variable": "(95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 334"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ef-enth.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:53",
+    "title": "Table 14.2.2.1.6 Enthesitis Resolution at Week 16 - Main Estimand Randomized Population",
+    "footnotes": "Total number of subjects is the number of subjects in the Randomized Population with Enthesitis at baseline by LEI. ICE: Intercurrent event. Resolution of enthesitis is reaching a Leeds Enthesitis index score of 0 among subjects with enthesitis at baseline by LEI. LEI = Leeds Enthesitis Index. Composite variable strategy is used for treatment discontinuation prior to Week 16. Treatment policy strategy is used for rescue medication therapy prior to Week 16. The 95 CI is calculated using Clopper-Pearson exact method. N.A.: Not Applicable. Risk difference and odds ratio are obtained from stratified contingency tables. P-value is obtained using a Cochran Mantel Haenszel (CMH) test stratified by screening hsCRP concentration (< 10 mg/L, >= 10 mg/L) and csDMARD use at baseline (yes/no). Missing Enthesitis Resolution is treated with non-responder imputation. Program Path: BMS_GBS Program Name: rt-ef-enth.sas 12DEC2024:08:57:04"
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "data": [
+    {
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat": "8 ( 2.4)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat": "6 ( 1.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "TOTAL SUBJECTS WITH AN EVENT",
+      "stat": "14 ( 2.1)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "RATE DIFFERENCE VS PLACEBO (95% CI)",
+      "stat": "0.6 (-1.6, 2.8)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "RATE DIFFERENCE VS PLACEBO (95% CI)",
+      "stat": "N.A.",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Infections and infestations",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Infections and infestations",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Infections and infestations",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Cellulitis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Cellulitis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Cellulitis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Herpes zoster",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Herpes zoster",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Herpes zoster",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Soft tissue infection",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Soft tissue infection",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Soft tissue infection",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Investigations",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Investigations",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Investigations",
+      "stat": "4 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Glomerular filtration rate abnormal",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Glomerular filtration rate abnormal",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Glomerular filtration rate abnormal",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Glomerular filtration rate decreased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Glomerular filtration rate decreased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Glomerular filtration rate decreased",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Transaminases increased",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Transaminases increased",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Transaminases increased",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Gastrointestinal disorders",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Gastrointestinal disorders",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Gastrointestinal disorders",
+      "stat": "3 ( 0.5)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Abdominal pain upper",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Abdominal pain upper",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Abdominal pain upper",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Abdominal pain",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Abdominal pain",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Abdominal pain",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Lip oedema",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Lip oedema",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Lip oedema",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Musculoskeletal and connective tissue disorders",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Psoriatic arthropathy",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Psoriatic arthropathy",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Psoriatic arthropathy",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Nervous system disorders",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Nervous system disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Nervous system disorders",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Dizziness",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Dizziness",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Dizziness",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Renal and urinary disorders",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Renal and urinary disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Renal and urinary disorders",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Renal impairment",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Renal impairment",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Renal impairment",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Protocol: IM011054",
+      "stat": "Protocol: IM011054Page PAGE of NUMPAGES",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "2 ( 0.6)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Skin and subcutaneous tissue disorders",
+      "stat": "2 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Psoriasis",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Psoriasis",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Psoriasis",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    },
+    {
+      "variable": "Urticaria",
+      "stat": "0",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "DEUC 6 mg N = 332"
+    },
+    {
+      "variable": "Urticaria",
+      "stat": "1 ( 0.3)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "PBO N = 333"
+    },
+    {
+      "variable": "Urticaria",
+      "stat": "1 ( 0.2)",
+      "colgroup1": "colgroup1",
+      "colgroup1_level": "Total N = 665"
+    }
+  ],
+  "metadata": {
+    "source_file": "rt-ae-aedissoc1.rtf",
+    "parser": "RTF row-based parser with hierarchical support",
+    "timestamp": "2025-07-10 11:51:48",
+    "title": "Table 14.3.2.3.1.1 Adverse Event Leading to Discontinuation of Study Treatment Summary by SOC and PT (Rate Difference) Placebo-Controlled Period Treated Population",
+    "footnotes": "MedDRA: 27.1 N.A. denotes the reference category for rate difference contrast in the relevant study period. Adverse events are treatment emergent AEs with an onset date on or after the first dose date of study treatment up to 30 days after the last dose date of treatment in the study. For rate difference, the 95 CI is calculated using Wald method. Program Path: BMS_GBS Program Name: rt-ae-aedissoc1.sas 13DEC2024:00:57:20"
+  }
+}

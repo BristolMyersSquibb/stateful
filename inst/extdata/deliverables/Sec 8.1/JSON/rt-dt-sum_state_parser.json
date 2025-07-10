@@ -272,10 +272,10 @@
     }
   ],
   "metadata": {
-    "source_file": "rt-dm-sum.rtf",
+    "source_file": "rt-dt-sum.rtf",
     "parser": "RTF row-based parser with hierarchical support",
-    "timestamp": "2025-07-10 11:51:53",
+    "timestamp": "2025-07-10 12:51:28",
     "title": "Table 14.3.2.1.1.1\nDeath Summary\nAll Treated Subjects",
-    "footnotes": "Program Source: <path to program> 17JUN2025 13:41"
+    "footnotes": "Program Source: <path to program> 03JUL2025 13:26"
   }
 }
