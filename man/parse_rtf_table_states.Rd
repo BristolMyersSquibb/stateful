@@ -2,7 +2,7 @@
 % Please edit documentation in R/rtf_parser.R
 \name{parse_rtf_table_states}
 \alias{parse_rtf_table_states}
-\title{Parse RTF table with state identification}
+\title{Parse RTF table using enhanced state machine}
 \usage{
 parse_rtf_table_states(rtf_file)
 }
@@ -10,8 +10,8 @@ parse_rtf_table_states(rtf_file)
 \item{rtf_file}{Path to RTF file}
 }
 \value{
-List with sections: pre_header, header, table, footnotes
+List with enhanced sections including header structure and processed data
 }
 \description{
-Parse RTF table with state identification
+Parse RTF table using enhanced state machine
 }

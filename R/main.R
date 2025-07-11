@@ -30,9 +30,9 @@ NULL
 #' # Get raw statistics without parsing
 #' ard_raw <- rtf_to_ard("table.rtf", parse_stats = FALSE)
 #' }
-rtf_to_ard <- function(rtf_file, config = list(), parse_stats = TRUE) {
+rtf_to_ard <- function(rtf_file, config = list(), parse_stats = TRUE, encoding = NULL) {
   # Parse RTF using state-based approach
-  table_sections <- parse_rtf_table_states(rtf_file)
+  table_sections <- parse_rtf_table_states(rtf_file, encoding = encoding)
 
   # Convert to ARD
   ard_data <- state_table_to_ard(table_sections, config)
@@ -76,16 +76,16 @@ rtf_to_ard <- function(rtf_file, config = list(), parse_stats = TRUE) {
 #' rtf_to_ard_json("table.rtf", parse_stats = FALSE)
 #' }
 rtf_to_ard_json <- function(rtf_file, output_file = NULL, config = list(), 
-                           parse_stats = TRUE) {
+                           parse_stats = TRUE, encoding = NULL) {
   if (is.null(output_file)) {
     output_file <- stringr::str_replace(rtf_file, "\\.rtf$", "_ard.json")
   }
 
   # Get ARD data
-  ard_data <- rtf_to_ard(rtf_file, config, parse_stats)
+  ard_data <- rtf_to_ard(rtf_file, config, parse_stats, encoding = encoding)
 
   # Parse RTF for metadata
-  table_sections <- parse_rtf_table_states(rtf_file)
+  table_sections <- parse_rtf_table_states(rtf_file, encoding = encoding)
   metadata <- extract_state_metadata(table_sections, rtf_file)
 
   # Create JSON structure

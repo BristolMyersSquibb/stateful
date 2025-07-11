@@ -2,8 +2,7 @@
 % Please edit documentation in R/state_parser.R
 \name{state-parser}
 \alias{state-parser}
-\title{State Parser (Stage 1) - Structural RTF Parsing}
+\title{State Parser (Stage 1) - Simple Border-Based RTF Parsing}
 \description{
-Stage 1 parser that uses state-based RTF parsing to extract raw structural
-data without pattern interpretation. Raw statistics are preserved exactly.
+Simple state-based RTF parser using only thick borders (brdrw15) for state transitions
 }

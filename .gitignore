@@ -42,6 +42,7 @@ renv.lock
 
 # Claude Code settings (local configuration)
 .claude/
+CLAUDE.md
 
 # Backup files
 *.bak
@@ -57,3 +58,6 @@ deploy.R
 # Environment files with sensitive information
 .Renviron
 .env
+
+# Data files - exclude all extdata content
+inst/extdata/

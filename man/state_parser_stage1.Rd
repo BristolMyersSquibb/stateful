@@ -2,7 +2,7 @@
 % Please edit documentation in R/state_parser.R
 \name{state_parser_stage1}
 \alias{state_parser_stage1}
-\title{Parse RTF using state-based approach (Stage 1)}
+\title{Parse RTF using simple border-based state machine (Stage 1)}
 \usage{
 state_parser_stage1(rtf_file)
 }
@@ -13,6 +13,7 @@ state_parser_stage1(rtf_file)
 List with structured ARD data and metadata
 }
 \description{
-Extracts table structure using RTF state machine. Returns raw statistics
-without pattern interpretation for manual review and double programming.
+Extracts table structure using simple state transitions based on thick borders.
+States: 0=pre_header, 1=header, 2=table_body, 3=footnotes
+Transitions only on brdrw15 borders. Page breaks reset to state 0.
 }
