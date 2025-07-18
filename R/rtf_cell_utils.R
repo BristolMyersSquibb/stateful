@@ -125,7 +125,7 @@ extract_cell_contents <- function(row_content) {
     }
     
     # Extract cell content
-    if (start_pos > 0 && start_pos < end_pos) {
+    if (start_pos > 0 && start_pos <= end_pos) {
       cell_content <- substr(row_content, start_pos, end_pos - 1)
       
       # First check for RTF indentation markers BEFORE cleaning
