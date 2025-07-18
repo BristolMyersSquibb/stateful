@@ -171,6 +171,7 @@ process_rtf_file <- function(rtf_path, json_path, encoding = NULL) {
   )
   
   # Track which positions have empty headers (spacer columns)
+  # This will be populated when processing the second header row
   empty_header_positions <- c()
   
   # Extract header information from header rows
@@ -227,10 +228,18 @@ process_rtf_file <- function(rtf_path, json_path, encoding = NULL) {
           # Second header row - this should be grade levels
           # We need to map these to the treatment groups
           grade_headers <- character()
+          empty_header_positions <- c()  # Track positions of empty cells
+          
           for (i in 2:length(header_row$cells)) {
             cell <- header_row$cells[[i]]
             header_text <- trimws(gsub("\\s+", " ", cell$text))
             grade_headers <- c(grade_headers, header_text)
+            
+            # Track empty positions (these are spacer columns)
+            if (nchar(header_text) == 0) {
+              # Position in data cells is i-1 (since we skip first cell)
+              empty_header_positions <- c(empty_header_positions, i - 1)
+            }
           }
           
           # Now create the full mapping
@@ -276,6 +285,12 @@ process_rtf_file <- function(rtf_path, json_path, encoding = NULL) {
           header_structure$colgroup1_levels <- final_colgroup1
           header_structure$colgroup2_levels <- final_colgroup2
           headers_processed <- headers_processed + 1
+          
+          # Report empty positions found
+          if (length(empty_header_positions) > 0) {
+            cat('Found', length(empty_header_positions), 'empty spacer columns at positions:', empty_header_positions, '\n')
+          }
+          
           break  # We're done with headers
         }
       }
@@ -292,20 +307,8 @@ process_rtf_file <- function(rtf_path, json_path, encoding = NULL) {
     }
   }
   
-  # Identify empty columns by checking both colgroup levels
-  if (length(header_structure$colgroup2_levels) > 0) {
-    # Remove columns where colgroup2 is empty (these are spacer columns)
-    non_empty_mask <- nchar(header_structure$colgroup2_levels) > 0
-    header_structure$colgroup1_levels <- header_structure$colgroup1_levels[non_empty_mask]
-    header_structure$colgroup2_levels <- header_structure$colgroup2_levels[non_empty_mask]
-    
-    # Track which positions were removed (1-based indexing for data cells)
-    empty_header_positions <- which(!non_empty_mask)
-    
-    if (length(empty_header_positions) > 0) {
-      cat('Removed', length(empty_header_positions), 'empty spacer columns\n')
-    }
-  }
+  # Note: empty_header_positions is already populated from header processing above
+  # No need to recalculate
   
   cat('Processing', length(result$data_rows), 'data rows...\n')
   cat('colgroup1_levels:', length(header_structure$colgroup1_levels), 'values:', paste(header_structure$colgroup1_levels, collapse="|"), '\n')
