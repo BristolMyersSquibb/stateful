@@ -2,8 +2,16 @@
 # These functions are used by both the batch script and the Shiny app
 
 # Source required dependencies
-source('R/rtf_cell_utils.R')
-source('R/rtf_row_parser.R')
+# Handle both development and deployment paths
+if (file.exists('R/rtf_cell_utils.R')) {
+  source('R/rtf_cell_utils.R')
+  source('R/rtf_row_parser.R')
+} else if (file.exists('rtf_cell_utils.R')) {
+  source('rtf_cell_utils.R')
+  source('rtf_row_parser.R')
+} else {
+  # In package context, these should already be loaded
+}
 
 # Enhanced parse function that properly extracts titles
 parse_rtf_with_titles <- function(rtf_file, encoding = NULL) {

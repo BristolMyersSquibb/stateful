@@ -6,12 +6,7 @@ library(jsonlite)
 library(dplyr)
 library(tools)
 
-# Load stateful package - required for all functions
-pkgload::load_all()
-
-# Source required files without executing the batch processing
-source('R/rtf_cell_utils.R')
-source('R/rtf_row_parser.R')
+# Source batch processing functions which includes all dependencies
 source('R/batch_processing_functions.R')
 
 # Load .Renviron if it exists
