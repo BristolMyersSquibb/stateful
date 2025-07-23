@@ -1,4 +1,8 @@
 # Stateful Shiny Application - RTF to JSON Converter
+
+# Increase file upload size limit to 100MB (default is 5MB)
+options(shiny.maxRequestSize = 100*1024^2)
+
 library(shiny)
 library(shinydashboard)
 library(DT)
