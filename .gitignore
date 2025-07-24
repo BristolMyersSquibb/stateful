@@ -43,6 +43,7 @@ renv.lock
 # Claude Code settings (local configuration)
 .claude/
 CLAUDE.md
+LICENSE
 
 # Backup files
 *.bak
