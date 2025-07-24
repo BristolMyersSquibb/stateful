@@ -56,9 +56,14 @@ test_package.R
 # Deployment scripts with credentials
 deploy.R
 
+# RStudio Connect deployment files
+rsconnect/
+
 # Environment files with sensitive information
 .Renviron
 .env
 
 # Data files - exclude all extdata content
 inst/extdata/
+# Specifically exclude all JSON files in extdata subdirectories
+inst/extdata/**/*.json
