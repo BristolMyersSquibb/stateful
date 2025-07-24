@@ -52,6 +52,8 @@ LICENSE
 # Debug and temporary development files
 debug_*.R
 test_package.R
+manual_test.R
+process_all_rtf_files.R
 
 # Deployment scripts with credentials
 deploy.R
